@@ -1,8 +1,8 @@
 # Emoji to AHK
 
-If  you are looking to simply install the emoji ahk script, it can be found [here](https://gist.github.com/alexmick/2129598ad3c503064cef93b129e39f52)
+###If  you are looking to simply install the emoji ahk script, it can be found [here](https://github.com/alexmick/emoji-to-ahk/releases).
 
-If your are looking for the code to generate such a file, you have come to the right place and read on !
+If your are looking for the code to generate such a file, read on !
 
 This is a python tool to create a [Autohotkey](https://autohotkey.com)
 script with a hotstring for each emoji found on [emoji.codes](http://emoji.codes/family)
