@@ -1,0 +1,6 @@
+{
+  "name": "Emoji expansion for Windows",
+  "tagline": "Brings easy emoji typing to Windows thanks to Autohotkey",
+  "body": "# Emoji to AHK\r\n\r\n###If  you are looking to simply install the emoji ahk script, it can be found [here](https://github.com/alexmick/emoji-to-ahk/releases).\r\n\r\nIf your are looking for the code to generate such a file, read on !\r\n\r\nThis is a python tool to create a [Autohotkey](https://autohotkey.com)\r\nscript with a hotstring for each emoji found on [emoji.codes](http://emoji.codes/family)\r\n\r\n## Installing\r\n\r\nAll the requirements for this tool are detailed in `requirements.txt` so go ahead and run\r\n```\r\npip install -r requirements.txt\r\n```\r\n\r\n## Running\r\n\r\nWith an active internet connection, run :\r\n```\r\npython main.py\r\n```\r\n\r\nYour generated file should be `emoji.ahk` :tada:\r\n\r\nPlease mind that to work properly, this file needs to be encoded in UTF-8 **with BOM**\r\nbecause of an Autohotkey limitation, it is initally genereated that way but be careful\r\nto preserve the encoding when editing the file manually or you will get weird characters\r\ninstead of emoji.\r\n\r\n###### Special thanks to [emoji.codes](http://emoji.codes/family) for their list of emoji codes\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
