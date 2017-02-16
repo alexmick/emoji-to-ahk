@@ -24,7 +24,7 @@ python main.py
 Your generated file should be `emoji.ahk` :tada:
 
 Please mind that to work properly, this file needs to be encoded in UTF-8 **with BOM**
-because of an Autohotkey limitation, it is initally genereated that way but be careful
+because of an Autohotkey limitation, it is initally generated that way by the python code but be careful
 to preserve the encoding when editing the file manually or you will get weird characters
 instead of emoji.
 
