@@ -1,6 +1,6 @@
 # Emoji to AHK
 
-###If  you are looking to simply install the emoji ahk script, it can be found [here](https://github.com/alexmick/emoji-to-ahk/releases).
+### If  you are looking to simply install the emoji ahk script, it can be found [here](https://github.com/alexmick/emoji-to-ahk/releases).
 
 If your are looking for the code to generate such a file, read on !
 
