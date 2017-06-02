@@ -7,6 +7,12 @@ If your are looking for the code to generate such a file, read on !
 This is a python tool to create a [Autohotkey](https://autohotkey.com)
 script with a hotstring for each emoji found on [emoji.codes](http://emoji.codes/family)
 
+## Requirements
+
+This python script works with `python 2.7` **only**.
+
+A python 3 version shouldn't be too difficult to come up with but with the change in unicode handling it's not trivial.
+
 ## Installing
 
 All the requirements for this tool are detailed in `requirements.txt` so go ahead and run
