@@ -6,440 +6,48 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #Hotstring EndChars :
 #Hotstring O
 
+; HASH KEY 
+:::hash::#️⃣
+; KEYCAP: * 
+:::keycap_star::*️⃣
+:::keycap star::*️⃣
+; KEYCAP 0 
+:::zero::0️⃣
+; KEYCAP 1 
+:::one::1️⃣
+; KEYCAP 2 
+:::two::2️⃣
+; KEYCAP 3 
+:::three::3️⃣
+; KEYCAP 4 
+:::four::4️⃣
+; KEYCAP 5 
+:::five::5️⃣
+; KEYCAP 6 
+:::six::6️⃣
+; KEYCAP 7 
+:::seven::7️⃣
+; KEYCAP 8 
+:::eight::8️⃣
+; KEYCAP 9 
+:::nine::9️⃣
 ; COPYRIGHT SIGN 
-:::copyright::©
+:::copyright::©️
 ; REGISTERED SIGN 
-:::registered::®
-; DOUBLE EXCLAMATION MARK 
-:::bangbang::‼
-; EXCLAMATION QUESTION MARK 
-:::interrobang::⁉
-; TRADE MARK SIGN 
-:::tm::™
-; INFORMATION SOURCE 
-:::information_source::ℹ
-:::information source::ℹ
-; LEFT RIGHT ARROW 
-:::left_right_arrow::↔
-:::left right arrow::↔
-; UP DOWN ARROW 
-:::arrow_up_down::↕
-:::arrow up down::↕
-; NORTH WEST ARROW 
-:::arrow_upper_left::↖
-:::arrow upper left::↖
-; NORTH EAST ARROW 
-:::arrow_upper_right::↗
-:::arrow upper right::↗
-; SOUTH EAST ARROW 
-:::arrow_lower_right::↘
-:::arrow lower right::↘
-; SOUTH WEST ARROW 
-:::arrow_lower_left::↙
-:::arrow lower left::↙
-; LEFTWARDS ARROW WITH HOOK 
-:::leftwards_arrow_with_hook::↩
-:::leftwards arrow with hook::↩
-; RIGHTWARDS ARROW WITH HOOK 
-:::arrow_right_hook::↪
-:::arrow right hook::↪
-; WATCH 
-:::watch::⌚
-; HOURGLASS 
-:::hourglass::⌛
-; KEYBOARD 
-:::keyboard::⌨
-; EJECT SYMBOL 
-:::eject::⏏
-; BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR 
-:::fast_forward::⏭
-:::fast forward::⏭
-; BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR 
-:::rewind::⏮
-; BLACK UP-POINTING DOUBLE TRIANGLE 
-:::arrow_double_up::⏫
-:::arrow double up::⏫
-; BLACK DOWN-POINTING DOUBLE TRIANGLE 
-:::arrow_double_down::⏬
-:::arrow double down::⏬
-; BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR 
-:::black_right_pointing_double_triangle_wi::⏭
-:::black right pointing double triangle wi::⏭
-; BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR 
-:::black_left_pointing_double_triangle_wit::⏮
-:::black left pointing double triangle wit::⏮
-; BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR 
-:::black_right_pointing_triangle_with_doub::⏯
-:::black right pointing triangle with doub::⏯
-; ALARM CLOCK 
-:::alarm_clock::⏰
-:::alarm clock::⏰
-; STOPWATCH 
-:::stopwatch::⏱
-; TIMER CLOCK 
-:::timer_clock::⏲
-:::timer clock::⏲
-; HOURGLASS WITH FLOWING SAND 
-:::hourglass_flowing_sand::⏳
-:::hourglass flowing sand::⏳
-; DOUBLE VERTICAL BAR 
-:::double_vertical_bar::⏸
-:::double vertical bar::⏸
-; BLACK SQUARE FOR STOP 
-:::black_square_for_stop::⏹
-:::black square for stop::⏹
-; BLACK CIRCLE FOR RECORD 
-:::black_circle_for_record::⏺
-:::black circle for record::⏺
-; CIRCLED LATIN CAPITAL LETTER M 
-:::m::Ⓜ
-; BLACK SMALL SQUARE 
-:::black_small_square::▪
-:::black small square::▪
-; WHITE SMALL SQUARE 
-:::white_small_square::▫
-:::white small square::▫
-; BLACK RIGHT-POINTING TRIANGLE 
-:::arrow_forward::▶
-:::arrow forward::▶
-; BLACK LEFT-POINTING TRIANGLE 
-:::arrow_backward::◀
-:::arrow backward::◀
-; WHITE MEDIUM SQUARE 
-:::white_medium_square::◻
-:::white medium square::◻
-; BLACK MEDIUM SQUARE 
-:::black_medium_square::◼
-:::black medium square::◼
-; WHITE MEDIUM SMALL SQUARE 
-:::white_medium_small_square::◽
-:::white medium small square::◽
-; BLACK MEDIUM SMALL SQUARE 
-:::black_medium_small_square::◾
-:::black medium small square::◾
-; BLACK SUN WITH RAYS 
-:::sunny::☀
-; CLOUD 
-:::cloud::☁
-; UMBRELLA 
-:::umbrella::☂
-; SNOWMAN 
-:::snowman::☃
-; COMET 
-:::comet::☄
-; BLACK TELEPHONE 
-:::phone::☎
-; BALLOT BOX WITH CHECK 
-:::ballot_box_with_check::☑
-:::ballot box with check::☑
-; UMBRELLA WITH RAIN DROPS 
-:::umbrella_with_rain_drops::☔
-:::umbrella with rain drops::☔
-; HOT BEVERAGE 
-:::coffee::☕
-; SHAMROCK 
-:::shamrock::☘
-; WHITE UP POINTING INDEX 
-:::point_up::☝
-:::point up::☝
-; SKULL AND CROSSBONES 
-:::skull_and_crossbones::☠
-:::skull and crossbones::☠
-; RADIOACTIVE SIGN 
-:::radioactive_sign::☢
-:::radioactive sign::☢
-; BIOHAZARD SIGN 
-:::biohazard_sign::☣
-:::biohazard sign::☣
-; ORTHODOX CROSS 
-:::orthodox_cross::☦
-:::orthodox cross::☦
-; STAR AND CRESCENT 
-:::star_and_crescent::☪
-:::star and crescent::☪
-; PEACE SYMBOL 
-:::peace_symbol::☮
-:::peace symbol::☮
-; YIN YANG 
-:::yin_yang::☯
-:::yin yang::☯
-; WHEEL OF DHARMA 
-:::wheel_of_dharma::☸
-:::wheel of dharma::☸
-; WHITE FROWNING FACE 
-:::white_frowning_face::☹
-:::white frowning face::☹
-; WHITE SMILING FACE 
-:::relaxed::☺
-; FEMALE SIGN 
-:::female_sign::♀
-:::female sign::♀
-; MALE SIGN 
-:::male_sign::♂
-:::male sign::♂
-; ARIES 
-:::aries::♈
-; TAURUS 
-:::taurus::♉
-; GEMINI 
-:::gemini::♊
-; CANCER 
-:::cancer::♋
-; LEO 
-:::leo::♌
-; VIRGO 
-:::virgo::♍
-; LIBRA 
-:::libra::♎
-; SCORPIUS 
-:::scorpius::♏
-; SAGITTARIUS 
-:::sagittarius::♐
-; CAPRICORN 
-:::capricorn::♑
-; AQUARIUS 
-:::aquarius::♒
-; PISCES 
-:::pisces::♓
-; BLACK SPADE SUIT 
-:::spades::♠
-; BLACK CLUB SUIT 
-:::clubs::♣
-; BLACK HEART SUIT 
-:::hearts::♥
-; BLACK DIAMOND SUIT 
-:::diamonds::♦
-; HOT SPRINGS 
-:::hotsprings::♨
-; BLACK UNIVERSAL RECYCLING SYMBOL 
-:::recycle::♻
-; WHEELCHAIR SYMBOL 
-:::wheelchair::♿
-; HAMMER AND PICK 
-:::hammer_and_pick::⚒
-:::hammer and pick::⚒
-; ANCHOR 
-:::anchor::⚓
-; CROSSED SWORDS 
-:::crossed_swords::⚔
-:::crossed swords::⚔
-; STAFF OF AESCULAPIUS 
-:::staff_of_aesculapius::⚕
-:::staff of aesculapius::⚕
-; SCALES 
-:::scales::⚖
-; ALEMBIC 
-:::alembic::⚗
-; GEAR 
-:::gear::⚙
-; ATOM SYMBOL 
-:::atom_symbol::⚛
-:::atom symbol::⚛
-; FLEUR-DE-LIS 
-:::fleur_de_lis::⚜
-:::fleur de lis::⚜
-; WARNING SIGN 
-:::warning::⚠
-; HIGH VOLTAGE SIGN 
-:::zap::⚡
-; MEDIUM WHITE CIRCLE 
-:::white_circle::⚪
-:::white circle::⚪
-; MEDIUM BLACK CIRCLE 
-:::black_circle::⚫
-:::black circle::⚫
-; COFFIN 
-:::coffin::⚰
-; FUNERAL URN 
-:::funeral_urn::⚱
-:::funeral urn::⚱
-; SOCCER BALL 
-:::soccer::⚽
-; BASEBALL 
-:::baseball::⚾
-; SNOWMAN WITHOUT SNOW 
-:::snowman_without_snow::⛄
-:::snowman without snow::⛄
-; SUN BEHIND CLOUD 
-:::partly_sunny::⛅
-:::partly sunny::⛅
-; THUNDER CLOUD AND RAIN 
-:::thunder_cloud_and_rain::⛈
-:::thunder cloud and rain::⛈
-; OPHIUCHUS 
-:::ophiuchus::⛎
-; PICK 
-:::pick::⛏
-; HELMET WITH WHITE CROSS 
-:::helmet_with_white_cross::⛑
-:::helmet with white cross::⛑
-; CHAINS 
-:::chains::⛓
-; NO ENTRY 
-:::no_entry::⛔
-:::no entry::⛔
-; SHINTO SHRINE 
-:::shinto_shrine::⛩
-:::shinto shrine::⛩
-; CHURCH 
-:::church::⛪
-; MOUNTAIN 
-:::mountain::⛰
-; UMBRELLA ON GROUND 
-:::umbrella_on_ground::⛱
-:::umbrella on ground::⛱
-; FOUNTAIN 
-:::fountain::⛲
-; FLAG IN HOLE 
-:::golf::⛳
-; FERRY 
-:::ferry::⛴
-; SAILBOAT 
-:::boat::⛵
-; SKIER 
-:::skier::⛷
-; ICE SKATE 
-:::ice_skate::⛸
-:::ice skate::⛸
-; PERSON WITH BALL 
-:::person_with_ball::⛹
-:::person with ball::⛹
-; TENT 
-:::tent::⛺
-; FUEL PUMP 
-:::fuelpump::⛽
-; BLACK SCISSORS 
-:::scissors::✂
-; WHITE HEAVY CHECK MARK 
-:::white_check_mark::✅
-:::white check mark::✅
-; AIRPLANE 
-:::airplane::✈
-; ENVELOPE 
-:::email::✉
-; RAISED FIST 
-:::fist::✊
-; RAISED HAND 
-:::hand::✋
-; VICTORY HAND 
-:::v::✌
-; WRITING HAND 
-:::writing_hand::✍
-:::writing hand::✍
-; PENCIL 
-:::pencil2::✏
-; BLACK NIB 
-:::black_nib::✒
-:::black nib::✒
-; HEAVY CHECK MARK 
-:::heavy_check_mark::✔
-:::heavy check mark::✔
-; HEAVY MULTIPLICATION X 
-:::heavy_multiplication_x::✖
-:::heavy multiplication x::✖
-; LATIN CROSS 
-:::latin_cross::✝
-:::latin cross::✝
-; STAR OF DAVID 
-:::star_of_david::✡
-:::star of david::✡
-; SPARKLES 
-:::sparkles::✨
-; EIGHT SPOKED ASTERISK 
-:::eight_spoked_asterisk::✳
-:::eight spoked asterisk::✳
-; EIGHT POINTED BLACK STAR 
-:::eight_pointed_black_star::✴
-:::eight pointed black star::✴
-; SNOWFLAKE 
-:::snowflake::❄
-; SPARKLE 
-:::sparkle::❇
-; CROSS MARK 
-:::x::❌
-; NEGATIVE SQUARED CROSS MARK 
-:::negative_squared_cross_mark::❎
-:::negative squared cross mark::❎
-; BLACK QUESTION MARK ORNAMENT 
-:::question::❓
-; WHITE QUESTION MARK ORNAMENT 
-:::grey_question::❔
-:::grey question::❔
-; WHITE EXCLAMATION MARK ORNAMENT 
-:::grey_exclamation::❕
-:::grey exclamation::❕
-; HEAVY EXCLAMATION MARK SYMBOL 
-:::exclamation::❗
-; HEAVY HEART EXCLAMATION MARK ORNAMENT 
-:::heavy_heart_exclamation_mark_ornament::❣
-:::heavy heart exclamation mark ornament::❣
-; HEAVY BLACK HEART 
-:::heart::❤
-; HEAVY PLUS SIGN 
-:::heavy_plus_sign::➕
-:::heavy plus sign::➕
-; HEAVY MINUS SIGN 
-:::heavy_minus_sign::➖
-:::heavy minus sign::➖
-; HEAVY DIVISION SIGN 
-:::heavy_division_sign::➗
-:::heavy division sign::➗
-; BLACK RIGHTWARDS ARROW 
-:::arrow_right::➡
-:::arrow right::➡
-; CURLY LOOP 
-:::curly_loop::➰
-:::curly loop::➰
-; DOUBLE CURLY LOOP 
-:::loop::➿
-; ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS 
-:::arrow_heading_up::⤴
-:::arrow heading up::⤴
-; ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS 
-:::arrow_heading_down::⤵
-:::arrow heading down::⤵
-; LEFTWARDS BLACK ARROW 
-:::arrow_left::⬅
-:::arrow left::⬅
-; UPWARDS BLACK ARROW 
-:::arrow_up::⬆
-:::arrow up::⬆
-; DOWNWARDS BLACK ARROW 
-:::arrow_down::⬇
-:::arrow down::⬇
-; BLACK LARGE SQUARE 
-:::black_large_square::⬛
-:::black large square::⬛
-; WHITE LARGE SQUARE 
-:::white_large_square::⬜
-:::white large square::⬜
-; WHITE MEDIUM STAR 
-:::star::⭐
-; HEAVY LARGE CIRCLE 
-:::o::⭕
-; WAVY DASH 
-:::wavy_dash::〰
-:::wavy dash::〰
-; PART ALTERNATION MARK 
-:::part_alternation_mark::〽
-:::part alternation mark::〽
-; CIRCLED IDEOGRAPH CONGRATULATION 
-:::congratulations::㊗
-; CIRCLED IDEOGRAPH SECRET 
-:::secret::㊙
+:::registered::®️
 ; MAHJONG TILE RED DRAGON 
 :::mahjong::🀄
 ; PLAYING CARD BLACK JOKER 
 :::black_joker::🃏
 :::black joker::🃏
 ; NEGATIVE SQUARED LATIN CAPITAL LETTER A 
-:::a::🅰
+:::a::🅰️
 ; NEGATIVE SQUARED LATIN CAPITAL LETTER B 
-:::b::🅱
+:::b::🅱️
 ; NEGATIVE SQUARED LATIN CAPITAL LETTER O 
-:::o2::🅾
+:::o2::🅾️
 ; NEGATIVE SQUARED LATIN CAPITAL LETTER P 
-:::parking::🅿
+:::parking::🅿️
 ; NEGATIVE SQUARED AB 
 :::ab::🆎
 ; SQUARED CL 
@@ -462,10 +70,774 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::up::🆙
 ; SQUARED VS 
 :::vs::🆚
+; Ascension Island Flag 
+:::flag_ac::🇦🇨
+:::flag ac::🇦🇨
+; Andorra Flag 
+:::flag_ad::🇦🇩
+:::flag ad::🇦🇩
+; United Arab Emirates Flag 
+:::flag_ae::🇦🇪
+:::flag ae::🇦🇪
+; Afghanistan Flag 
+:::flag_af::🇦🇫
+:::flag af::🇦🇫
+; Antigua & Barbuda Flag 
+:::flag_ag::🇦🇬
+:::flag ag::🇦🇬
+; Anguilla Flag 
+:::flag_ai::🇦🇮
+:::flag ai::🇦🇮
+; Albania Flag 
+:::flag_al::🇦🇱
+:::flag al::🇦🇱
+; Armenia Flag 
+:::flag_am::🇦🇲
+:::flag am::🇦🇲
+; Angola Flag 
+:::flag_ao::🇦🇴
+:::flag ao::🇦🇴
+; Antarctica Flag 
+:::flag_aq::🇦🇶
+:::flag aq::🇦🇶
+; Argentina Flag 
+:::flag_ar::🇦🇷
+:::flag ar::🇦🇷
+; American Samoa Flag 
+:::flag_as::🇦🇸
+:::flag as::🇦🇸
+; Austria Flag 
+:::flag_at::🇦🇹
+:::flag at::🇦🇹
+; Australia Flag 
+:::flag_au::🇦🇺
+:::flag au::🇦🇺
+; Aruba Flag 
+:::flag_aw::🇦🇼
+:::flag aw::🇦🇼
+; Åland Islands Flag 
+:::flag_ax::🇦🇽
+:::flag ax::🇦🇽
+; Azerbaijan Flag 
+:::flag_az::🇦🇿
+:::flag az::🇦🇿
+; Bosnia & Herzegovina Flag 
+:::flag_ba::🇧🇦
+:::flag ba::🇧🇦
+; Barbados Flag 
+:::flag_bb::🇧🇧
+:::flag bb::🇧🇧
+; Bangladesh Flag 
+:::flag_bd::🇧🇩
+:::flag bd::🇧🇩
+; Belgium Flag 
+:::flag_be::🇧🇪
+:::flag be::🇧🇪
+; Burkina Faso Flag 
+:::flag_bf::🇧🇫
+:::flag bf::🇧🇫
+; Bulgaria Flag 
+:::flag_bg::🇧🇬
+:::flag bg::🇧🇬
+; Bahrain Flag 
+:::flag_bh::🇧🇭
+:::flag bh::🇧🇭
+; Burundi Flag 
+:::flag_bi::🇧🇮
+:::flag bi::🇧🇮
+; Benin Flag 
+:::flag_bj::🇧🇯
+:::flag bj::🇧🇯
+; St. Barthélemy Flag 
+:::flag_bl::🇧🇱
+:::flag bl::🇧🇱
+; Bermuda Flag 
+:::flag_bm::🇧🇲
+:::flag bm::🇧🇲
+; Brunei Flag 
+:::flag_bn::🇧🇳
+:::flag bn::🇧🇳
+; Bolivia Flag 
+:::flag_bo::🇧🇴
+:::flag bo::🇧🇴
+; Caribbean Netherlands Flag 
+:::flag_bq::🇧🇶
+:::flag bq::🇧🇶
+; Brazil Flag 
+:::flag_br::🇧🇷
+:::flag br::🇧🇷
+; Bahamas Flag 
+:::flag_bs::🇧🇸
+:::flag bs::🇧🇸
+; Bhutan Flag 
+:::flag_bt::🇧🇹
+:::flag bt::🇧🇹
+; Bouvet Island Flag 
+:::flag_bv::🇧🇻
+:::flag bv::🇧🇻
+; Botswana Flag 
+:::flag_bw::🇧🇼
+:::flag bw::🇧🇼
+; Belarus Flag 
+:::flag_by::🇧🇾
+:::flag by::🇧🇾
+; Belize Flag 
+:::flag_bz::🇧🇿
+:::flag bz::🇧🇿
+; Canada Flag 
+:::flag_ca::🇨🇦
+:::flag ca::🇨🇦
+; Cocos (Keeling) Islands Flag 
+:::flag_cc::🇨🇨
+:::flag cc::🇨🇨
+; Congo - Kinshasa Flag 
+:::flag_cd::🇨🇩
+:::flag cd::🇨🇩
+; Central African Republic Flag 
+:::flag_cf::🇨🇫
+:::flag cf::🇨🇫
+; Congo - Brazzaville Flag 
+:::flag_cg::🇨🇬
+:::flag cg::🇨🇬
+; Switzerland Flag 
+:::flag_ch::🇨🇭
+:::flag ch::🇨🇭
+; Côte d’Ivoire Flag 
+:::flag_ci::🇨🇮
+:::flag ci::🇨🇮
+; Cook Islands Flag 
+:::flag_ck::🇨🇰
+:::flag ck::🇨🇰
+; Chile Flag 
+:::flag_cl::🇨🇱
+:::flag cl::🇨🇱
+; Cameroon Flag 
+:::flag_cm::🇨🇲
+:::flag cm::🇨🇲
+; China Flag 
+:::cn::🇨🇳
+; Colombia Flag 
+:::flag_co::🇨🇴
+:::flag co::🇨🇴
+; Clipperton Island Flag 
+:::flag_cp::🇨🇵
+:::flag cp::🇨🇵
+; Costa Rica Flag 
+:::flag_cr::🇨🇷
+:::flag cr::🇨🇷
+; Cuba Flag 
+:::flag_cu::🇨🇺
+:::flag cu::🇨🇺
+; Cape Verde Flag 
+:::flag_cv::🇨🇻
+:::flag cv::🇨🇻
+; Curaçao Flag 
+:::flag_cw::🇨🇼
+:::flag cw::🇨🇼
+; Christmas Island Flag 
+:::flag_cx::🇨🇽
+:::flag cx::🇨🇽
+; Cyprus Flag 
+:::flag_cy::🇨🇾
+:::flag cy::🇨🇾
+; Czechia Flag 
+:::flag_cz::🇨🇿
+:::flag cz::🇨🇿
+; Germany Flag 
+:::de::🇩🇪
+; Diego Garcia Flag 
+:::flag_dg::🇩🇬
+:::flag dg::🇩🇬
+; Djibouti Flag 
+:::flag_dj::🇩🇯
+:::flag dj::🇩🇯
+; Denmark Flag 
+:::flag_dk::🇩🇰
+:::flag dk::🇩🇰
+; Dominica Flag 
+:::flag_dm::🇩🇲
+:::flag dm::🇩🇲
+; Dominican Republic Flag 
+:::flag_do::🇩🇴
+:::flag do::🇩🇴
+; Algeria Flag 
+:::flag_dz::🇩🇿
+:::flag dz::🇩🇿
+; Ceuta & Melilla Flag 
+:::flag_ea::🇪🇦
+:::flag ea::🇪🇦
+; Ecuador Flag 
+:::flag_ec::🇪🇨
+:::flag ec::🇪🇨
+; Estonia Flag 
+:::flag_ee::🇪🇪
+:::flag ee::🇪🇪
+; Egypt Flag 
+:::flag_eg::🇪🇬
+:::flag eg::🇪🇬
+; Western Sahara Flag 
+:::flag_eh::🇪🇭
+:::flag eh::🇪🇭
+; Eritrea Flag 
+:::flag_er::🇪🇷
+:::flag er::🇪🇷
+; Spain Flag 
+:::es::🇪🇸
+; Ethiopia Flag 
+:::flag_et::🇪🇹
+:::flag et::🇪🇹
+; European Union Flag 
+:::flag_eu::🇪🇺
+:::flag eu::🇪🇺
+; Finland Flag 
+:::flag_fi::🇫🇮
+:::flag fi::🇫🇮
+; Fiji Flag 
+:::flag_fj::🇫🇯
+:::flag fj::🇫🇯
+; Falkland Islands Flag 
+:::flag_fk::🇫🇰
+:::flag fk::🇫🇰
+; Micronesia Flag 
+:::flag_fm::🇫🇲
+:::flag fm::🇫🇲
+; Faroe Islands Flag 
+:::flag_fo::🇫🇴
+:::flag fo::🇫🇴
+; France Flag 
+:::fr::🇫🇷
+; Gabon Flag 
+:::flag_ga::🇬🇦
+:::flag ga::🇬🇦
+; United Kingdom Flag 
+:::gb::🇬🇧
+; Grenada Flag 
+:::flag_gd::🇬🇩
+:::flag gd::🇬🇩
+; Georgia Flag 
+:::flag_ge::🇬🇪
+:::flag ge::🇬🇪
+; French Guiana Flag 
+:::flag_gf::🇬🇫
+:::flag gf::🇬🇫
+; Guernsey Flag 
+:::flag_gg::🇬🇬
+:::flag gg::🇬🇬
+; Ghana Flag 
+:::flag_gh::🇬🇭
+:::flag gh::🇬🇭
+; Gibraltar Flag 
+:::flag_gi::🇬🇮
+:::flag gi::🇬🇮
+; Greenland Flag 
+:::flag_gl::🇬🇱
+:::flag gl::🇬🇱
+; Gambia Flag 
+:::flag_gm::🇬🇲
+:::flag gm::🇬🇲
+; Guinea Flag 
+:::flag_gn::🇬🇳
+:::flag gn::🇬🇳
+; Guadeloupe Flag 
+:::flag_gp::🇬🇵
+:::flag gp::🇬🇵
+; Equatorial Guinea Flag 
+:::flag_gq::🇬🇶
+:::flag gq::🇬🇶
+; Greece Flag 
+:::flag_gr::🇬🇷
+:::flag gr::🇬🇷
+; South Georgia & South Sandwich Islands Flag 
+:::flag_gs::🇬🇸
+:::flag gs::🇬🇸
+; Guatemala Flag 
+:::flag_gt::🇬🇹
+:::flag gt::🇬🇹
+; Guam Flag 
+:::flag_gu::🇬🇺
+:::flag gu::🇬🇺
+; Guinea-Bissau Flag 
+:::flag_gw::🇬🇼
+:::flag gw::🇬🇼
+; Guyana Flag 
+:::flag_gy::🇬🇾
+:::flag gy::🇬🇾
+; Hong Kong SAR China Flag 
+:::flag_hk::🇭🇰
+:::flag hk::🇭🇰
+; Heard & McDonald Islands Flag 
+:::flag_hm::🇭🇲
+:::flag hm::🇭🇲
+; Honduras Flag 
+:::flag_hn::🇭🇳
+:::flag hn::🇭🇳
+; Croatia Flag 
+:::flag_hr::🇭🇷
+:::flag hr::🇭🇷
+; Haiti Flag 
+:::flag_ht::🇭🇹
+:::flag ht::🇭🇹
+; Hungary Flag 
+:::flag_hu::🇭🇺
+:::flag hu::🇭🇺
+; Canary Islands Flag 
+:::flag_ic::🇮🇨
+:::flag ic::🇮🇨
+; Indonesia Flag 
+:::flag_id::🇮🇩
+:::flag id::🇮🇩
+; Ireland Flag 
+:::flag_ie::🇮🇪
+:::flag ie::🇮🇪
+; Israel Flag 
+:::flag_il::🇮🇱
+:::flag il::🇮🇱
+; Isle of Man Flag 
+:::flag_im::🇮🇲
+:::flag im::🇮🇲
+; India Flag 
+:::flag_in::🇮🇳
+:::flag in::🇮🇳
+; British Indian Ocean Territory Flag 
+:::flag_io::🇮🇴
+:::flag io::🇮🇴
+; Iraq Flag 
+:::flag_iq::🇮🇶
+:::flag iq::🇮🇶
+; Iran Flag 
+:::flag_ir::🇮🇷
+:::flag ir::🇮🇷
+; Iceland Flag 
+:::flag_is::🇮🇸
+:::flag is::🇮🇸
+; Italy Flag 
+:::it::🇮🇹
+; Jersey Flag 
+:::flag_je::🇯🇪
+:::flag je::🇯🇪
+; Jamaica Flag 
+:::flag_jm::🇯🇲
+:::flag jm::🇯🇲
+; Jordan Flag 
+:::flag_jo::🇯🇴
+:::flag jo::🇯🇴
+; Japan Flag 
+:::jp::🇯🇵
+; Kenya Flag 
+:::flag_ke::🇰🇪
+:::flag ke::🇰🇪
+; Kyrgyzstan Flag 
+:::flag_kg::🇰🇬
+:::flag kg::🇰🇬
+; Cambodia Flag 
+:::flag_kh::🇰🇭
+:::flag kh::🇰🇭
+; Kiribati Flag 
+:::flag_ki::🇰🇮
+:::flag ki::🇰🇮
+; Comoros Flag 
+:::flag_km::🇰🇲
+:::flag km::🇰🇲
+; St. Kitts & Nevis Flag 
+:::flag_kn::🇰🇳
+:::flag kn::🇰🇳
+; North Korea Flag 
+:::flag_kp::🇰🇵
+:::flag kp::🇰🇵
+; South Korea Flag 
+:::kr::🇰🇷
+; Kuwait Flag 
+:::flag_kw::🇰🇼
+:::flag kw::🇰🇼
+; Cayman Islands Flag 
+:::flag_ky::🇰🇾
+:::flag ky::🇰🇾
+; Kazakhstan Flag 
+:::flag_kz::🇰🇿
+:::flag kz::🇰🇿
+; Laos Flag 
+:::flag_la::🇱🇦
+:::flag la::🇱🇦
+; Lebanon Flag 
+:::flag_lb::🇱🇧
+:::flag lb::🇱🇧
+; St. Lucia Flag 
+:::flag_lc::🇱🇨
+:::flag lc::🇱🇨
+; Liechtenstein Flag 
+:::flag_li::🇱🇮
+:::flag li::🇱🇮
+; Sri Lanka Flag 
+:::flag_lk::🇱🇰
+:::flag lk::🇱🇰
+; Liberia Flag 
+:::flag_lr::🇱🇷
+:::flag lr::🇱🇷
+; Lesotho Flag 
+:::flag_ls::🇱🇸
+:::flag ls::🇱🇸
+; Lithuania Flag 
+:::flag_lt::🇱🇹
+:::flag lt::🇱🇹
+; Luxembourg Flag 
+:::flag_lu::🇱🇺
+:::flag lu::🇱🇺
+; Latvia Flag 
+:::flag_lv::🇱🇻
+:::flag lv::🇱🇻
+; Libya Flag 
+:::flag_ly::🇱🇾
+:::flag ly::🇱🇾
+; Morocco Flag 
+:::flag_ma::🇲🇦
+:::flag ma::🇲🇦
+; Monaco Flag 
+:::flag_mc::🇲🇨
+:::flag mc::🇲🇨
+; Moldova Flag 
+:::flag_md::🇲🇩
+:::flag md::🇲🇩
+; Montenegro Flag 
+:::flag_me::🇲🇪
+:::flag me::🇲🇪
+; St. Martin Flag 
+:::flag_mf::🇲🇫
+:::flag mf::🇲🇫
+; Madagascar Flag 
+:::flag_mg::🇲🇬
+:::flag mg::🇲🇬
+; Marshall Islands Flag 
+:::flag_mh::🇲🇭
+:::flag mh::🇲🇭
+; North Macedonia Flag 
+:::flag_mk::🇲🇰
+:::flag mk::🇲🇰
+; Mali Flag 
+:::flag_ml::🇲🇱
+:::flag ml::🇲🇱
+; Myanmar (Burma) Flag 
+:::flag_mm::🇲🇲
+:::flag mm::🇲🇲
+; Mongolia Flag 
+:::flag_mn::🇲🇳
+:::flag mn::🇲🇳
+; Macao SAR China Flag 
+:::flag_mo::🇲🇴
+:::flag mo::🇲🇴
+; Northern Mariana Islands Flag 
+:::flag_mp::🇲🇵
+:::flag mp::🇲🇵
+; Martinique Flag 
+:::flag_mq::🇲🇶
+:::flag mq::🇲🇶
+; Mauritania Flag 
+:::flag_mr::🇲🇷
+:::flag mr::🇲🇷
+; Montserrat Flag 
+:::flag_ms::🇲🇸
+:::flag ms::🇲🇸
+; Malta Flag 
+:::flag_mt::🇲🇹
+:::flag mt::🇲🇹
+; Mauritius Flag 
+:::flag_mu::🇲🇺
+:::flag mu::🇲🇺
+; Maldives Flag 
+:::flag_mv::🇲🇻
+:::flag mv::🇲🇻
+; Malawi Flag 
+:::flag_mw::🇲🇼
+:::flag mw::🇲🇼
+; Mexico Flag 
+:::flag_mx::🇲🇽
+:::flag mx::🇲🇽
+; Malaysia Flag 
+:::flag_my::🇲🇾
+:::flag my::🇲🇾
+; Mozambique Flag 
+:::flag_mz::🇲🇿
+:::flag mz::🇲🇿
+; Namibia Flag 
+:::flag_na::🇳🇦
+:::flag na::🇳🇦
+; New Caledonia Flag 
+:::flag_nc::🇳🇨
+:::flag nc::🇳🇨
+; Niger Flag 
+:::flag_ne::🇳🇪
+:::flag ne::🇳🇪
+; Norfolk Island Flag 
+:::flag_nf::🇳🇫
+:::flag nf::🇳🇫
+; Nigeria Flag 
+:::flag_ng::🇳🇬
+:::flag ng::🇳🇬
+; Nicaragua Flag 
+:::flag_ni::🇳🇮
+:::flag ni::🇳🇮
+; Netherlands Flag 
+:::flag_nl::🇳🇱
+:::flag nl::🇳🇱
+; Norway Flag 
+:::flag_no::🇳🇴
+:::flag no::🇳🇴
+; Nepal Flag 
+:::flag_np::🇳🇵
+:::flag np::🇳🇵
+; Nauru Flag 
+:::flag_nr::🇳🇷
+:::flag nr::🇳🇷
+; Niue Flag 
+:::flag_nu::🇳🇺
+:::flag nu::🇳🇺
+; New Zealand Flag 
+:::flag_nz::🇳🇿
+:::flag nz::🇳🇿
+; Oman Flag 
+:::flag_om::🇴🇲
+:::flag om::🇴🇲
+; Panama Flag 
+:::flag_pa::🇵🇦
+:::flag pa::🇵🇦
+; Peru Flag 
+:::flag_pe::🇵🇪
+:::flag pe::🇵🇪
+; French Polynesia Flag 
+:::flag_pf::🇵🇫
+:::flag pf::🇵🇫
+; Papua New Guinea Flag 
+:::flag_pg::🇵🇬
+:::flag pg::🇵🇬
+; Philippines Flag 
+:::flag_ph::🇵🇭
+:::flag ph::🇵🇭
+; Pakistan Flag 
+:::flag_pk::🇵🇰
+:::flag pk::🇵🇰
+; Poland Flag 
+:::flag_pl::🇵🇱
+:::flag pl::🇵🇱
+; St. Pierre & Miquelon Flag 
+:::flag_pm::🇵🇲
+:::flag pm::🇵🇲
+; Pitcairn Islands Flag 
+:::flag_pn::🇵🇳
+:::flag pn::🇵🇳
+; Puerto Rico Flag 
+:::flag_pr::🇵🇷
+:::flag pr::🇵🇷
+; Palestinian Territories Flag 
+:::flag_ps::🇵🇸
+:::flag ps::🇵🇸
+; Portugal Flag 
+:::flag_pt::🇵🇹
+:::flag pt::🇵🇹
+; Palau Flag 
+:::flag_pw::🇵🇼
+:::flag pw::🇵🇼
+; Paraguay Flag 
+:::flag_py::🇵🇾
+:::flag py::🇵🇾
+; Qatar Flag 
+:::flag_qa::🇶🇦
+:::flag qa::🇶🇦
+; Réunion Flag 
+:::flag_re::🇷🇪
+:::flag re::🇷🇪
+; Romania Flag 
+:::flag_ro::🇷🇴
+:::flag ro::🇷🇴
+; Serbia Flag 
+:::flag_rs::🇷🇸
+:::flag rs::🇷🇸
+; Russia Flag 
+:::ru::🇷🇺
+; Rwanda Flag 
+:::flag_rw::🇷🇼
+:::flag rw::🇷🇼
+; Saudi Arabia Flag 
+:::flag_sa::🇸🇦
+:::flag sa::🇸🇦
+; Solomon Islands Flag 
+:::flag_sb::🇸🇧
+:::flag sb::🇸🇧
+; Seychelles Flag 
+:::flag_sc::🇸🇨
+:::flag sc::🇸🇨
+; Sudan Flag 
+:::flag_sd::🇸🇩
+:::flag sd::🇸🇩
+; Sweden Flag 
+:::flag_se::🇸🇪
+:::flag se::🇸🇪
+; Singapore Flag 
+:::flag_sg::🇸🇬
+:::flag sg::🇸🇬
+; St. Helena Flag 
+:::flag_sh::🇸🇭
+:::flag sh::🇸🇭
+; Slovenia Flag 
+:::flag_si::🇸🇮
+:::flag si::🇸🇮
+; Svalbard & Jan Mayen Flag 
+:::flag_sj::🇸🇯
+:::flag sj::🇸🇯
+; Slovakia Flag 
+:::flag_sk::🇸🇰
+:::flag sk::🇸🇰
+; Sierra Leone Flag 
+:::flag_sl::🇸🇱
+:::flag sl::🇸🇱
+; San Marino Flag 
+:::flag_sm::🇸🇲
+:::flag sm::🇸🇲
+; Senegal Flag 
+:::flag_sn::🇸🇳
+:::flag sn::🇸🇳
+; Somalia Flag 
+:::flag_so::🇸🇴
+:::flag so::🇸🇴
+; Suriname Flag 
+:::flag_sr::🇸🇷
+:::flag sr::🇸🇷
+; South Sudan Flag 
+:::flag_ss::🇸🇸
+:::flag ss::🇸🇸
+; São Tomé & Príncipe Flag 
+:::flag_st::🇸🇹
+:::flag st::🇸🇹
+; El Salvador Flag 
+:::flag_sv::🇸🇻
+:::flag sv::🇸🇻
+; Sint Maarten Flag 
+:::flag_sx::🇸🇽
+:::flag sx::🇸🇽
+; Syria Flag 
+:::flag_sy::🇸🇾
+:::flag sy::🇸🇾
+; Eswatini Flag 
+:::flag_sz::🇸🇿
+:::flag sz::🇸🇿
+; Tristan da Cunha Flag 
+:::flag_ta::🇹🇦
+:::flag ta::🇹🇦
+; Turks & Caicos Islands Flag 
+:::flag_tc::🇹🇨
+:::flag tc::🇹🇨
+; Chad Flag 
+:::flag_td::🇹🇩
+:::flag td::🇹🇩
+; French Southern Territories Flag 
+:::flag_tf::🇹🇫
+:::flag tf::🇹🇫
+; Togo Flag 
+:::flag_tg::🇹🇬
+:::flag tg::🇹🇬
+; Thailand Flag 
+:::flag_th::🇹🇭
+:::flag th::🇹🇭
+; Tajikistan Flag 
+:::flag_tj::🇹🇯
+:::flag tj::🇹🇯
+; Tokelau Flag 
+:::flag_tk::🇹🇰
+:::flag tk::🇹🇰
+; Timor-Leste Flag 
+:::flag_tl::🇹🇱
+:::flag tl::🇹🇱
+; Turkmenistan Flag 
+:::flag_tm::🇹🇲
+:::flag tm::🇹🇲
+; Tunisia Flag 
+:::flag_tn::🇹🇳
+:::flag tn::🇹🇳
+; Tonga Flag 
+:::flag_to::🇹🇴
+:::flag to::🇹🇴
+; Turkey Flag 
+:::flag_tr::🇹🇷
+:::flag tr::🇹🇷
+; Trinidad & Tobago Flag 
+:::flag_tt::🇹🇹
+:::flag tt::🇹🇹
+; Tuvalu Flag 
+:::flag_tv::🇹🇻
+:::flag tv::🇹🇻
+; Taiwan Flag 
+:::flag_tw::🇹🇼
+:::flag tw::🇹🇼
+; Tanzania Flag 
+:::flag_tz::🇹🇿
+:::flag tz::🇹🇿
+; Ukraine Flag 
+:::flag_ua::🇺🇦
+:::flag ua::🇺🇦
+; Uganda Flag 
+:::flag_ug::🇺🇬
+:::flag ug::🇺🇬
+; U.S. Outlying Islands Flag 
+:::flag_um::🇺🇲
+:::flag um::🇺🇲
+; United Nations Flag 
+:::flag_un::🇺🇳
+:::flag un::🇺🇳
+; United States Flag 
+:::us::🇺🇸
+; Uruguay Flag 
+:::flag_uy::🇺🇾
+:::flag uy::🇺🇾
+; Uzbekistan Flag 
+:::flag_uz::🇺🇿
+:::flag uz::🇺🇿
+; Vatican City Flag 
+:::flag_va::🇻🇦
+:::flag va::🇻🇦
+; St. Vincent & Grenadines Flag 
+:::flag_vc::🇻🇨
+:::flag vc::🇻🇨
+; Venezuela Flag 
+:::flag_ve::🇻🇪
+:::flag ve::🇻🇪
+; British Virgin Islands Flag 
+:::flag_vg::🇻🇬
+:::flag vg::🇻🇬
+; U.S. Virgin Islands Flag 
+:::flag_vi::🇻🇮
+:::flag vi::🇻🇮
+; Vietnam Flag 
+:::flag_vn::🇻🇳
+:::flag vn::🇻🇳
+; Vanuatu Flag 
+:::flag_vu::🇻🇺
+:::flag vu::🇻🇺
+; Wallis & Futuna Flag 
+:::flag_wf::🇼🇫
+:::flag wf::🇼🇫
+; Samoa Flag 
+:::flag_ws::🇼🇸
+:::flag ws::🇼🇸
+; Kosovo Flag 
+:::flag_xk::🇽🇰
+:::flag xk::🇽🇰
+; Yemen Flag 
+:::flag_ye::🇾🇪
+:::flag ye::🇾🇪
+; Mayotte Flag 
+:::flag_yt::🇾🇹
+:::flag yt::🇾🇹
+; South Africa Flag 
+:::flag_za::🇿🇦
+:::flag za::🇿🇦
+; Zambia Flag 
+:::flag_zm::🇿🇲
+:::flag zm::🇿🇲
+; Zimbabwe Flag 
+:::flag_zw::🇿🇼
+:::flag zw::🇿🇼
 ; SQUARED KATAKANA KOKO 
 :::koko::🈁
 ; SQUARED KATAKANA SA 
-:::sa::🈂
+:::sa::🈂️
 ; SQUARED CJK UNIFIED IDEOGRAPH-7121 
 :::u7121::🈚
 ; SQUARED CJK UNIFIED IDEOGRAPH-6307 
@@ -481,7 +853,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; SQUARED CJK UNIFIED IDEOGRAPH-6709 
 :::u6709::🈶
 ; SQUARED CJK UNIFIED IDEOGRAPH-6708 
-:::u6708::🈷
+:::u6708::🈷️
 ; SQUARED CJK UNIFIED IDEOGRAPH-7533 
 :::u7533::🈸
 ; SQUARED CJK UNIFIED IDEOGRAPH-5272 
@@ -584,31 +956,31 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; SHOOTING STAR 
 :::stars::🌠
 ; THERMOMETER 
-:::thermometer::🌡
-; WHITE SUN WITH SMALL CLOUD 
-:::mostly_sunny::🌤
-:::mostly sunny::🌤
-; WHITE SUN BEHIND CLOUD 
-:::barely_sunny::🌥
-:::barely sunny::🌥
-; WHITE SUN BEHIND CLOUD WITH RAIN 
-:::partly_sunny_rain::🌦
-:::partly sunny rain::🌦
+:::thermometer::🌡️
+; SUN BEHIND SMALL CLOUD 
+:::mostly_sunny::🌤️
+:::mostly sunny::🌤️
+; SUN BEHIND LARGE CLOUD 
+:::barely_sunny::🌥️
+:::barely sunny::🌥️
+; SUN BEHIND RAIN CLOUD 
+:::partly_sunny_rain::🌦️
+:::partly sunny rain::🌦️
 ; CLOUD WITH RAIN 
-:::rain_cloud::🌧
-:::rain cloud::🌧
+:::rain_cloud::🌧️
+:::rain cloud::🌧️
 ; CLOUD WITH SNOW 
-:::snow_cloud::🌨
-:::snow cloud::🌨
+:::snow_cloud::🌨️
+:::snow cloud::🌨️
 ; CLOUD WITH LIGHTNING 
-:::lightning::🌩
-; CLOUD WITH TORNADO 
-:::tornado::🌪
+:::lightning::🌩️
+; TORNADO 
+:::tornado::🌪️
 ; FOG 
-:::fog::🌫
-; WIND BLOWING FACE 
-:::wind_blowing_face::🌬
-:::wind blowing face::🌬
+:::fog::🌫️
+; WIND FACE 
+:::wind_blowing_face::🌬️
+:::wind blowing face::🌬️
 ; HOT DOG 
 :::hotdog::🌭
 ; TACO 
@@ -631,8 +1003,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; CACTUS 
 :::cactus::🌵
 ; HOT PEPPER 
-:::hot_pepper::🌶
-:::hot pepper::🌶
+:::hot_pepper::🌶️
+:::hot pepper::🌶️
 ; TULIP 
 :::tulip::🌷
 ; CHERRY BLOSSOM 
@@ -796,8 +1168,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::baby_bottle::🍼
 :::baby bottle::🍼
 ; FORK AND KNIFE WITH PLATE 
-:::knife_fork_plate::🍽
-:::knife fork plate::🍽
+:::knife_fork_plate::🍽️
+:::knife fork plate::🍽️
 ; BOTTLE WITH POPPING CORK 
 :::champagne::🍾
 ; POPCORN 
@@ -852,25 +1224,25 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::mortar_board::🎓
 :::mortar board::🎓
 ; MILITARY MEDAL 
-:::medal::🎖
+:::medal::🎖️
 ; REMINDER RIBBON 
-:::reminder_ribbon::🎗
-:::reminder ribbon::🎗
+:::reminder_ribbon::🎗️
+:::reminder ribbon::🎗️
 ; STUDIO MICROPHONE 
-:::studio_microphone::🎙
-:::studio microphone::🎙
+:::studio_microphone::🎙️
+:::studio microphone::🎙️
 ; LEVEL SLIDER 
-:::level_slider::🎚
-:::level slider::🎚
+:::level_slider::🎚️
+:::level slider::🎚️
 ; CONTROL KNOBS 
-:::control_knobs::🎛
-:::control knobs::🎛
+:::control_knobs::🎛️
+:::control knobs::🎛️
 ; FILM FRAMES 
-:::film_frames::🎞
-:::film frames::🎞
+:::film_frames::🎞️
+:::film frames::🎞️
 ; ADMISSION TICKETS 
-:::admission_tickets::🎟
-:::admission tickets::🎟
+:::admission_tickets::🎟️
+:::admission tickets::🎟️
 ; CAROUSEL HORSE 
 :::carousel_horse::🎠
 :::carousel horse::🎠
@@ -957,8 +1329,20 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::checkered flag::🏁
 ; SNOWBOARDER 
 :::snowboarder::🏂
+; WOMAN RUNNING 
+:::woman_running::🏃‍♀️
+:::woman running::🏃‍♀️
+; MAN RUNNING 
+:::man_running::🏃‍♂️
+:::man running::🏃‍♂️
 ; RUNNER 
 :::runner::🏃
+; WOMAN SURFING 
+:::woman_surfing::🏄‍♀️
+:::woman surfing::🏄‍♀️
+; MAN SURFING 
+:::man_surfing::🏄‍♂️
+:::man surfing::🏄‍♂️
 ; SURFER 
 :::surfer::🏄
 ; SPORTS MEDAL 
@@ -974,19 +1358,37 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; RUGBY FOOTBALL 
 :::rugby_football::🏉
 :::rugby football::🏉
+; WOMAN SWIMMING 
+:::woman_swimming::🏊‍♀️
+:::woman swimming::🏊‍♀️
+; MAN SWIMMING 
+:::man_swimming::🏊‍♂️
+:::man swimming::🏊‍♂️
 ; SWIMMER 
 :::swimmer::🏊
-; WEIGHT LIFTER 
-:::weight_lifter::🏋
-:::weight lifter::🏋
-; GOLFER 
-:::golfer::🏌
-; RACING MOTORCYCLE 
-:::racing_motorcycle::🏍
-:::racing motorcycle::🏍
+; WOMAN LIFTING WEIGHTS 
+:::woman_lifting_weights::🏋️‍♀️
+:::woman lifting weights::🏋️‍♀️
+; MAN LIFTING WEIGHTS 
+:::man_lifting_weights::🏋️‍♂️
+:::man lifting weights::🏋️‍♂️
+; PERSON LIFTING WEIGHTS 
+:::weight_lifter::🏋️
+:::weight lifter::🏋️
+; WOMAN GOLFING 
+:::woman_golfing::🏌️‍♀️
+:::woman golfing::🏌️‍♀️
+; MAN GOLFING 
+:::man_golfing::🏌️‍♂️
+:::man golfing::🏌️‍♂️
+; PERSON GOLFING 
+:::golfer::🏌️
+; MOTORCYCLE 
+:::racing_motorcycle::🏍️
+:::racing motorcycle::🏍️
 ; RACING CAR 
-:::racing_car::🏎
-:::racing car::🏎
+:::racing_car::🏎️
+:::racing car::🏎️
 ; CRICKET BAT AND BALL 
 :::cricket_bat_and_ball::🏏
 :::cricket bat and ball::🏏
@@ -1001,38 +1403,38 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; TABLE TENNIS PADDLE AND BALL 
 :::table_tennis_paddle_and_ball::🏓
 :::table tennis paddle and ball::🏓
-; SNOW CAPPED MOUNTAIN 
-:::snow_capped_mountain::🏔
-:::snow capped mountain::🏔
+; SNOW-CAPPED MOUNTAIN 
+:::snow_capped_mountain::🏔️
+:::snow capped mountain::🏔️
 ; CAMPING 
-:::camping::🏕
+:::camping::🏕️
 ; BEACH WITH UMBRELLA 
-:::beach_with_umbrella::🏖
-:::beach with umbrella::🏖
+:::beach_with_umbrella::🏖️
+:::beach with umbrella::🏖️
 ; BUILDING CONSTRUCTION 
-:::building_construction::🏗
-:::building construction::🏗
-; HOUSE BUILDINGS 
-:::house_buildings::🏘
-:::house buildings::🏘
+:::building_construction::🏗️
+:::building construction::🏗️
+; HOUSES 
+:::house_buildings::🏘️
+:::house buildings::🏘️
 ; CITYSCAPE 
-:::cityscape::🏙
-; DERELICT HOUSE BUILDING 
-:::derelict_house_building::🏚
-:::derelict house building::🏚
+:::cityscape::🏙️
+; DERELICT HOUSE 
+:::derelict_house_building::🏚️
+:::derelict house building::🏚️
 ; CLASSICAL BUILDING 
-:::classical_building::🏛
-:::classical building::🏛
+:::classical_building::🏛️
+:::classical building::🏛️
 ; DESERT 
-:::desert::🏜
+:::desert::🏜️
 ; DESERT ISLAND 
-:::desert_island::🏝
-:::desert island::🏝
+:::desert_island::🏝️
+:::desert island::🏝️
 ; NATIONAL PARK 
-:::national_park::🏞
-:::national park::🏞
+:::national_park::🏞️
+:::national park::🏞️
 ; STADIUM 
-:::stadium::🏟
+:::stadium::🏟️
 ; HOUSE BUILDING 
 :::house::🏠
 ; HOUSE WITH GARDEN 
@@ -1076,16 +1478,34 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; EUROPEAN CASTLE 
 :::european_castle::🏰
 :::european castle::🏰
-; WAVING WHITE FLAG 
-:::waving_white_flag::🏳
-:::waving white flag::🏳
+; RAINBOW FLAG 
+:::rainbow_flag::🏳️‍🌈
+:::rainbow flag::🏳️‍🌈
+; TRANSGENDER FLAG 
+:::transgender_flag::🏳️‍⚧️
+:::transgender flag::🏳️‍⚧️
+; WHITE FLAG 
+:::waving_white_flag::🏳️
+:::waving white flag::🏳️
+; PIRATE FLAG 
+:::pirate_flag::🏴‍☠️
+:::pirate flag::🏴‍☠️
+; England Flag 
+:::flag_england::🏴󠁧󠁢󠁥󠁮󠁧󠁿
+:::flag england::🏴󠁧󠁢󠁥󠁮󠁧󠁿
+; Scotland Flag 
+:::flag_scotland::🏴󠁧󠁢󠁳󠁣󠁴󠁿
+:::flag scotland::🏴󠁧󠁢󠁳󠁣󠁴󠁿
+; Wales Flag 
+:::flag_wales::🏴󠁧󠁢󠁷󠁬󠁳󠁿
+:::flag wales::🏴󠁧󠁢󠁷󠁬󠁳󠁿
 ; WAVING BLACK FLAG 
 :::waving_black_flag::🏴
 :::waving black flag::🏴
 ; ROSETTE 
-:::rosette::🏵
+:::rosette::🏵️
 ; LABEL 
-:::label::🏷
+:::label::🏷️
 ; BADMINTON RACQUET AND SHUTTLECOCK 
 :::badminton_racquet_and_shuttlecock::🏸
 :::badminton racquet and shuttlecock::🏸
@@ -1126,6 +1546,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::leopard::🐆
 ; RABBIT 
 :::rabbit2::🐇
+; BLACK CAT 
+:::black_cat::🐈‍⬛
+:::black cat::🐈‍⬛
 ; CAT 
 :::cat2::🐈
 ; DRAGON 
@@ -1152,6 +1575,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::rooster::🐓
 ; CHICKEN 
 :::chicken::🐔
+; SERVICE DOG 
+:::service_dog::🐕‍🦺
+:::service dog::🐕‍🦺
 ; DOG 
 :::dog2::🐕
 ; PIG 
@@ -1171,7 +1597,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; HONEYBEE 
 :::bee::🐝
 ; LADY BEETLE 
-:::beetle::🐞
+:::ladybug::🐞
 ; FISH 
 :::fish::🐟
 ; TROPICAL FISH 
@@ -1235,6 +1661,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::hamster::🐹
 ; WOLF FACE 
 :::wolf::🐺
+; POLAR BEAR 
+:::polar_bear::🐻‍❄️
+:::polar bear::🐻‍❄️
 ; BEAR FACE 
 :::bear::🐻
 ; PANDA FACE 
@@ -1246,11 +1675,14 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; PAW PRINTS 
 :::feet::🐾
 ; CHIPMUNK 
-:::chipmunk::🐿
+:::chipmunk::🐿️
 ; EYES 
 :::eyes::👀
+; EYE IN SPEECH BUBBLE 
+:::eye_in_speech_bubble::👁️‍🗨️
+:::eye in speech bubble::👁️‍🗨️
 ; EYE 
-:::eye::👁
+:::eye::👁️
 ; EAR 
 :::ear::👂
 ; NOSE 
@@ -1341,33 +1773,301 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::boy::👦
 ; GIRL 
 :::girl::👧
+; MAN FARMER 
+:::male_farmer::👨‍🌾
+:::male farmer::👨‍🌾
+; MAN COOK 
+:::male_cook::👨‍🍳
+:::male cook::👨‍🍳
+; MAN FEEDING BABY 
+:::man_feeding_baby::👨‍🍼
+:::man feeding baby::👨‍🍼
+; MAN STUDENT 
+:::male_student::👨‍🎓
+:::male student::👨‍🎓
+; MAN SINGER 
+:::male_singer::👨‍🎤
+:::male singer::👨‍🎤
+; MAN ARTIST 
+:::male_artist::👨‍🎨
+:::male artist::👨‍🎨
+; MAN TEACHER 
+:::male_teacher::👨‍🏫
+:::male teacher::👨‍🏫
+; MAN FACTORY WORKER 
+:::male_factory_worker::👨‍🏭
+:::male factory worker::👨‍🏭
+; FAMILY: MAN, BOY, BOY 
+:::man_boy_boy::👨‍👦‍👦
+:::man boy boy::👨‍👦‍👦
+; FAMILY: MAN, BOY 
+:::man_boy::👨‍👦
+:::man boy::👨‍👦
+; FAMILY: MAN, GIRL, BOY 
+:::man_girl_boy::👨‍👧‍👦
+:::man girl boy::👨‍👧‍👦
+; FAMILY: MAN, GIRL, GIRL 
+:::man_girl_girl::👨‍👧‍👧
+:::man girl girl::👨‍👧‍👧
+; FAMILY: MAN, GIRL 
+:::man_girl::👨‍👧
+:::man girl::👨‍👧
+; FAMILY: MAN, MAN, BOY 
+:::man_man_boy::👨‍👨‍👦
+:::man man boy::👨‍👨‍👦
+; FAMILY: MAN, MAN, BOY, BOY 
+:::man_man_boy_boy::👨‍👨‍👦‍👦
+:::man man boy boy::👨‍👨‍👦‍👦
+; FAMILY: MAN, MAN, GIRL 
+:::man_man_girl::👨‍👨‍👧
+:::man man girl::👨‍👨‍👧
+; FAMILY: MAN, MAN, GIRL, BOY 
+:::man_man_girl_boy::👨‍👨‍👧‍👦
+:::man man girl boy::👨‍👨‍👧‍👦
+; FAMILY: MAN, MAN, GIRL, GIRL 
+:::man_man_girl_girl::👨‍👨‍👧‍👧
+:::man man girl girl::👨‍👨‍👧‍👧
+; FAMILY: MAN, WOMAN, BOY 
+:::man_woman_boy::👨‍👩‍👦
+:::man woman boy::👨‍👩‍👦
+; FAMILY: MAN, WOMAN, BOY, BOY 
+:::man_woman_boy_boy::👨‍👩‍👦‍👦
+:::man woman boy boy::👨‍👩‍👦‍👦
+; FAMILY: MAN, WOMAN, GIRL 
+:::man_woman_girl::👨‍👩‍👧
+:::man woman girl::👨‍👩‍👧
+; FAMILY: MAN, WOMAN, GIRL, BOY 
+:::man_woman_girl_boy::👨‍👩‍👧‍👦
+:::man woman girl boy::👨‍👩‍👧‍👦
+; FAMILY: MAN, WOMAN, GIRL, GIRL 
+:::man_woman_girl_girl::👨‍👩‍👧‍👧
+:::man woman girl girl::👨‍👩‍👧‍👧
+; MAN TECHNOLOGIST 
+:::male_technologist::👨‍💻
+:::male technologist::👨‍💻
+; MAN OFFICE WORKER 
+:::male_office_worker::👨‍💼
+:::male office worker::👨‍💼
+; MAN MECHANIC 
+:::male_mechanic::👨‍🔧
+:::male mechanic::👨‍🔧
+; MAN SCIENTIST 
+:::male_scientist::👨‍🔬
+:::male scientist::👨‍🔬
+; MAN ASTRONAUT 
+:::male_astronaut::👨‍🚀
+:::male astronaut::👨‍🚀
+; MAN FIREFIGHTER 
+:::male_firefighter::👨‍🚒
+:::male firefighter::👨‍🚒
+; MAN WITH WHITE CANE 
+:::man_with_probing_cane::👨‍🦯
+:::man with probing cane::👨‍🦯
+; MAN: RED HAIR 
+:::red_haired_man::👨‍🦰
+:::red haired man::👨‍🦰
+; MAN: CURLY HAIR 
+:::curly_haired_man::👨‍🦱
+:::curly haired man::👨‍🦱
+; MAN: BALD 
+:::bald_man::👨‍🦲
+:::bald man::👨‍🦲
+; MAN: WHITE HAIR 
+:::white_haired_man::👨‍🦳
+:::white haired man::👨‍🦳
+; MAN IN MOTORIZED WHEELCHAIR 
+:::man_in_motorized_wheelchair::👨‍🦼
+:::man in motorized wheelchair::👨‍🦼
+; MAN IN MANUAL WHEELCHAIR 
+:::man_in_manual_wheelchair::👨‍🦽
+:::man in manual wheelchair::👨‍🦽
+; MAN HEALTH WORKER 
+:::male_doctor::👨‍⚕️
+:::male doctor::👨‍⚕️
+; MAN JUDGE 
+:::male_judge::👨‍⚖️
+:::male judge::👨‍⚖️
+; MAN PILOT 
+:::male_pilot::👨‍✈️
+:::male pilot::👨‍✈️
+; COUPLE WITH HEART: MAN, MAN 
+:::man_heart_man::👨‍❤️‍👨
+:::man heart man::👨‍❤️‍👨
+; KISS: MAN, MAN 
+:::man_kiss_man::👨‍❤️‍💋‍👨
+:::man kiss man::👨‍❤️‍💋‍👨
 ; MAN 
 :::man::👨
+; WOMAN FARMER 
+:::female_farmer::👩‍🌾
+:::female farmer::👩‍🌾
+; WOMAN COOK 
+:::female_cook::👩‍🍳
+:::female cook::👩‍🍳
+; WOMAN FEEDING BABY 
+:::woman_feeding_baby::👩‍🍼
+:::woman feeding baby::👩‍🍼
+; WOMAN STUDENT 
+:::female_student::👩‍🎓
+:::female student::👩‍🎓
+; WOMAN SINGER 
+:::female_singer::👩‍🎤
+:::female singer::👩‍🎤
+; WOMAN ARTIST 
+:::female_artist::👩‍🎨
+:::female artist::👩‍🎨
+; WOMAN TEACHER 
+:::female_teacher::👩‍🏫
+:::female teacher::👩‍🏫
+; WOMAN FACTORY WORKER 
+:::female_factory_worker::👩‍🏭
+:::female factory worker::👩‍🏭
+; FAMILY: WOMAN, BOY, BOY 
+:::woman_boy_boy::👩‍👦‍👦
+:::woman boy boy::👩‍👦‍👦
+; FAMILY: WOMAN, BOY 
+:::woman_boy::👩‍👦
+:::woman boy::👩‍👦
+; FAMILY: WOMAN, GIRL, BOY 
+:::woman_girl_boy::👩‍👧‍👦
+:::woman girl boy::👩‍👧‍👦
+; FAMILY: WOMAN, GIRL, GIRL 
+:::woman_girl_girl::👩‍👧‍👧
+:::woman girl girl::👩‍👧‍👧
+; FAMILY: WOMAN, GIRL 
+:::woman_girl::👩‍👧
+:::woman girl::👩‍👧
+; FAMILY: WOMAN, WOMAN, BOY 
+:::woman_woman_boy::👩‍👩‍👦
+:::woman woman boy::👩‍👩‍👦
+; FAMILY: WOMAN, WOMAN, BOY, BOY 
+:::woman_woman_boy_boy::👩‍👩‍👦‍👦
+:::woman woman boy boy::👩‍👩‍👦‍👦
+; FAMILY: WOMAN, WOMAN, GIRL 
+:::woman_woman_girl::👩‍👩‍👧
+:::woman woman girl::👩‍👩‍👧
+; FAMILY: WOMAN, WOMAN, GIRL, BOY 
+:::woman_woman_girl_boy::👩‍👩‍👧‍👦
+:::woman woman girl boy::👩‍👩‍👧‍👦
+; FAMILY: WOMAN, WOMAN, GIRL, GIRL 
+:::woman_woman_girl_girl::👩‍👩‍👧‍👧
+:::woman woman girl girl::👩‍👩‍👧‍👧
+; WOMAN TECHNOLOGIST 
+:::female_technologist::👩‍💻
+:::female technologist::👩‍💻
+; WOMAN OFFICE WORKER 
+:::female_office_worker::👩‍💼
+:::female office worker::👩‍💼
+; WOMAN MECHANIC 
+:::female_mechanic::👩‍🔧
+:::female mechanic::👩‍🔧
+; WOMAN SCIENTIST 
+:::female_scientist::👩‍🔬
+:::female scientist::👩‍🔬
+; WOMAN ASTRONAUT 
+:::female_astronaut::👩‍🚀
+:::female astronaut::👩‍🚀
+; WOMAN FIREFIGHTER 
+:::female_firefighter::👩‍🚒
+:::female firefighter::👩‍🚒
+; WOMAN WITH WHITE CANE 
+:::woman_with_probing_cane::👩‍🦯
+:::woman with probing cane::👩‍🦯
+; WOMAN: RED HAIR 
+:::red_haired_woman::👩‍🦰
+:::red haired woman::👩‍🦰
+; WOMAN: CURLY HAIR 
+:::curly_haired_woman::👩‍🦱
+:::curly haired woman::👩‍🦱
+; WOMAN: BALD 
+:::bald_woman::👩‍🦲
+:::bald woman::👩‍🦲
+; WOMAN: WHITE HAIR 
+:::white_haired_woman::👩‍🦳
+:::white haired woman::👩‍🦳
+; WOMAN IN MOTORIZED WHEELCHAIR 
+:::woman_in_motorized_wheelchair::👩‍🦼
+:::woman in motorized wheelchair::👩‍🦼
+; WOMAN IN MANUAL WHEELCHAIR 
+:::woman_in_manual_wheelchair::👩‍🦽
+:::woman in manual wheelchair::👩‍🦽
+; WOMAN HEALTH WORKER 
+:::female_doctor::👩‍⚕️
+:::female doctor::👩‍⚕️
+; WOMAN JUDGE 
+:::female_judge::👩‍⚖️
+:::female judge::👩‍⚖️
+; WOMAN PILOT 
+:::female_pilot::👩‍✈️
+:::female pilot::👩‍✈️
+; COUPLE WITH HEART: WOMAN, MAN 
+:::woman_heart_man::👩‍❤️‍👨
+:::woman heart man::👩‍❤️‍👨
+; COUPLE WITH HEART: WOMAN, WOMAN 
+:::woman_heart_woman::👩‍❤️‍👩
+:::woman heart woman::👩‍❤️‍👩
+; KISS: WOMAN, MAN 
+:::woman_kiss_man::👩‍❤️‍💋‍👨
+:::woman kiss man::👩‍❤️‍💋‍👨
+; KISS: WOMAN, WOMAN 
+:::woman_kiss_woman::👩‍❤️‍💋‍👩
+:::woman kiss woman::👩‍❤️‍💋‍👩
 ; WOMAN 
 :::woman::👩
 ; FAMILY 
 :::family::👪
 ; MAN AND WOMAN HOLDING HANDS 
-:::couple::👫
+:::man_and_woman_holding_hands::👫
+:::man and woman holding hands::👫
 ; TWO MEN HOLDING HANDS 
 :::two_men_holding_hands::👬
 :::two men holding hands::👬
 ; TWO WOMEN HOLDING HANDS 
 :::two_women_holding_hands::👭
 :::two women holding hands::👭
+; WOMAN POLICE OFFICER 
+:::female_police_officer::👮‍♀️
+:::female police officer::👮‍♀️
+; MAN POLICE OFFICER 
+:::male_police_officer::👮‍♂️
+:::male police officer::👮‍♂️
 ; POLICE OFFICER 
 :::cop::👮
+; WOMEN WITH BUNNY EARS 
+:::woman_with_bunny_ears_partying::👯‍♀️
+:::woman with bunny ears partying::👯‍♀️
+; MEN WITH BUNNY EARS 
+:::man_with_bunny_ears_partying::👯‍♂️
+:::man with bunny ears partying::👯‍♂️
 ; WOMAN WITH BUNNY EARS 
 :::dancers::👯
+; WOMAN WITH VEIL 
+:::woman_with_veil::👰‍♀️
+:::woman with veil::👰‍♀️
+; MAN WITH VEIL 
+:::man_with_veil::👰‍♂️
+:::man with veil::👰‍♂️
 ; BRIDE WITH VEIL 
 :::bride_with_veil::👰
 :::bride with veil::👰
+; WOMAN: BLOND HAIR 
+:::blond_haired_woman::👱‍♀️
+:::blond haired woman::👱‍♀️
+; MAN: BLOND HAIR 
+:::blond_haired_man::👱‍♂️
+:::blond haired man::👱‍♂️
 ; PERSON WITH BLOND HAIR 
 :::person_with_blond_hair::👱
 :::person with blond hair::👱
 ; MAN WITH GUA PI MAO 
 :::man_with_gua_pi_mao::👲
 :::man with gua pi mao::👲
+; WOMAN WEARING TURBAN 
+:::woman_wearing_turban::👳‍♀️
+:::woman wearing turban::👳‍♀️
+; MAN WEARING TURBAN 
+:::man_wearing_turban::👳‍♂️
+:::man wearing turban::👳‍♂️
 ; MAN WITH TURBAN 
 :::man_with_turban::👳
 :::man with turban::👳
@@ -1379,6 +2079,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::older woman::👵
 ; BABY 
 :::baby::👶
+; WOMAN CONSTRUCTION WORKER 
+:::female_construction_worker::👷‍♀️
+:::female construction worker::👷‍♀️
+; MAN CONSTRUCTION WORKER 
+:::male_construction_worker::👷‍♂️
+:::male construction worker::👷‍♂️
 ; CONSTRUCTION WORKER 
 :::construction_worker::👷
 :::construction worker::👷
@@ -1403,9 +2109,21 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::imp::👿
 ; SKULL 
 :::skull::💀
+; WOMAN TIPPING HAND 
+:::woman_tipping_hand::💁‍♀️
+:::woman tipping hand::💁‍♀️
+; MAN TIPPING HAND 
+:::man_tipping_hand::💁‍♂️
+:::man tipping hand::💁‍♂️
 ; INFORMATION DESK PERSON 
 :::information_desk_person::💁
 :::information desk person::💁
+; WOMAN GUARD 
+:::female_guard::💂‍♀️
+:::female guard::💂‍♀️
+; MAN GUARD 
+:::male_guard::💂‍♂️
+:::male guard::💂‍♂️
 ; GUARDSMAN 
 :::guardsman::💂
 ; DANCER 
@@ -1415,8 +2133,20 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; NAIL POLISH 
 :::nail_care::💅
 :::nail care::💅
+; WOMAN GETTING MASSAGE 
+:::woman_getting_massage::💆‍♀️
+:::woman getting massage::💆‍♀️
+; MAN GETTING MASSAGE 
+:::man_getting_massage::💆‍♂️
+:::man getting massage::💆‍♂️
 ; FACE MASSAGE 
 :::massage::💆
+; WOMAN GETTING HAIRCUT 
+:::woman_getting_haircut::💇‍♀️
+:::woman getting haircut::💇‍♀️
+; MAN GETTING HAIRCUT 
+:::man_getting_haircut::💇‍♂️
+:::man getting haircut::💇‍♂️
 ; HAIRCUT 
 :::haircut::💇
 ; BARBER POLE 
@@ -1711,8 +2441,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; VIDEOCASSETTE 
 :::vhs::📼
 ; FILM PROJECTOR 
-:::film_projector::📽
-:::film projector::📽
+:::film_projector::📽️
+:::film projector::📽️
 ; PRAYER BEADS 
 :::prayer_beads::📿
 :::prayer beads::📿
@@ -1870,12 +2600,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; DOWN-POINTING SMALL RED TRIANGLE 
 :::arrow_down_small::🔽
 :::arrow down small::🔽
-; OM SYMBOL 
-:::om_symbol::🕉
-:::om symbol::🕉
-; DOVE OF PEACE 
-:::dove_of_peace::🕊
-:::dove of peace::🕊
+; OM 
+:::om_symbol::🕉️
+:::om symbol::🕉️
+; DOVE 
+:::dove_of_peace::🕊️
+:::dove of peace::🕊️
 ; KAABA 
 :::kaaba::🕋
 ; MOSQUE 
@@ -1934,49 +2664,55 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; CLOCK FACE TWELVE-THIRTY 
 :::clock1230::🕧
 ; CANDLE 
-:::candle::🕯
+:::candle::🕯️
 ; MANTELPIECE CLOCK 
-:::mantelpiece_clock::🕰
-:::mantelpiece clock::🕰
+:::mantelpiece_clock::🕰️
+:::mantelpiece clock::🕰️
 ; HOLE 
-:::hole::🕳
-; MAN IN BUSINESS SUIT LEVITATING 
-:::man_in_business_suit_levitating::🕴
-:::man in business suit levitating::🕴
-; SLEUTH OR SPY 
-:::sleuth_or_spy::🕵
-:::sleuth or spy::🕵
-; DARK SUNGLASSES 
-:::dark_sunglasses::🕶
-:::dark sunglasses::🕶
+:::hole::🕳️
+; PERSON IN SUIT LEVITATING 
+:::man_in_business_suit_levitating::🕴️
+:::man in business suit levitating::🕴️
+; WOMAN DETECTIVE 
+:::female_detective::🕵️‍♀️
+:::female detective::🕵️‍♀️
+; MAN DETECTIVE 
+:::male_detective::🕵️‍♂️
+:::male detective::🕵️‍♂️
+; DETECTIVE 
+:::sleuth_or_spy::🕵️
+:::sleuth or spy::🕵️
+; SUNGLASSES 
+:::dark_sunglasses::🕶️
+:::dark sunglasses::🕶️
 ; SPIDER 
-:::spider::🕷
+:::spider::🕷️
 ; SPIDER WEB 
-:::spider_web::🕸
-:::spider web::🕸
+:::spider_web::🕸️
+:::spider web::🕸️
 ; JOYSTICK 
-:::joystick::🕹
+:::joystick::🕹️
 ; MAN DANCING 
 :::man_dancing::🕺
 :::man dancing::🕺
 ; LINKED PAPERCLIPS 
-:::linked_paperclips::🖇
-:::linked paperclips::🖇
-; LOWER LEFT BALLPOINT PEN 
-:::lower_left_ballpoint_pen::🖊
-:::lower left ballpoint pen::🖊
-; LOWER LEFT FOUNTAIN PEN 
-:::lower_left_fountain_pen::🖋
-:::lower left fountain pen::🖋
-; LOWER LEFT PAINTBRUSH 
-:::lower_left_paintbrush::🖌
-:::lower left paintbrush::🖌
-; LOWER LEFT CRAYON 
-:::lower_left_crayon::🖍
-:::lower left crayon::🖍
-; RAISED HAND WITH FINGERS SPLAYED 
-:::raised_hand_with_fingers_splayed::🖐
-:::raised hand with fingers splayed::🖐
+:::linked_paperclips::🖇️
+:::linked paperclips::🖇️
+; PEN 
+:::lower_left_ballpoint_pen::🖊️
+:::lower left ballpoint pen::🖊️
+; FOUNTAIN PEN 
+:::lower_left_fountain_pen::🖋️
+:::lower left fountain pen::🖋️
+; PAINTBRUSH 
+:::lower_left_paintbrush::🖌️
+:::lower left paintbrush::🖌️
+; CRAYON 
+:::lower_left_crayon::🖍️
+:::lower left crayon::🖍️
+; HAND WITH FINGERS SPLAYED 
+:::raised_hand_with_fingers_splayed::🖐️
+:::raised hand with fingers splayed::🖐️
 ; REVERSED HAND WITH MIDDLE FINGER EXTENDED 
 :::middle_finger::🖕
 :::middle finger::🖕
@@ -1987,61 +2723,61 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::black_heart::🖤
 :::black heart::🖤
 ; DESKTOP COMPUTER 
-:::desktop_computer::🖥
-:::desktop computer::🖥
+:::desktop_computer::🖥️
+:::desktop computer::🖥️
 ; PRINTER 
-:::printer::🖨
-; THREE BUTTON MOUSE 
-:::three_button_mouse::🖱
-:::three button mouse::🖱
+:::printer::🖨️
+; COMPUTER MOUSE 
+:::three_button_mouse::🖱️
+:::three button mouse::🖱️
 ; TRACKBALL 
-:::trackball::🖲
-; FRAME WITH PICTURE 
-:::frame_with_picture::🖼
-:::frame with picture::🖼
+:::trackball::🖲️
+; FRAMED PICTURE 
+:::frame_with_picture::🖼️
+:::frame with picture::🖼️
 ; CARD INDEX DIVIDERS 
-:::card_index_dividers::🗂
-:::card index dividers::🗂
+:::card_index_dividers::🗂️
+:::card index dividers::🗂️
 ; CARD FILE BOX 
-:::card_file_box::🗃
-:::card file box::🗃
+:::card_file_box::🗃️
+:::card file box::🗃️
 ; FILE CABINET 
-:::file_cabinet::🗄
-:::file cabinet::🗄
+:::file_cabinet::🗄️
+:::file cabinet::🗄️
 ; WASTEBASKET 
-:::wastebasket::🗑
-; SPIRAL NOTE PAD 
-:::spiral_note_pad::🗒
-:::spiral note pad::🗒
-; SPIRAL CALENDAR PAD 
-:::spiral_calendar_pad::🗓
-:::spiral calendar pad::🗓
-; COMPRESSION 
-:::compression::🗜
+:::wastebasket::🗑️
+; SPIRAL NOTEPAD 
+:::spiral_note_pad::🗒️
+:::spiral note pad::🗒️
+; SPIRAL CALENDAR 
+:::spiral_calendar_pad::🗓️
+:::spiral calendar pad::🗓️
+; CLAMP 
+:::compression::🗜️
 ; OLD KEY 
-:::old_key::🗝
-:::old key::🗝
+:::old_key::🗝️
+:::old key::🗝️
 ; ROLLED-UP NEWSPAPER 
-:::rolled_up_newspaper::🗞
-:::rolled up newspaper::🗞
-; DAGGER KNIFE 
-:::dagger_knife::🗡
-:::dagger knife::🗡
-; SPEAKING HEAD IN SILHOUETTE 
-:::speaking_head_in_silhouette::🗣
-:::speaking head in silhouette::🗣
+:::rolled_up_newspaper::🗞️
+:::rolled up newspaper::🗞️
+; DAGGER 
+:::dagger_knife::🗡️
+:::dagger knife::🗡️
+; SPEAKING HEAD 
+:::speaking_head_in_silhouette::🗣️
+:::speaking head in silhouette::🗣️
 ; LEFT SPEECH BUBBLE 
-:::left_speech_bubble::🗨
-:::left speech bubble::🗨
+:::left_speech_bubble::🗨️
+:::left speech bubble::🗨️
 ; RIGHT ANGER BUBBLE 
-:::right_anger_bubble::🗯
-:::right anger bubble::🗯
+:::right_anger_bubble::🗯️
+:::right anger bubble::🗯️
 ; BALLOT BOX WITH BALLOT 
-:::ballot_box_with_ballot::🗳
-:::ballot box with ballot::🗳
+:::ballot_box_with_ballot::🗳️
+:::ballot box with ballot::🗳️
 ; WORLD MAP 
-:::world_map::🗺
-:::world map::🗺
+:::world_map::🗺️
+:::world map::🗺️
 ; MOUNT FUJI 
 :::mount_fuji::🗻
 :::mount fuji::🗻
@@ -2222,12 +2958,30 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; FACE WITH ROLLING EYES 
 :::face_with_rolling_eyes::🙄
 :::face with rolling eyes::🙄
+; WOMAN GESTURING NO 
+:::woman_gesturing_no::🙅‍♀️
+:::woman gesturing no::🙅‍♀️
+; MAN GESTURING NO 
+:::man_gesturing_no::🙅‍♂️
+:::man gesturing no::🙅‍♂️
 ; FACE WITH NO GOOD GESTURE 
 :::no_good::🙅
 :::no good::🙅
+; WOMAN GESTURING OK 
+:::woman_gesturing_ok::🙆‍♀️
+:::woman gesturing ok::🙆‍♀️
+; MAN GESTURING OK 
+:::man_gesturing_ok::🙆‍♂️
+:::man gesturing ok::🙆‍♂️
 ; FACE WITH OK GESTURE 
 :::ok_woman::🙆
 :::ok woman::🙆
+; WOMAN BOWING 
+:::woman_bowing::🙇‍♀️
+:::woman bowing::🙇‍♀️
+; MAN BOWING 
+:::man_bowing::🙇‍♂️
+:::man bowing::🙇‍♂️
 ; PERSON BOWING DEEPLY 
 :::bow::🙇
 ; SEE-NO-EVIL MONKEY 
@@ -2239,15 +2993,33 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; SPEAK-NO-EVIL MONKEY 
 :::speak_no_evil::🙊
 :::speak no evil::🙊
+; WOMAN RAISING HAND 
+:::woman_raising_hand::🙋‍♀️
+:::woman raising hand::🙋‍♀️
+; MAN RAISING HAND 
+:::man_raising_hand::🙋‍♂️
+:::man raising hand::🙋‍♂️
 ; HAPPY PERSON RAISING ONE HAND 
 :::raising_hand::🙋
 :::raising hand::🙋
 ; PERSON RAISING BOTH HANDS IN CELEBRATION 
 :::raised_hands::🙌
 :::raised hands::🙌
+; WOMAN FROWNING 
+:::woman_frowning::🙍‍♀️
+:::woman frowning::🙍‍♀️
+; MAN FROWNING 
+:::man_frowning::🙍‍♂️
+:::man frowning::🙍‍♂️
 ; PERSON FROWNING 
 :::person_frowning::🙍
 :::person frowning::🙍
+; WOMAN POUTING 
+:::woman_pouting::🙎‍♀️
+:::woman pouting::🙎‍♀️
+; MAN POUTING 
+:::man_pouting::🙎‍♂️
+:::man pouting::🙎‍♂️
 ; PERSON WITH POUTING FACE 
 :::person_with_pouting_face::🙎
 :::person with pouting face::🙎
@@ -2340,6 +3112,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::aerial tramway::🚡
 ; SHIP 
 :::ship::🚢
+; WOMAN ROWING BOAT 
+:::woman_rowing_boat::🚣‍♀️
+:::woman rowing boat::🚣‍♀️
+; MAN ROWING BOAT 
+:::man_rowing_boat::🚣‍♂️
+:::man rowing boat::🚣‍♂️
 ; ROWBOAT 
 :::rowboat::🚣
 ; SPEEDBOAT 
@@ -2385,11 +3163,29 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; NO BICYCLES 
 :::no_bicycles::🚳
 :::no bicycles::🚳
+; WOMAN BIKING 
+:::woman_biking::🚴‍♀️
+:::woman biking::🚴‍♀️
+; MAN BIKING 
+:::man_biking::🚴‍♂️
+:::man biking::🚴‍♂️
 ; BICYCLIST 
 :::bicyclist::🚴
+; WOMAN MOUNTAIN BIKING 
+:::woman_mountain_biking::🚵‍♀️
+:::woman mountain biking::🚵‍♀️
+; MAN MOUNTAIN BIKING 
+:::man_mountain_biking::🚵‍♂️
+:::man mountain biking::🚵‍♂️
 ; MOUNTAIN BICYCLIST 
 :::mountain_bicyclist::🚵
 :::mountain bicyclist::🚵
+; WOMAN WALKING 
+:::woman_walking::🚶‍♀️
+:::woman walking::🚶‍♀️
+; MAN WALKING 
+:::man_walking::🚶‍♂️
+:::man walking::🚶‍♂️
 ; PEDESTRIAN 
 :::walking::🚶
 ; NO PEDESTRIANS 
@@ -2429,19 +3225,19 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::left_luggage::🛅
 :::left luggage::🛅
 ; COUCH AND LAMP 
-:::couch_and_lamp::🛋
-:::couch and lamp::🛋
+:::couch_and_lamp::🛋️
+:::couch and lamp::🛋️
 ; SLEEPING ACCOMMODATION 
 :::sleeping_accommodation::🛌
 :::sleeping accommodation::🛌
 ; SHOPPING BAGS 
-:::shopping_bags::🛍
-:::shopping bags::🛍
+:::shopping_bags::🛍️
+:::shopping bags::🛍️
 ; BELLHOP BELL 
-:::bellhop_bell::🛎
-:::bellhop bell::🛎
+:::bellhop_bell::🛎️
+:::bellhop bell::🛎️
 ; BED 
-:::bed::🛏
+:::bed::🛏️
 ; PLACE OF WORSHIP 
 :::place_of_worship::🛐
 :::place of worship::🛐
@@ -2451,25 +3247,32 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; SHOPPING TROLLEY 
 :::shopping_trolley::🛒
 :::shopping trolley::🛒
+; HINDU TEMPLE 
+:::hindu_temple::🛕
+:::hindu temple::🛕
+; HUT 
+:::hut::🛖
+; ELEVATOR 
+:::elevator::🛗
 ; HAMMER AND WRENCH 
-:::hammer_and_wrench::🛠
-:::hammer and wrench::🛠
+:::hammer_and_wrench::🛠️
+:::hammer and wrench::🛠️
 ; SHIELD 
-:::shield::🛡
+:::shield::🛡️
 ; OIL DRUM 
-:::oil_drum::🛢
-:::oil drum::🛢
+:::oil_drum::🛢️
+:::oil drum::🛢️
 ; MOTORWAY 
-:::motorway::🛣
+:::motorway::🛣️
 ; RAILWAY TRACK 
-:::railway_track::🛤
-:::railway track::🛤
+:::railway_track::🛤️
+:::railway track::🛤️
 ; MOTOR BOAT 
-:::motor_boat::🛥
-:::motor boat::🛥
+:::motor_boat::🛥️
+:::motor boat::🛥️
 ; SMALL AIRPLANE 
-:::small_airplane::🛩
-:::small airplane::🛩
+:::small_airplane::🛩️
+:::small airplane::🛩️
 ; AIRPLANE DEPARTURE 
 :::airplane_departure::🛫
 :::airplane departure::🛫
@@ -2477,10 +3280,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::airplane_arriving::🛬
 :::airplane arriving::🛬
 ; SATELLITE 
-:::satellite::🛰
+:::satellite::🛰️
 ; PASSENGER SHIP 
-:::passenger_ship::🛳
-:::passenger ship::🛳
+:::passenger_ship::🛳️
+:::passenger ship::🛳️
 ; SCOOTER 
 :::scooter::🛴
 ; MOTOR SCOOTER 
@@ -2488,6 +3291,70 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::motor scooter::🛵
 ; CANOE 
 :::canoe::🛶
+; SLED 
+:::sled::🛷
+; FLYING SAUCER 
+:::flying_saucer::🛸
+:::flying saucer::🛸
+; SKATEBOARD 
+:::skateboard::🛹
+; AUTO RICKSHAW 
+:::auto_rickshaw::🛺
+:::auto rickshaw::🛺
+; PICKUP TRUCK 
+:::pickup_truck::🛻
+:::pickup truck::🛻
+; ROLLER SKATE 
+:::roller_skate::🛼
+:::roller skate::🛼
+; LARGE ORANGE CIRCLE 
+:::large_orange_circle::🟠
+:::large orange circle::🟠
+; LARGE YELLOW CIRCLE 
+:::large_yellow_circle::🟡
+:::large yellow circle::🟡
+; LARGE GREEN CIRCLE 
+:::large_green_circle::🟢
+:::large green circle::🟢
+; LARGE PURPLE CIRCLE 
+:::large_purple_circle::🟣
+:::large purple circle::🟣
+; LARGE BROWN CIRCLE 
+:::large_brown_circle::🟤
+:::large brown circle::🟤
+; LARGE RED SQUARE 
+:::large_red_square::🟥
+:::large red square::🟥
+; LARGE BLUE SQUARE 
+:::large_blue_square::🟦
+:::large blue square::🟦
+; LARGE ORANGE SQUARE 
+:::large_orange_square::🟧
+:::large orange square::🟧
+; LARGE YELLOW SQUARE 
+:::large_yellow_square::🟨
+:::large yellow square::🟨
+; LARGE GREEN SQUARE 
+:::large_green_square::🟩
+:::large green square::🟩
+; LARGE PURPLE SQUARE 
+:::large_purple_square::🟪
+:::large purple square::🟪
+; LARGE BROWN SQUARE 
+:::large_brown_square::🟫
+:::large brown square::🟫
+; PINCHED FINGERS 
+:::pinched_fingers::🤌
+:::pinched fingers::🤌
+; WHITE HEART 
+:::white_heart::🤍
+:::white heart::🤍
+; BROWN HEART 
+:::brown_heart::🤎
+:::brown heart::🤎
+; PINCHING HAND 
+:::pinching_hand::🤏
+:::pinching hand::🤏
 ; ZIPPER-MOUTH FACE 
 :::zipper_mouth_face::🤐
 :::zipper mouth face::🤐
@@ -2530,8 +3397,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; HANDSHAKE 
 :::handshake::🤝
 ; HAND WITH INDEX AND MIDDLE FINGERS CROSSED 
-:::hand_with_index_and_middle_fingers_cros::🤞
-:::hand with index and middle fingers cros::🤞
+:::crossed_fingers::🤞
+:::crossed fingers::🤞
+; I LOVE YOU HAND SIGN 
+:::i_love_you_hand_sign::🤟
+:::i love you hand sign::🤟
 ; FACE WITH COWBOY HAT 
 :::face_with_cowboy_hat::🤠
 :::face with cowboy hat::🤠
@@ -2550,41 +3420,122 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; LYING FACE 
 :::lying_face::🤥
 :::lying face::🤥
+; WOMAN FACEPALMING 
+:::woman_facepalming::🤦‍♀️
+:::woman facepalming::🤦‍♀️
+; MAN FACEPALMING 
+:::man_facepalming::🤦‍♂️
+:::man facepalming::🤦‍♂️
 ; FACE PALM 
 :::face_palm::🤦
 :::face palm::🤦
 ; SNEEZING FACE 
 :::sneezing_face::🤧
 :::sneezing face::🤧
+; FACE WITH ONE EYEBROW RAISED 
+:::face_with_raised_eyebrow::🤨
+:::face with raised eyebrow::🤨
+; GRINNING FACE WITH STAR EYES 
+:::star_struck::🤩
+:::star struck::🤩
+; GRINNING FACE WITH ONE LARGE AND ONE SMALL EYE 
+:::zany_face::🤪
+:::zany face::🤪
+; FACE WITH FINGER COVERING CLOSED LIPS 
+:::shushing_face::🤫
+:::shushing face::🤫
+; SERIOUS FACE WITH SYMBOLS COVERING MOUTH 
+:::face_with_symbols_on_mouth::🤬
+:::face with symbols on mouth::🤬
+; SMILING FACE WITH SMILING EYES AND HAND COVERING MOUTH 
+:::face_with_hand_over_mouth::🤭
+:::face with hand over mouth::🤭
+; FACE WITH OPEN MOUTH VOMITING 
+:::face_vomiting::🤮
+:::face vomiting::🤮
+; SHOCKED FACE WITH EXPLODING HEAD 
+:::exploding_head::🤯
+:::exploding head::🤯
 ; PREGNANT WOMAN 
 :::pregnant_woman::🤰
 :::pregnant woman::🤰
+; BREAST-FEEDING 
+:::breast_feeding::🤱
+:::breast feeding::🤱
+; PALMS UP TOGETHER 
+:::palms_up_together::🤲
+:::palms up together::🤲
 ; SELFIE 
 :::selfie::🤳
 ; PRINCE 
 :::prince::🤴
+; WOMAN IN TUXEDO 
+:::woman_in_tuxedo::🤵‍♀️
+:::woman in tuxedo::🤵‍♀️
 ; MAN IN TUXEDO 
-:::man_in_tuxedo::🤵
-:::man in tuxedo::🤵
+:::man_in_tuxedo::🤵‍♂️
+:::man in tuxedo::🤵‍♂️
+; MAN IN TUXEDO 
+:::person_in_tuxedo::🤵
+:::person in tuxedo::🤵
 ; MOTHER CHRISTMAS 
-:::mother_christmas::🤶
-:::mother christmas::🤶
+:::mrs_claus::🤶
+:::mrs claus::🤶
+; WOMAN SHRUGGING 
+:::woman_shrugging::🤷‍♀️
+:::woman shrugging::🤷‍♀️
+; MAN SHRUGGING 
+:::man_shrugging::🤷‍♂️
+:::man shrugging::🤷‍♂️
 ; SHRUG 
 :::shrug::🤷
+; WOMAN CARTWHEELING 
+:::woman_cartwheeling::🤸‍♀️
+:::woman cartwheeling::🤸‍♀️
+; MAN CARTWHEELING 
+:::man_cartwheeling::🤸‍♂️
+:::man cartwheeling::🤸‍♂️
 ; PERSON DOING CARTWHEEL 
 :::person_doing_cartwheel::🤸
 :::person doing cartwheel::🤸
+; WOMAN JUGGLING 
+:::woman_juggling::🤹‍♀️
+:::woman juggling::🤹‍♀️
+; MAN JUGGLING 
+:::man_juggling::🤹‍♂️
+:::man juggling::🤹‍♂️
 ; JUGGLING 
 :::juggling::🤹
 ; FENCER 
 :::fencer::🤺
+; WOMEN WRESTLING 
+:::woman_wrestling::🤼‍♀️
+:::woman wrestling::🤼‍♀️
+; MEN WRESTLING 
+:::man_wrestling::🤼‍♂️
+:::man wrestling::🤼‍♂️
 ; WRESTLERS 
 :::wrestlers::🤼
+; WOMAN PLAYING WATER POLO 
+:::woman_playing_water_polo::🤽‍♀️
+:::woman playing water polo::🤽‍♀️
+; MAN PLAYING WATER POLO 
+:::man_playing_water_polo::🤽‍♂️
+:::man playing water polo::🤽‍♂️
 ; WATER POLO 
 :::water_polo::🤽
 :::water polo::🤽
+; WOMAN PLAYING HANDBALL 
+:::woman_playing_handball::🤾‍♀️
+:::woman playing handball::🤾‍♀️
+; MAN PLAYING HANDBALL 
+:::man_playing_handball::🤾‍♂️
+:::man playing handball::🤾‍♂️
 ; HANDBALL 
 :::handball::🤾
+; DIVING MASK 
+:::diving_mask::🤿
+:::diving mask::🤿
 ; WILTED FLOWER 
 :::wilted_flower::🥀
 :::wilted flower::🥀
@@ -2617,6 +3568,16 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; MARTIAL ARTS UNIFORM 
 :::martial_arts_uniform::🥋
 :::martial arts uniform::🥋
+; CURLING STONE 
+:::curling_stone::🥌
+:::curling stone::🥌
+; LACROSSE STICK AND BALL 
+:::lacrosse::🥍
+; SOFTBALL 
+:::softball::🥎
+; FLYING DISC 
+:::flying_disc::🥏
+:::flying disc::🥏
 ; CROISSANT 
 :::croissant::🥐
 ; AVOCADO 
@@ -2652,6 +3613,90 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::kiwifruit::🥝
 ; PANCAKES 
 :::pancakes::🥞
+; DUMPLING 
+:::dumpling::🥟
+; FORTUNE COOKIE 
+:::fortune_cookie::🥠
+:::fortune cookie::🥠
+; TAKEOUT BOX 
+:::takeout_box::🥡
+:::takeout box::🥡
+; CHOPSTICKS 
+:::chopsticks::🥢
+; BOWL WITH SPOON 
+:::bowl_with_spoon::🥣
+:::bowl with spoon::🥣
+; CUP WITH STRAW 
+:::cup_with_straw::🥤
+:::cup with straw::🥤
+; COCONUT 
+:::coconut::🥥
+; BROCCOLI 
+:::broccoli::🥦
+; PIE 
+:::pie::🥧
+; PRETZEL 
+:::pretzel::🥨
+; CUT OF MEAT 
+:::cut_of_meat::🥩
+:::cut of meat::🥩
+; SANDWICH 
+:::sandwich::🥪
+; CANNED FOOD 
+:::canned_food::🥫
+:::canned food::🥫
+; LEAFY GREEN 
+:::leafy_green::🥬
+:::leafy green::🥬
+; MANGO 
+:::mango::🥭
+; MOON CAKE 
+:::moon_cake::🥮
+:::moon cake::🥮
+; BAGEL 
+:::bagel::🥯
+; SMILING FACE WITH SMILING EYES AND THREE HEARTS 
+:::smiling_face_with_3_hearts::🥰
+:::smiling face with 3 hearts::🥰
+; YAWNING FACE 
+:::yawning_face::🥱
+:::yawning face::🥱
+; SMILING FACE WITH TEAR 
+:::smiling_face_with_tear::🥲
+:::smiling face with tear::🥲
+; FACE WITH PARTY HORN AND PARTY HAT 
+:::partying_face::🥳
+:::partying face::🥳
+; FACE WITH UNEVEN EYES AND WAVY MOUTH 
+:::woozy_face::🥴
+:::woozy face::🥴
+; OVERHEATED FACE 
+:::hot_face::🥵
+:::hot face::🥵
+; FREEZING FACE 
+:::cold_face::🥶
+:::cold face::🥶
+; NINJA 
+:::ninja::🥷
+; DISGUISED FACE 
+:::disguised_face::🥸
+:::disguised face::🥸
+; FACE WITH PLEADING EYES 
+:::pleading_face::🥺
+:::pleading face::🥺
+; SARI 
+:::sari::🥻
+; LAB COAT 
+:::lab_coat::🥼
+:::lab coat::🥼
+; GOGGLES 
+:::goggles::🥽
+; HIKING BOOT 
+:::hiking_boot::🥾
+:::hiking boot::🥾
+; FLAT SHOE 
+:::womans_flat_shoe::🥿
+:::womans flat shoe::🥿
 ; CRAB 
 :::crab::🦀
 ; LION FACE 
@@ -2691,1237 +3736,1540 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::shrimp::🦐
 ; SQUID 
 :::squid::🦑
+; GIRAFFE FACE 
+:::giraffe_face::🦒
+:::giraffe face::🦒
+; ZEBRA FACE 
+:::zebra_face::🦓
+:::zebra face::🦓
+; HEDGEHOG 
+:::hedgehog::🦔
+; SAUROPOD 
+:::sauropod::🦕
+; T-REX 
+:::t_rex::🦖
+:::t rex::🦖
+; CRICKET 
+:::cricket::🦗
+; KANGAROO 
+:::kangaroo::🦘
+; LLAMA 
+:::llama::🦙
+; PEACOCK 
+:::peacock::🦚
+; HIPPOPOTAMUS 
+:::hippopotamus::🦛
+; PARROT 
+:::parrot::🦜
+; RACCOON 
+:::raccoon::🦝
+; LOBSTER 
+:::lobster::🦞
+; MOSQUITO 
+:::mosquito::🦟
+; MICROBE 
+:::microbe::🦠
+; BADGER 
+:::badger::🦡
+; SWAN 
+:::swan::🦢
+; MAMMOTH 
+:::mammoth::🦣
+; DODO 
+:::dodo::🦤
+; SLOTH 
+:::sloth::🦥
+; OTTER 
+:::otter::🦦
+; ORANGUTAN 
+:::orangutan::🦧
+; SKUNK 
+:::skunk::🦨
+; FLAMINGO 
+:::flamingo::🦩
+; OYSTER 
+:::oyster::🦪
+; BEAVER 
+:::beaver::🦫
+; BISON 
+:::bison::🦬
+; SEAL 
+:::seal::🦭
+; GUIDE DOG 
+:::guide_dog::🦮
+:::guide dog::🦮
+; PROBING CANE 
+:::probing_cane::🦯
+:::probing cane::🦯
+; BONE 
+:::bone::🦴
+; LEG 
+:::leg::🦵
+; FOOT 
+:::foot::🦶
+; TOOTH 
+:::tooth::🦷
+; WOMAN SUPERHERO 
+:::female_superhero::🦸‍♀️
+:::female superhero::🦸‍♀️
+; MAN SUPERHERO 
+:::male_superhero::🦸‍♂️
+:::male superhero::🦸‍♂️
+; SUPERHERO 
+:::superhero::🦸
+; WOMAN SUPERVILLAIN 
+:::female_supervillain::🦹‍♀️
+:::female supervillain::🦹‍♀️
+; MAN SUPERVILLAIN 
+:::male_supervillain::🦹‍♂️
+:::male supervillain::🦹‍♂️
+; SUPERVILLAIN 
+:::supervillain::🦹
+; SAFETY VEST 
+:::safety_vest::🦺
+:::safety vest::🦺
+; EAR WITH HEARING AID 
+:::ear_with_hearing_aid::🦻
+:::ear with hearing aid::🦻
+; MOTORIZED WHEELCHAIR 
+:::motorized_wheelchair::🦼
+:::motorized wheelchair::🦼
+; MANUAL WHEELCHAIR 
+:::manual_wheelchair::🦽
+:::manual wheelchair::🦽
+; MECHANICAL ARM 
+:::mechanical_arm::🦾
+:::mechanical arm::🦾
+; MECHANICAL LEG 
+:::mechanical_leg::🦿
+:::mechanical leg::🦿
 ; CHEESE WEDGE 
 :::cheese_wedge::🧀
 :::cheese wedge::🧀
-; HASH KEY 
-:::hash::#⃣
-; KEYCAP STAR 
-:::keycap_star::*⃣
-:::keycap star::*⃣
-; KEYCAP 0 
-:::zero::0⃣
-; KEYCAP 1 
-:::one::1⃣
-; KEYCAP 2 
-:::two::2⃣
-; KEYCAP 3 
-:::three::3⃣
-; KEYCAP 4 
-:::four::4⃣
-; KEYCAP 5 
-:::five::5⃣
-; KEYCAP 6 
-:::six::6⃣
-; KEYCAP 7 
-:::seven::7⃣
-; KEYCAP 8 
-:::eight::8⃣
-; KEYCAP 9 
-:::nine::9⃣
-; REGIONAL INDICATOR SYMBOL LETTERS AC 
-:::flag_ac::🇦🇨
-:::flag ac::🇦🇨
-; REGIONAL INDICATOR SYMBOL LETTERS AD 
-:::flag_ad::🇦🇩
-:::flag ad::🇦🇩
-; REGIONAL INDICATOR SYMBOL LETTERS AE 
-:::flag_ae::🇦🇪
-:::flag ae::🇦🇪
-; REGIONAL INDICATOR SYMBOL LETTERS AF 
-:::flag_af::🇦🇫
-:::flag af::🇦🇫
-; REGIONAL INDICATOR SYMBOL LETTERS AG 
-:::flag_ag::🇦🇬
-:::flag ag::🇦🇬
-; REGIONAL INDICATOR SYMBOL LETTERS AI 
-:::flag_ai::🇦🇮
-:::flag ai::🇦🇮
-; REGIONAL INDICATOR SYMBOL LETTERS AL 
-:::flag_al::🇦🇱
-:::flag al::🇦🇱
-; REGIONAL INDICATOR SYMBOL LETTERS AM 
-:::flag_am::🇦🇲
-:::flag am::🇦🇲
-; REGIONAL INDICATOR SYMBOL LETTERS AO 
-:::flag_ao::🇦🇴
-:::flag ao::🇦🇴
-; REGIONAL INDICATOR SYMBOL LETTERS AQ 
-:::flag_aq::🇦🇶
-:::flag aq::🇦🇶
-; REGIONAL INDICATOR SYMBOL LETTERS AR 
-:::flag_ar::🇦🇷
-:::flag ar::🇦🇷
-; REGIONAL INDICATOR SYMBOL LETTERS AS 
-:::flag_as::🇦🇸
-:::flag as::🇦🇸
-; REGIONAL INDICATOR SYMBOL LETTERS AT 
-:::flag_at::🇦🇹
-:::flag at::🇦🇹
-; REGIONAL INDICATOR SYMBOL LETTERS AU 
-:::flag_au::🇦🇺
-:::flag au::🇦🇺
-; REGIONAL INDICATOR SYMBOL LETTERS AW 
-:::flag_aw::🇦🇼
-:::flag aw::🇦🇼
-; REGIONAL INDICATOR SYMBOL LETTERS AX 
-:::flag_ax::🇦🇽
-:::flag ax::🇦🇽
-; REGIONAL INDICATOR SYMBOL LETTERS AZ 
-:::flag_az::🇦🇿
-:::flag az::🇦🇿
-; REGIONAL INDICATOR SYMBOL LETTERS BA 
-:::flag_ba::🇧🇦
-:::flag ba::🇧🇦
-; REGIONAL INDICATOR SYMBOL LETTERS BB 
-:::flag_bb::🇧🇧
-:::flag bb::🇧🇧
-; REGIONAL INDICATOR SYMBOL LETTERS BD 
-:::flag_bd::🇧🇩
-:::flag bd::🇧🇩
-; REGIONAL INDICATOR SYMBOL LETTERS BE 
-:::flag_be::🇧🇪
-:::flag be::🇧🇪
-; REGIONAL INDICATOR SYMBOL LETTERS BF 
-:::flag_bf::🇧🇫
-:::flag bf::🇧🇫
-; REGIONAL INDICATOR SYMBOL LETTERS BG 
-:::flag_bg::🇧🇬
-:::flag bg::🇧🇬
-; REGIONAL INDICATOR SYMBOL LETTERS BH 
-:::flag_bh::🇧🇭
-:::flag bh::🇧🇭
-; REGIONAL INDICATOR SYMBOL LETTERS BI 
-:::flag_bi::🇧🇮
-:::flag bi::🇧🇮
-; REGIONAL INDICATOR SYMBOL LETTERS BJ 
-:::flag_bj::🇧🇯
-:::flag bj::🇧🇯
-; REGIONAL INDICATOR SYMBOL LETTERS BL 
-:::flag_bl::🇧🇱
-:::flag bl::🇧🇱
-; REGIONAL INDICATOR SYMBOL LETTERS BM 
-:::flag_bm::🇧🇲
-:::flag bm::🇧🇲
-; REGIONAL INDICATOR SYMBOL LETTERS BN 
-:::flag_bn::🇧🇳
-:::flag bn::🇧🇳
-; REGIONAL INDICATOR SYMBOL LETTERS BO 
-:::flag_bo::🇧🇴
-:::flag bo::🇧🇴
-; REGIONAL INDICATOR SYMBOL LETTERS BQ 
-:::flag_bq::🇧🇶
-:::flag bq::🇧🇶
-; REGIONAL INDICATOR SYMBOL LETTERS BR 
-:::flag_br::🇧🇷
-:::flag br::🇧🇷
-; REGIONAL INDICATOR SYMBOL LETTERS BS 
-:::flag_bs::🇧🇸
-:::flag bs::🇧🇸
-; REGIONAL INDICATOR SYMBOL LETTERS BT 
-:::flag_bt::🇧🇹
-:::flag bt::🇧🇹
-; REGIONAL INDICATOR SYMBOL LETTERS BV 
-:::flag_bv::🇧🇻
-:::flag bv::🇧🇻
-; REGIONAL INDICATOR SYMBOL LETTERS BW 
-:::flag_bw::🇧🇼
-:::flag bw::🇧🇼
-; REGIONAL INDICATOR SYMBOL LETTERS BY 
-:::flag_by::🇧🇾
-:::flag by::🇧🇾
-; REGIONAL INDICATOR SYMBOL LETTERS BZ 
-:::flag_bz::🇧🇿
-:::flag bz::🇧🇿
-; REGIONAL INDICATOR SYMBOL LETTERS CA 
-:::flag_ca::🇨🇦
-:::flag ca::🇨🇦
-; REGIONAL INDICATOR SYMBOL LETTERS CC 
-:::flag_cc::🇨🇨
-:::flag cc::🇨🇨
-; REGIONAL INDICATOR SYMBOL LETTERS CD 
-:::flag_cd::🇨🇩
-:::flag cd::🇨🇩
-; REGIONAL INDICATOR SYMBOL LETTERS CF 
-:::flag_cf::🇨🇫
-:::flag cf::🇨🇫
-; REGIONAL INDICATOR SYMBOL LETTERS CG 
-:::flag_cg::🇨🇬
-:::flag cg::🇨🇬
-; REGIONAL INDICATOR SYMBOL LETTERS CH 
-:::flag_ch::🇨🇭
-:::flag ch::🇨🇭
-; REGIONAL INDICATOR SYMBOL LETTERS CI 
-:::flag_ci::🇨🇮
-:::flag ci::🇨🇮
-; REGIONAL INDICATOR SYMBOL LETTERS CK 
-:::flag_ck::🇨🇰
-:::flag ck::🇨🇰
-; REGIONAL INDICATOR SYMBOL LETTERS CL 
-:::flag_cl::🇨🇱
-:::flag cl::🇨🇱
-; REGIONAL INDICATOR SYMBOL LETTERS CM 
-:::flag_cm::🇨🇲
-:::flag cm::🇨🇲
-; REGIONAL INDICATOR SYMBOL LETTERS CN 
-:::flag_cn::🇨🇳
-:::flag cn::🇨🇳
-; REGIONAL INDICATOR SYMBOL LETTERS CO 
-:::flag_co::🇨🇴
-:::flag co::🇨🇴
-; REGIONAL INDICATOR SYMBOL LETTERS CP 
-:::flag_cp::🇨🇵
-:::flag cp::🇨🇵
-; REGIONAL INDICATOR SYMBOL LETTERS CR 
-:::flag_cr::🇨🇷
-:::flag cr::🇨🇷
-; REGIONAL INDICATOR SYMBOL LETTERS CU 
-:::flag_cu::🇨🇺
-:::flag cu::🇨🇺
-; REGIONAL INDICATOR SYMBOL LETTERS CV 
-:::flag_cv::🇨🇻
-:::flag cv::🇨🇻
-; REGIONAL INDICATOR SYMBOL LETTERS CW 
-:::flag_cw::🇨🇼
-:::flag cw::🇨🇼
-; REGIONAL INDICATOR SYMBOL LETTERS CX 
-:::flag_cx::🇨🇽
-:::flag cx::🇨🇽
-; REGIONAL INDICATOR SYMBOL LETTERS CY 
-:::flag_cy::🇨🇾
-:::flag cy::🇨🇾
-; REGIONAL INDICATOR SYMBOL LETTERS CZ 
-:::flag_cz::🇨🇿
-:::flag cz::🇨🇿
-; REGIONAL INDICATOR SYMBOL LETTERS DE 
-:::flag_de::🇩🇪
-:::flag de::🇩🇪
-; REGIONAL INDICATOR SYMBOL LETTERS DG 
-:::flag_dg::🇩🇬
-:::flag dg::🇩🇬
-; REGIONAL INDICATOR SYMBOL LETTERS DJ 
-:::flag_dj::🇩🇯
-:::flag dj::🇩🇯
-; REGIONAL INDICATOR SYMBOL LETTERS DK 
-:::flag_dk::🇩🇰
-:::flag dk::🇩🇰
-; REGIONAL INDICATOR SYMBOL LETTERS DM 
-:::flag_dm::🇩🇲
-:::flag dm::🇩🇲
-; REGIONAL INDICATOR SYMBOL LETTERS DO 
-:::flag_do::🇩🇴
-:::flag do::🇩🇴
-; REGIONAL INDICATOR SYMBOL LETTERS DZ 
-:::flag_dz::🇩🇿
-:::flag dz::🇩🇿
-; REGIONAL INDICATOR SYMBOL LETTERS EA 
-:::flag_ea::🇪🇦
-:::flag ea::🇪🇦
-; REGIONAL INDICATOR SYMBOL LETTERS EC 
-:::flag_ec::🇪🇨
-:::flag ec::🇪🇨
-; REGIONAL INDICATOR SYMBOL LETTERS EE 
-:::flag_ee::🇪🇪
-:::flag ee::🇪🇪
-; REGIONAL INDICATOR SYMBOL LETTERS EG 
-:::flag_eg::🇪🇬
-:::flag eg::🇪🇬
-; REGIONAL INDICATOR SYMBOL LETTERS EH 
-:::flag_eh::🇪🇭
-:::flag eh::🇪🇭
-; REGIONAL INDICATOR SYMBOL LETTERS ER 
-:::flag_er::🇪🇷
-:::flag er::🇪🇷
-; REGIONAL INDICATOR SYMBOL LETTERS ES 
-:::flag_es::🇪🇸
-:::flag es::🇪🇸
-; REGIONAL INDICATOR SYMBOL LETTERS ET 
-:::flag_et::🇪🇹
-:::flag et::🇪🇹
-; REGIONAL INDICATOR SYMBOL LETTERS EU 
-:::flag_eu::🇪🇺
-:::flag eu::🇪🇺
-; REGIONAL INDICATOR SYMBOL LETTERS FI 
-:::flag_fi::🇫🇮
-:::flag fi::🇫🇮
-; REGIONAL INDICATOR SYMBOL LETTERS FJ 
-:::flag_fj::🇫🇯
-:::flag fj::🇫🇯
-; REGIONAL INDICATOR SYMBOL LETTERS FK 
-:::flag_fk::🇫🇰
-:::flag fk::🇫🇰
-; REGIONAL INDICATOR SYMBOL LETTERS FM 
-:::flag_fm::🇫🇲
-:::flag fm::🇫🇲
-; REGIONAL INDICATOR SYMBOL LETTERS FO 
-:::flag_fo::🇫🇴
-:::flag fo::🇫🇴
-; REGIONAL INDICATOR SYMBOL LETTERS FR 
-:::flag_fr::🇫🇷
-:::flag fr::🇫🇷
-; REGIONAL INDICATOR SYMBOL LETTERS GA 
-:::flag_ga::🇬🇦
-:::flag ga::🇬🇦
-; REGIONAL INDICATOR SYMBOL LETTERS GB 
-:::flag_gb::🇬🇧
-:::flag gb::🇬🇧
-; REGIONAL INDICATOR SYMBOL LETTERS GD 
-:::flag_gd::🇬🇩
-:::flag gd::🇬🇩
-; REGIONAL INDICATOR SYMBOL LETTERS GE 
-:::flag_ge::🇬🇪
-:::flag ge::🇬🇪
-; REGIONAL INDICATOR SYMBOL LETTERS GF 
-:::flag_gf::🇬🇫
-:::flag gf::🇬🇫
-; REGIONAL INDICATOR SYMBOL LETTERS GG 
-:::flag_gg::🇬🇬
-:::flag gg::🇬🇬
-; REGIONAL INDICATOR SYMBOL LETTERS GH 
-:::flag_gh::🇬🇭
-:::flag gh::🇬🇭
-; REGIONAL INDICATOR SYMBOL LETTERS GI 
-:::flag_gi::🇬🇮
-:::flag gi::🇬🇮
-; REGIONAL INDICATOR SYMBOL LETTERS GL 
-:::flag_gl::🇬🇱
-:::flag gl::🇬🇱
-; REGIONAL INDICATOR SYMBOL LETTERS GM 
-:::flag_gm::🇬🇲
-:::flag gm::🇬🇲
-; REGIONAL INDICATOR SYMBOL LETTERS GN 
-:::flag_gn::🇬🇳
-:::flag gn::🇬🇳
-; REGIONAL INDICATOR SYMBOL LETTERS GP 
-:::flag_gp::🇬🇵
-:::flag gp::🇬🇵
-; REGIONAL INDICATOR SYMBOL LETTERS GQ 
-:::flag_gq::🇬🇶
-:::flag gq::🇬🇶
-; REGIONAL INDICATOR SYMBOL LETTERS GR 
-:::flag_gr::🇬🇷
-:::flag gr::🇬🇷
-; REGIONAL INDICATOR SYMBOL LETTERS GS 
-:::flag_gs::🇬🇸
-:::flag gs::🇬🇸
-; REGIONAL INDICATOR SYMBOL LETTERS GT 
-:::flag_gt::🇬🇹
-:::flag gt::🇬🇹
-; REGIONAL INDICATOR SYMBOL LETTERS GU 
-:::flag_gu::🇬🇺
-:::flag gu::🇬🇺
-; REGIONAL INDICATOR SYMBOL LETTERS GW 
-:::flag_gw::🇬🇼
-:::flag gw::🇬🇼
-; REGIONAL INDICATOR SYMBOL LETTERS GY 
-:::flag_gy::🇬🇾
-:::flag gy::🇬🇾
-; REGIONAL INDICATOR SYMBOL LETTERS HK 
-:::flag_hk::🇭🇰
-:::flag hk::🇭🇰
-; REGIONAL INDICATOR SYMBOL LETTERS HM 
-:::flag_hm::🇭🇲
-:::flag hm::🇭🇲
-; REGIONAL INDICATOR SYMBOL LETTERS HN 
-:::flag_hn::🇭🇳
-:::flag hn::🇭🇳
-; REGIONAL INDICATOR SYMBOL LETTERS HR 
-:::flag_hr::🇭🇷
-:::flag hr::🇭🇷
-; REGIONAL INDICATOR SYMBOL LETTERS HT 
-:::flag_ht::🇭🇹
-:::flag ht::🇭🇹
-; REGIONAL INDICATOR SYMBOL LETTERS HU 
-:::flag_hu::🇭🇺
-:::flag hu::🇭🇺
-; REGIONAL INDICATOR SYMBOL LETTERS IC 
-:::flag_ic::🇮🇨
-:::flag ic::🇮🇨
-; REGIONAL INDICATOR SYMBOL LETTERS ID 
-:::flag_id::🇮🇩
-:::flag id::🇮🇩
-; REGIONAL INDICATOR SYMBOL LETTERS IE 
-:::flag_ie::🇮🇪
-:::flag ie::🇮🇪
-; REGIONAL INDICATOR SYMBOL LETTERS IL 
-:::flag_il::🇮🇱
-:::flag il::🇮🇱
-; REGIONAL INDICATOR SYMBOL LETTERS IM 
-:::flag_im::🇮🇲
-:::flag im::🇮🇲
-; REGIONAL INDICATOR SYMBOL LETTERS IN 
-:::flag_in::🇮🇳
-:::flag in::🇮🇳
-; REGIONAL INDICATOR SYMBOL LETTERS IO 
-:::flag_io::🇮🇴
-:::flag io::🇮🇴
-; REGIONAL INDICATOR SYMBOL LETTERS IQ 
-:::flag_iq::🇮🇶
-:::flag iq::🇮🇶
-; REGIONAL INDICATOR SYMBOL LETTERS IR 
-:::flag_ir::🇮🇷
-:::flag ir::🇮🇷
-; REGIONAL INDICATOR SYMBOL LETTERS IS 
-:::flag_is::🇮🇸
-:::flag is::🇮🇸
-; REGIONAL INDICATOR SYMBOL LETTERS IT 
-:::flag_it::🇮🇹
-:::flag it::🇮🇹
-; REGIONAL INDICATOR SYMBOL LETTERS JE 
-:::flag_je::🇯🇪
-:::flag je::🇯🇪
-; REGIONAL INDICATOR SYMBOL LETTERS JM 
-:::flag_jm::🇯🇲
-:::flag jm::🇯🇲
-; REGIONAL INDICATOR SYMBOL LETTERS JO 
-:::flag_jo::🇯🇴
-:::flag jo::🇯🇴
-; REGIONAL INDICATOR SYMBOL LETTERS JP 
-:::flag_jp::🇯🇵
-:::flag jp::🇯🇵
-; REGIONAL INDICATOR SYMBOL LETTERS KE 
-:::flag_ke::🇰🇪
-:::flag ke::🇰🇪
-; REGIONAL INDICATOR SYMBOL LETTERS KG 
-:::flag_kg::🇰🇬
-:::flag kg::🇰🇬
-; REGIONAL INDICATOR SYMBOL LETTERS KH 
-:::flag_kh::🇰🇭
-:::flag kh::🇰🇭
-; REGIONAL INDICATOR SYMBOL LETTERS KI 
-:::flag_ki::🇰🇮
-:::flag ki::🇰🇮
-; REGIONAL INDICATOR SYMBOL LETTERS KM 
-:::flag_km::🇰🇲
-:::flag km::🇰🇲
-; REGIONAL INDICATOR SYMBOL LETTERS KN 
-:::flag_kn::🇰🇳
-:::flag kn::🇰🇳
-; REGIONAL INDICATOR SYMBOL LETTERS KP 
-:::flag_kp::🇰🇵
-:::flag kp::🇰🇵
-; REGIONAL INDICATOR SYMBOL LETTERS KR 
-:::flag_kr::🇰🇷
-:::flag kr::🇰🇷
-; REGIONAL INDICATOR SYMBOL LETTERS KW 
-:::flag_kw::🇰🇼
-:::flag kw::🇰🇼
-; REGIONAL INDICATOR SYMBOL LETTERS KY 
-:::flag_ky::🇰🇾
-:::flag ky::🇰🇾
-; REGIONAL INDICATOR SYMBOL LETTERS KZ 
-:::flag_kz::🇰🇿
-:::flag kz::🇰🇿
-; REGIONAL INDICATOR SYMBOL LETTERS LA 
-:::flag_la::🇱🇦
-:::flag la::🇱🇦
-; REGIONAL INDICATOR SYMBOL LETTERS LB 
-:::flag_lb::🇱🇧
-:::flag lb::🇱🇧
-; REGIONAL INDICATOR SYMBOL LETTERS LC 
-:::flag_lc::🇱🇨
-:::flag lc::🇱🇨
-; REGIONAL INDICATOR SYMBOL LETTERS LI 
-:::flag_li::🇱🇮
-:::flag li::🇱🇮
-; REGIONAL INDICATOR SYMBOL LETTERS LK 
-:::flag_lk::🇱🇰
-:::flag lk::🇱🇰
-; REGIONAL INDICATOR SYMBOL LETTERS LR 
-:::flag_lr::🇱🇷
-:::flag lr::🇱🇷
-; REGIONAL INDICATOR SYMBOL LETTERS LS 
-:::flag_ls::🇱🇸
-:::flag ls::🇱🇸
-; REGIONAL INDICATOR SYMBOL LETTERS LT 
-:::flag_lt::🇱🇹
-:::flag lt::🇱🇹
-; REGIONAL INDICATOR SYMBOL LETTERS LU 
-:::flag_lu::🇱🇺
-:::flag lu::🇱🇺
-; REGIONAL INDICATOR SYMBOL LETTERS LV 
-:::flag_lv::🇱🇻
-:::flag lv::🇱🇻
-; REGIONAL INDICATOR SYMBOL LETTERS LY 
-:::flag_ly::🇱🇾
-:::flag ly::🇱🇾
-; REGIONAL INDICATOR SYMBOL LETTERS MA 
-:::flag_ma::🇲🇦
-:::flag ma::🇲🇦
-; REGIONAL INDICATOR SYMBOL LETTERS MC 
-:::flag_mc::🇲🇨
-:::flag mc::🇲🇨
-; REGIONAL INDICATOR SYMBOL LETTERS MD 
-:::flag_md::🇲🇩
-:::flag md::🇲🇩
-; REGIONAL INDICATOR SYMBOL LETTERS ME 
-:::flag_me::🇲🇪
-:::flag me::🇲🇪
-; REGIONAL INDICATOR SYMBOL LETTERS MF 
-:::flag_mf::🇲🇫
-:::flag mf::🇲🇫
-; REGIONAL INDICATOR SYMBOL LETTERS MG 
-:::flag_mg::🇲🇬
-:::flag mg::🇲🇬
-; REGIONAL INDICATOR SYMBOL LETTERS MH 
-:::flag_mh::🇲🇭
-:::flag mh::🇲🇭
-; REGIONAL INDICATOR SYMBOL LETTERS MK 
-:::flag_mk::🇲🇰
-:::flag mk::🇲🇰
-; REGIONAL INDICATOR SYMBOL LETTERS ML 
-:::flag_ml::🇲🇱
-:::flag ml::🇲🇱
-; REGIONAL INDICATOR SYMBOL LETTERS MM 
-:::flag_mm::🇲🇲
-:::flag mm::🇲🇲
-; REGIONAL INDICATOR SYMBOL LETTERS MN 
-:::flag_mn::🇲🇳
-:::flag mn::🇲🇳
-; REGIONAL INDICATOR SYMBOL LETTERS MO 
-:::flag_mo::🇲🇴
-:::flag mo::🇲🇴
-; REGIONAL INDICATOR SYMBOL LETTERS MP 
-:::flag_mp::🇲🇵
-:::flag mp::🇲🇵
-; REGIONAL INDICATOR SYMBOL LETTERS MQ 
-:::flag_mq::🇲🇶
-:::flag mq::🇲🇶
-; REGIONAL INDICATOR SYMBOL LETTERS MR 
-:::flag_mr::🇲🇷
-:::flag mr::🇲🇷
-; REGIONAL INDICATOR SYMBOL LETTERS MS 
-:::flag_ms::🇲🇸
-:::flag ms::🇲🇸
-; REGIONAL INDICATOR SYMBOL LETTERS MT 
-:::flag_mt::🇲🇹
-:::flag mt::🇲🇹
-; REGIONAL INDICATOR SYMBOL LETTERS MU 
-:::flag_mu::🇲🇺
-:::flag mu::🇲🇺
-; REGIONAL INDICATOR SYMBOL LETTERS MV 
-:::flag_mv::🇲🇻
-:::flag mv::🇲🇻
-; REGIONAL INDICATOR SYMBOL LETTERS MW 
-:::flag_mw::🇲🇼
-:::flag mw::🇲🇼
-; REGIONAL INDICATOR SYMBOL LETTERS MX 
-:::flag_mx::🇲🇽
-:::flag mx::🇲🇽
-; REGIONAL INDICATOR SYMBOL LETTERS MY 
-:::flag_my::🇲🇾
-:::flag my::🇲🇾
-; REGIONAL INDICATOR SYMBOL LETTERS MZ 
-:::flag_mz::🇲🇿
-:::flag mz::🇲🇿
-; REGIONAL INDICATOR SYMBOL LETTERS NA 
-:::flag_na::🇳🇦
-:::flag na::🇳🇦
-; REGIONAL INDICATOR SYMBOL LETTERS NC 
-:::flag_nc::🇳🇨
-:::flag nc::🇳🇨
-; REGIONAL INDICATOR SYMBOL LETTERS NE 
-:::flag_ne::🇳🇪
-:::flag ne::🇳🇪
-; REGIONAL INDICATOR SYMBOL LETTERS NF 
-:::flag_nf::🇳🇫
-:::flag nf::🇳🇫
-; REGIONAL INDICATOR SYMBOL LETTERS NG 
-:::flag_ng::🇳🇬
-:::flag ng::🇳🇬
-; REGIONAL INDICATOR SYMBOL LETTERS NI 
-:::flag_ni::🇳🇮
-:::flag ni::🇳🇮
-; REGIONAL INDICATOR SYMBOL LETTERS NL 
-:::flag_nl::🇳🇱
-:::flag nl::🇳🇱
-; REGIONAL INDICATOR SYMBOL LETTERS NO 
-:::flag_no::🇳🇴
-:::flag no::🇳🇴
-; REGIONAL INDICATOR SYMBOL LETTERS NP 
-:::flag_np::🇳🇵
-:::flag np::🇳🇵
-; REGIONAL INDICATOR SYMBOL LETTERS NR 
-:::flag_nr::🇳🇷
-:::flag nr::🇳🇷
-; REGIONAL INDICATOR SYMBOL LETTERS NU 
-:::flag_nu::🇳🇺
-:::flag nu::🇳🇺
-; REGIONAL INDICATOR SYMBOL LETTERS NZ 
-:::flag_nz::🇳🇿
-:::flag nz::🇳🇿
-; REGIONAL INDICATOR SYMBOL LETTERS OM 
-:::flag_om::🇴🇲
-:::flag om::🇴🇲
-; REGIONAL INDICATOR SYMBOL LETTERS PA 
-:::flag_pa::🇵🇦
-:::flag pa::🇵🇦
-; REGIONAL INDICATOR SYMBOL LETTERS PE 
-:::flag_pe::🇵🇪
-:::flag pe::🇵🇪
-; REGIONAL INDICATOR SYMBOL LETTERS PF 
-:::flag_pf::🇵🇫
-:::flag pf::🇵🇫
-; REGIONAL INDICATOR SYMBOL LETTERS PG 
-:::flag_pg::🇵🇬
-:::flag pg::🇵🇬
-; REGIONAL INDICATOR SYMBOL LETTERS PH 
-:::flag_ph::🇵🇭
-:::flag ph::🇵🇭
-; REGIONAL INDICATOR SYMBOL LETTERS PK 
-:::flag_pk::🇵🇰
-:::flag pk::🇵🇰
-; REGIONAL INDICATOR SYMBOL LETTERS PL 
-:::flag_pl::🇵🇱
-:::flag pl::🇵🇱
-; REGIONAL INDICATOR SYMBOL LETTERS PM 
-:::flag_pm::🇵🇲
-:::flag pm::🇵🇲
-; REGIONAL INDICATOR SYMBOL LETTERS PN 
-:::flag_pn::🇵🇳
-:::flag pn::🇵🇳
-; REGIONAL INDICATOR SYMBOL LETTERS PR 
-:::flag_pr::🇵🇷
-:::flag pr::🇵🇷
-; REGIONAL INDICATOR SYMBOL LETTERS PS 
-:::flag_ps::🇵🇸
-:::flag ps::🇵🇸
-; REGIONAL INDICATOR SYMBOL LETTERS PT 
-:::flag_pt::🇵🇹
-:::flag pt::🇵🇹
-; REGIONAL INDICATOR SYMBOL LETTERS PW 
-:::flag_pw::🇵🇼
-:::flag pw::🇵🇼
-; REGIONAL INDICATOR SYMBOL LETTERS PY 
-:::flag_py::🇵🇾
-:::flag py::🇵🇾
-; REGIONAL INDICATOR SYMBOL LETTERS QA 
-:::flag_qa::🇶🇦
-:::flag qa::🇶🇦
-; REGIONAL INDICATOR SYMBOL LETTERS RE 
-:::flag_re::🇷🇪
-:::flag re::🇷🇪
-; REGIONAL INDICATOR SYMBOL LETTERS RO 
-:::flag_ro::🇷🇴
-:::flag ro::🇷🇴
-; REGIONAL INDICATOR SYMBOL LETTERS RS 
-:::flag_rs::🇷🇸
-:::flag rs::🇷🇸
-; REGIONAL INDICATOR SYMBOL LETTERS RU 
-:::flag_ru::🇷🇺
-:::flag ru::🇷🇺
-; REGIONAL INDICATOR SYMBOL LETTERS RW 
-:::flag_rw::🇷🇼
-:::flag rw::🇷🇼
-; REGIONAL INDICATOR SYMBOL LETTERS SA 
-:::flag_sa::🇸🇦
-:::flag sa::🇸🇦
-; REGIONAL INDICATOR SYMBOL LETTERS SB 
-:::flag_sb::🇸🇧
-:::flag sb::🇸🇧
-; REGIONAL INDICATOR SYMBOL LETTERS SC 
-:::flag_sc::🇸🇨
-:::flag sc::🇸🇨
-; REGIONAL INDICATOR SYMBOL LETTERS SD 
-:::flag_sd::🇸🇩
-:::flag sd::🇸🇩
-; REGIONAL INDICATOR SYMBOL LETTERS SE 
-:::flag_se::🇸🇪
-:::flag se::🇸🇪
-; REGIONAL INDICATOR SYMBOL LETTERS SG 
-:::flag_sg::🇸🇬
-:::flag sg::🇸🇬
-; REGIONAL INDICATOR SYMBOL LETTERS SH 
-:::flag_sh::🇸🇭
-:::flag sh::🇸🇭
-; REGIONAL INDICATOR SYMBOL LETTERS SI 
-:::flag_si::🇸🇮
-:::flag si::🇸🇮
-; REGIONAL INDICATOR SYMBOL LETTERS SJ 
-:::flag_sj::🇸🇯
-:::flag sj::🇸🇯
-; REGIONAL INDICATOR SYMBOL LETTERS SK 
-:::flag_sk::🇸🇰
-:::flag sk::🇸🇰
-; REGIONAL INDICATOR SYMBOL LETTERS SL 
-:::flag_sl::🇸🇱
-:::flag sl::🇸🇱
-; REGIONAL INDICATOR SYMBOL LETTERS SM 
-:::flag_sm::🇸🇲
-:::flag sm::🇸🇲
-; REGIONAL INDICATOR SYMBOL LETTERS SN 
-:::flag_sn::🇸🇳
-:::flag sn::🇸🇳
-; REGIONAL INDICATOR SYMBOL LETTERS SO 
-:::flag_so::🇸🇴
-:::flag so::🇸🇴
-; REGIONAL INDICATOR SYMBOL LETTERS SR 
-:::flag_sr::🇸🇷
-:::flag sr::🇸🇷
-; REGIONAL INDICATOR SYMBOL LETTERS SS 
-:::flag_ss::🇸🇸
-:::flag ss::🇸🇸
-; REGIONAL INDICATOR SYMBOL LETTERS ST 
-:::flag_st::🇸🇹
-:::flag st::🇸🇹
-; REGIONAL INDICATOR SYMBOL LETTERS SV 
-:::flag_sv::🇸🇻
-:::flag sv::🇸🇻
-; REGIONAL INDICATOR SYMBOL LETTERS SX 
-:::flag_sx::🇸🇽
-:::flag sx::🇸🇽
-; REGIONAL INDICATOR SYMBOL LETTERS SY 
-:::flag_sy::🇸🇾
-:::flag sy::🇸🇾
-; REGIONAL INDICATOR SYMBOL LETTERS SZ 
-:::flag_sz::🇸🇿
-:::flag sz::🇸🇿
-; REGIONAL INDICATOR SYMBOL LETTERS TA 
-:::flag_ta::🇹🇦
-:::flag ta::🇹🇦
-; REGIONAL INDICATOR SYMBOL LETTERS TC 
-:::flag_tc::🇹🇨
-:::flag tc::🇹🇨
-; REGIONAL INDICATOR SYMBOL LETTERS TD 
-:::flag_td::🇹🇩
-:::flag td::🇹🇩
-; REGIONAL INDICATOR SYMBOL LETTERS TF 
-:::flag_tf::🇹🇫
-:::flag tf::🇹🇫
-; REGIONAL INDICATOR SYMBOL LETTERS TG 
-:::flag_tg::🇹🇬
-:::flag tg::🇹🇬
-; REGIONAL INDICATOR SYMBOL LETTERS TH 
-:::flag_th::🇹🇭
-:::flag th::🇹🇭
-; REGIONAL INDICATOR SYMBOL LETTERS TJ 
-:::flag_tj::🇹🇯
-:::flag tj::🇹🇯
-; REGIONAL INDICATOR SYMBOL LETTERS TK 
-:::flag_tk::🇹🇰
-:::flag tk::🇹🇰
-; REGIONAL INDICATOR SYMBOL LETTERS TL 
-:::flag_tl::🇹🇱
-:::flag tl::🇹🇱
-; REGIONAL INDICATOR SYMBOL LETTERS TM 
-:::flag_tm::🇹🇲
-:::flag tm::🇹🇲
-; REGIONAL INDICATOR SYMBOL LETTERS TN 
-:::flag_tn::🇹🇳
-:::flag tn::🇹🇳
-; REGIONAL INDICATOR SYMBOL LETTERS TO 
-:::flag_to::🇹🇴
-:::flag to::🇹🇴
-; REGIONAL INDICATOR SYMBOL LETTERS TR 
-:::flag_tr::🇹🇷
-:::flag tr::🇹🇷
-; REGIONAL INDICATOR SYMBOL LETTERS TT 
-:::flag_tt::🇹🇹
-:::flag tt::🇹🇹
-; REGIONAL INDICATOR SYMBOL LETTERS TV 
-:::flag_tv::🇹🇻
-:::flag tv::🇹🇻
-; REGIONAL INDICATOR SYMBOL LETTERS TW 
-:::flag_tw::🇹🇼
-:::flag tw::🇹🇼
-; REGIONAL INDICATOR SYMBOL LETTERS TZ 
-:::flag_tz::🇹🇿
-:::flag tz::🇹🇿
-; REGIONAL INDICATOR SYMBOL LETTERS UA 
-:::flag_ua::🇺🇦
-:::flag ua::🇺🇦
-; REGIONAL INDICATOR SYMBOL LETTERS UG 
-:::flag_ug::🇺🇬
-:::flag ug::🇺🇬
-; REGIONAL INDICATOR SYMBOL LETTERS UM 
-:::flag_um::🇺🇲
-:::flag um::🇺🇲
-; REGIONAL INDICATOR SYMBOL LETTERS UN 
-:::flag_un::🇺🇳
-:::flag un::🇺🇳
-; REGIONAL INDICATOR SYMBOL LETTERS US 
-:::flag_us::🇺🇸
-:::flag us::🇺🇸
-; REGIONAL INDICATOR SYMBOL LETTERS UY 
-:::flag_uy::🇺🇾
-:::flag uy::🇺🇾
-; REGIONAL INDICATOR SYMBOL LETTERS UZ 
-:::flag_uz::🇺🇿
-:::flag uz::🇺🇿
-; REGIONAL INDICATOR SYMBOL LETTERS VA 
-:::flag_va::🇻🇦
-:::flag va::🇻🇦
-; REGIONAL INDICATOR SYMBOL LETTERS VC 
-:::flag_vc::🇻🇨
-:::flag vc::🇻🇨
-; REGIONAL INDICATOR SYMBOL LETTERS VE 
-:::flag_ve::🇻🇪
-:::flag ve::🇻🇪
-; REGIONAL INDICATOR SYMBOL LETTERS VG 
-:::flag_vg::🇻🇬
-:::flag vg::🇻🇬
-; REGIONAL INDICATOR SYMBOL LETTERS VI 
-:::flag_vi::🇻🇮
-:::flag vi::🇻🇮
-; REGIONAL INDICATOR SYMBOL LETTERS VN 
-:::flag_vn::🇻🇳
-:::flag vn::🇻🇳
-; REGIONAL INDICATOR SYMBOL LETTERS VU 
-:::flag_vu::🇻🇺
-:::flag vu::🇻🇺
-; REGIONAL INDICATOR SYMBOL LETTERS WF 
-:::flag_wf::🇼🇫
-:::flag wf::🇼🇫
-; REGIONAL INDICATOR SYMBOL LETTERS WS 
-:::flag_ws::🇼🇸
-:::flag ws::🇼🇸
-; REGIONAL INDICATOR SYMBOL LETTERS XK 
-:::flag_xk::🇽🇰
-:::flag xk::🇽🇰
-; REGIONAL INDICATOR SYMBOL LETTERS YE 
-:::flag_ye::🇾🇪
-:::flag ye::🇾🇪
-; REGIONAL INDICATOR SYMBOL LETTERS YT 
-:::flag_yt::🇾🇹
-:::flag yt::🇾🇹
-; REGIONAL INDICATOR SYMBOL LETTERS ZA 
-:::flag_za::🇿🇦
-:::flag za::🇿🇦
-; REGIONAL INDICATOR SYMBOL LETTERS ZM 
-:::flag_zm::🇿🇲
-:::flag zm::🇿🇲
-; REGIONAL INDICATOR SYMBOL LETTERS ZW 
-:::flag_zw::🇿🇼
-:::flag zw::🇿🇼
-; MALE FARMER 
-:::male_farmer::👨‍🌾
-:::male farmer::👨‍🌾
-; MALE COOK 
-:::male_cook::👨‍🍳
-:::male cook::👨‍🍳
-; MALE STUDENT 
-:::male_student::👨‍🎓
-:::male student::👨‍🎓
-; MALE SINGER 
-:::male_singer::👨‍🎤
-:::male singer::👨‍🎤
-; MALE ARTIST 
-:::male_artist::👨‍🎨
-:::male artist::👨‍🎨
-; MALE TEACHER 
-:::male_teacher::👨‍🏫
-:::male teacher::👨‍🏫
-; MALE FACTORY WORKER 
-:::male_factory_worker::👨‍🏭
-:::male factory worker::👨‍🏭
-; MAN BOY 
-:::man_boy::👨‍👦
-:::man boy::👨‍👦
-; MAN GIRL 
-:::man_girl::👨‍👧
-:::man girl::👨‍👧
-; MALE TECHNOLOGIST 
-:::male_technologist::👨‍💻
-:::male technologist::👨‍💻
-; MALE OFFICE WORKER 
-:::male_office_worker::👨‍💼
-:::male office worker::👨‍💼
-; MALE MECHANIC 
-:::male_mechanic::👨‍🔧
-:::male mechanic::👨‍🔧
-; MALE SCIENTIST 
-:::male_scientist::👨‍🔬
-:::male scientist::👨‍🔬
-; MALE ASTRONAUT 
-:::male_astronaut::👨‍🚀
-:::male astronaut::👨‍🚀
-; MALE FIREFIGHTER 
-:::male_firefighter::👨‍🚒
-:::male firefighter::👨‍🚒
-; FEMALE FARMER 
-:::female_farmer::👩‍🌾
-:::female farmer::👩‍🌾
-; FEMALE COOK 
-:::female_cook::👩‍🍳
-:::female cook::👩‍🍳
-; FEMALE STUDENT 
-:::female_student::👩‍🎓
-:::female student::👩‍🎓
-; FEMALE SINGER 
-:::female_singer::👩‍🎤
-:::female singer::👩‍🎤
-; FEMALE ARTIST 
-:::female_artist::👩‍🎨
-:::female artist::👩‍🎨
-; FEMALE TEACHER 
-:::female_teacher::👩‍🏫
-:::female teacher::👩‍🏫
-; FEMALE FACTORY WORKER 
-:::female_factory_worker::👩‍🏭
-:::female factory worker::👩‍🏭
-; WOMAN BOY 
-:::woman_boy::👩‍👦
-:::woman boy::👩‍👦
-; WOMAN GIRL 
-:::woman_girl::👩‍👧
-:::woman girl::👩‍👧
-; FEMALE TECHNOLOGIST 
-:::female_technologist::👩‍💻
-:::female technologist::👩‍💻
-; FEMALE OFFICE WORKER 
-:::female_office_worker::👩‍💼
-:::female office worker::👩‍💼
-; FEMALE MECHANIC 
-:::female_mechanic::👩‍🔧
-:::female mechanic::👩‍🔧
-; FEMALE SCIENTIST 
-:::female_scientist::👩‍🔬
-:::female scientist::👩‍🔬
-; FEMALE ASTRONAUT 
-:::female_astronaut::👩‍🚀
-:::female astronaut::👩‍🚀
-; FEMALE FIREFIGHTER 
-:::female_firefighter::👩‍🚒
-:::female firefighter::👩‍🚒
-; WOMAN RUNNING 
-:::woman_running::🏃‍♀️
-:::woman running::🏃‍♀️
-; MAN RUNNING 
-:::man_running::🏃‍♂️
-:::man running::🏃‍♂️
-; WOMAN SURFING 
-:::woman_surfing::🏄‍♀️
-:::woman surfing::🏄‍♀️
-; MAN SURFING 
-:::man_surfing::🏄‍♂️
-:::man surfing::🏄‍♂️
-; WOMAN SWIMMING 
-:::woman_swimming::🏊‍♀️
-:::woman swimming::🏊‍♀️
-; MAN SWIMMING 
-:::man_swimming::🏊‍♂️
-:::man swimming::🏊‍♂️
-; WOMAN LIFTING WEIGHTS 
-:::woman_lifting_weights::🏋️‍♀️
-:::woman lifting weights::🏋️‍♀️
-; MAN LIFTING WEIGHTS 
-:::man_lifting_weights::🏋️‍♂️
-:::man lifting weights::🏋️‍♂️
-; WOMAN GOLFING 
-:::woman_golfing::🏌️‍♀️
-:::woman golfing::🏌️‍♀️
-; MAN GOLFING 
-:::man_golfing::🏌️‍♂️
-:::man golfing::🏌️‍♂️
-; RAINBOW FLAG 
-:::rainbow_flag::🏳️‍🌈
-:::rainbow flag::🏳️‍🌈
-; EYE IN SPEECH BUBBLE 
-:::eye_in_speech_bubble::👁️‍🗨️
-:::eye in speech bubble::👁️‍🗨️
-; MAN BOY BOY 
-:::man_boy_boy::👨‍👦‍👦
-:::man boy boy::👨‍👦‍👦
-; MAN GIRL BOY 
-:::man_girl_boy::👨‍👧‍👦
-:::man girl boy::👨‍👧‍👦
-; MAN GIRL GIRL 
-:::man_girl_girl::👨‍👧‍👧
-:::man girl girl::👨‍👧‍👧
-; MAN MAN BOY 
-:::man_man_boy::👨‍👨‍👦
-:::man man boy::👨‍👨‍👦
-; MAN MAN BOY BOY 
-:::man_man_boy_boy::👨‍👨‍👦‍👦
-:::man man boy boy::👨‍👨‍👦‍👦
-; MAN MAN GIRL 
-:::man_man_girl::👨‍👨‍👧
-:::man man girl::👨‍👨‍👧
-; MAN MAN GIRL BOY 
-:::man_man_girl_boy::👨‍👨‍👧‍👦
-:::man man girl boy::👨‍👨‍👧‍👦
-; MAN MAN GIRL GIRL 
-:::man_man_girl_girl::👨‍👨‍👧‍👧
-:::man man girl girl::👨‍👨‍👧‍👧
-; MAN WOMAN BOY 
-:::man_woman_boy::👨‍👩‍👦
-:::man woman boy::👨‍👩‍👦
-; MAN WOMAN BOY BOY 
-:::man_woman_boy_boy::👨‍👩‍👦‍👦
-:::man woman boy boy::👨‍👩‍👦‍👦
-; MAN WOMAN GIRL 
-:::man_woman_girl::👨‍👩‍👧
-:::man woman girl::👨‍👩‍👧
-; MAN WOMAN GIRL BOY 
-:::man_woman_girl_boy::👨‍👩‍👧‍👦
-:::man woman girl boy::👨‍👩‍👧‍👦
-; MAN WOMAN GIRL GIRL 
-:::man_woman_girl_girl::👨‍👩‍👧‍👧
-:::man woman girl girl::👨‍👩‍👧‍👧
-; MALE DOCTOR 
-:::male_doctor::👨‍⚕️
-:::male doctor::👨‍⚕️
-; MALE JUDGE 
-:::male_judge::👨‍⚖️
-:::male judge::👨‍⚖️
-; MALE PILOT 
-:::male_pilot::👨‍✈️
-:::male pilot::👨‍✈️
-; MAN HEART MAN 
-:::man_heart_man::👨‍❤️‍👨
-:::man heart man::👨‍❤️‍👨
-; MAN KISS MAN 
-:::man_kiss_man::👨‍❤️‍💋‍👨
-:::man kiss man::👨‍❤️‍💋‍👨
-; WOMAN BOY BOY 
-:::woman_boy_boy::👩‍👦‍👦
-:::woman boy boy::👩‍👦‍👦
-; WOMAN GIRL BOY 
-:::woman_girl_boy::👩‍👧‍👦
-:::woman girl boy::👩‍👧‍👦
-; WOMAN GIRL GIRL 
-:::woman_girl_girl::👩‍👧‍👧
-:::woman girl girl::👩‍👧‍👧
-; WOMAN WOMAN BOY 
-:::woman_woman_boy::👩‍👩‍👦
-:::woman woman boy::👩‍👩‍👦
-; WOMAN WOMAN BOY BOY 
-:::woman_woman_boy_boy::👩‍👩‍👦‍👦
-:::woman woman boy boy::👩‍👩‍👦‍👦
-; WOMAN WOMAN GIRL 
-:::woman_woman_girl::👩‍👩‍👧
-:::woman woman girl::👩‍👩‍👧
-; WOMAN WOMAN GIRL BOY 
-:::woman_woman_girl_boy::👩‍👩‍👧‍👦
-:::woman woman girl boy::👩‍👩‍👧‍👦
-; WOMAN WOMAN GIRL GIRL 
-:::woman_woman_girl_girl::👩‍👩‍👧‍👧
-:::woman woman girl girl::👩‍👩‍👧‍👧
-; FEMALE DOCTOR 
-:::female_doctor::👩‍⚕️
-:::female doctor::👩‍⚕️
-; FEMALE JUDGE 
-:::female_judge::👩‍⚖️
-:::female judge::👩‍⚖️
-; FEMALE PILOT 
-:::female_pilot::👩‍✈️
-:::female pilot::👩‍✈️
-; WOMAN HEART MAN 
-:::woman_heart_man::👩‍❤️‍👨
-:::woman heart man::👩‍❤️‍👨
-; WOMAN HEART WOMAN 
-:::woman_heart_woman::👩‍❤️‍👩
-:::woman heart woman::👩‍❤️‍👩
-; WOMAN KISS MAN 
-:::woman_kiss_man::👩‍❤️‍💋‍👨
-:::woman kiss man::👩‍❤️‍💋‍👨
-; WOMAN KISS WOMAN 
-:::woman_kiss_woman::👩‍❤️‍💋‍👩
-:::woman kiss woman::👩‍❤️‍💋‍👩
-; FEMALE POLICE OFFICER 
-:::female_police_officer::👮‍♀️
-:::female police officer::👮‍♀️
-; MALE POLICE OFFICER 
-:::male_police_officer::👮‍♂️
-:::male police officer::👮‍♂️
-; WOMAN WITH BUNNY EARS PARTYING 
-:::woman_with_bunny_ears_partying::👯‍♀️
-:::woman with bunny ears partying::👯‍♀️
-; MAN WITH BUNNY EARS PARTYING 
-:::man_with_bunny_ears_partying::👯‍♂️
-:::man with bunny ears partying::👯‍♂️
-; BLOND HAIRED WOMAN 
-:::blond_haired_woman::👱‍♀️
-:::blond haired woman::👱‍♀️
-; BLOND HAIRED MAN 
-:::blond_haired_man::👱‍♂️
-:::blond haired man::👱‍♂️
-; WOMAN WEARING TURBAN 
-:::woman_wearing_turban::👳‍♀️
-:::woman wearing turban::👳‍♀️
-; MAN WEARING TURBAN 
-:::man_wearing_turban::👳‍♂️
-:::man wearing turban::👳‍♂️
-; FEMALE CONSTRUCTION WORKER 
-:::female_construction_worker::👷‍♀️
-:::female construction worker::👷‍♀️
-; MALE CONSTRUCTION WORKER 
-:::male_construction_worker::👷‍♂️
-:::male construction worker::👷‍♂️
-; WOMAN TIPPING HAND 
-:::woman_tipping_hand::💁‍♀️
-:::woman tipping hand::💁‍♀️
-; MAN TIPPING HAND 
-:::man_tipping_hand::💁‍♂️
-:::man tipping hand::💁‍♂️
-; FEMALE GUARD 
-:::female_guard::💂‍♀️
-:::female guard::💂‍♀️
-; MALE GUARD 
-:::male_guard::💂‍♂️
-:::male guard::💂‍♂️
-; WOMAN GETTING MASSAGE 
-:::woman_getting_massage::💆‍♀️
-:::woman getting massage::💆‍♀️
-; MAN GETTING MASSAGE 
-:::man_getting_massage::💆‍♂️
-:::man getting massage::💆‍♂️
-; WOMAN GETTING HAIRCUT 
-:::woman_getting_haircut::💇‍♀️
-:::woman getting haircut::💇‍♀️
-; MAN GETTING HAIRCUT 
-:::man_getting_haircut::💇‍♂️
-:::man getting haircut::💇‍♂️
-; FEMALE DETECTIVE 
-:::female_detective::🕵️‍♀️
-:::female detective::🕵️‍♀️
-; MALE DETECTIVE 
-:::male_detective::🕵️‍♂️
-:::male detective::🕵️‍♂️
-; WOMAN GESTURING NO 
-:::woman_gesturing_no::🙅‍♀️
-:::woman gesturing no::🙅‍♀️
-; MAN GESTURING NO 
-:::man_gesturing_no::🙅‍♂️
-:::man gesturing no::🙅‍♂️
-; WOMAN GESTURING OK 
-:::woman_gesturing_ok::🙆‍♀️
-:::woman gesturing ok::🙆‍♀️
-; MAN GESTURING OK 
-:::man_gesturing_ok::🙆‍♂️
-:::man gesturing ok::🙆‍♂️
-; WOMAN BOWING 
-:::woman_bowing::🙇‍♀️
-:::woman bowing::🙇‍♀️
-; MAN BOWING 
-:::man_bowing::🙇‍♂️
-:::man bowing::🙇‍♂️
-; WOMAN RAISING HAND 
-:::woman_raising_hand::🙋‍♀️
-:::woman raising hand::🙋‍♀️
-; MAN RAISING HAND 
-:::man_raising_hand::🙋‍♂️
-:::man raising hand::🙋‍♂️
-; WOMAN FROWNING 
-:::woman_frowning::🙍‍♀️
-:::woman frowning::🙍‍♀️
-; MAN FROWNING 
-:::man_frowning::🙍‍♂️
-:::man frowning::🙍‍♂️
-; WOMAN POUTING 
-:::woman_pouting::🙎‍♀️
-:::woman pouting::🙎‍♀️
-; MAN POUTING 
-:::man_pouting::🙎‍♂️
-:::man pouting::🙎‍♂️
-; WOMAN ROWING BOAT 
-:::woman_rowing_boat::🚣‍♀️
-:::woman rowing boat::🚣‍♀️
-; MAN ROWING BOAT 
-:::man_rowing_boat::🚣‍♂️
-:::man rowing boat::🚣‍♂️
-; WOMAN BIKING 
-:::woman_biking::🚴‍♀️
-:::woman biking::🚴‍♀️
-; MAN BIKING 
-:::man_biking::🚴‍♂️
-:::man biking::🚴‍♂️
-; WOMAN MOUNTAIN BIKING 
-:::woman_mountain_biking::🚵‍♀️
-:::woman mountain biking::🚵‍♀️
-; MAN MOUNTAIN BIKING 
-:::man_mountain_biking::🚵‍♂️
-:::man mountain biking::🚵‍♂️
-; WOMAN WALKING 
-:::woman_walking::🚶‍♀️
-:::woman walking::🚶‍♀️
-; MAN WALKING 
-:::man_walking::🚶‍♂️
-:::man walking::🚶‍♂️
-; WOMAN FACEPALMING 
-:::woman_facepalming::🤦‍♀️
-:::woman facepalming::🤦‍♀️
-; MAN FACEPALMING 
-:::man_facepalming::🤦‍♂️
-:::man facepalming::🤦‍♂️
-; WOMAN SHRUGGING 
-:::woman_shrugging::🤷‍♀️
-:::woman shrugging::🤷‍♀️
-; MAN SHRUGGING 
-:::man_shrugging::🤷‍♂️
-:::man shrugging::🤷‍♂️
-; WOMAN CARTWHEELING 
-:::woman_cartwheeling::🤸‍♀️
-:::woman cartwheeling::🤸‍♀️
-; MAN CARTWHEELING 
-:::man_cartwheeling::🤸‍♂️
-:::man cartwheeling::🤸‍♂️
-; WOMAN JUGGLING 
-:::woman_juggling::🤹‍♀️
-:::woman juggling::🤹‍♀️
-; MAN JUGGLING 
-:::man_juggling::🤹‍♂️
-:::man juggling::🤹‍♂️
-; WOMAN WRESTLING 
-:::woman_wrestling::🤼‍♀️
-:::woman wrestling::🤼‍♀️
-; MAN WRESTLING 
-:::man_wrestling::🤼‍♂️
-:::man wrestling::🤼‍♂️
-; WOMAN PLAYING WATER POLO 
-:::woman_playing_water_polo::🤽‍♀️
-:::woman playing water polo::🤽‍♀️
-; MAN PLAYING WATER POLO 
-:::man_playing_water_polo::🤽‍♂️
-:::man playing water polo::🤽‍♂️
-; WOMAN PLAYING HANDBALL 
-:::woman_playing_handball::🤾‍♀️
-:::woman playing handball::🤾‍♀️
-; MAN PLAYING HANDBALL 
-:::man_playing_handball::🤾‍♂️
-:::man playing handball::🤾‍♂️
+; CUPCAKE 
+:::cupcake::🧁
+; SALT SHAKER 
+:::salt::🧂
+; BEVERAGE BOX 
+:::beverage_box::🧃
+:::beverage box::🧃
+; GARLIC 
+:::garlic::🧄
+; ONION 
+:::onion::🧅
+; FALAFEL 
+:::falafel::🧆
+; WAFFLE 
+:::waffle::🧇
+; BUTTER 
+:::butter::🧈
+; MATE DRINK 
+:::mate_drink::🧉
+:::mate drink::🧉
+; ICE CUBE 
+:::ice_cube::🧊
+:::ice cube::🧊
+; BUBBLE TEA 
+:::bubble_tea::🧋
+:::bubble tea::🧋
+; WOMAN STANDING 
+:::woman_standing::🧍‍♀️
+:::woman standing::🧍‍♀️
+; MAN STANDING 
+:::man_standing::🧍‍♂️
+:::man standing::🧍‍♂️
+; STANDING PERSON 
+:::standing_person::🧍
+:::standing person::🧍
+; WOMAN KNEELING 
+:::woman_kneeling::🧎‍♀️
+:::woman kneeling::🧎‍♀️
+; MAN KNEELING 
+:::man_kneeling::🧎‍♂️
+:::man kneeling::🧎‍♂️
+; KNEELING PERSON 
+:::kneeling_person::🧎
+:::kneeling person::🧎
+; DEAF WOMAN 
+:::deaf_woman::🧏‍♀️
+:::deaf woman::🧏‍♀️
+; DEAF MAN 
+:::deaf_man::🧏‍♂️
+:::deaf man::🧏‍♂️
+; DEAF PERSON 
+:::deaf_person::🧏
+:::deaf person::🧏
+; FACE WITH MONOCLE 
+:::face_with_monocle::🧐
+:::face with monocle::🧐
+; FARMER 
+:::farmer::🧑‍🌾
+; COOK 
+:::cook::🧑‍🍳
+; PERSON FEEDING BABY 
+:::person_feeding_baby::🧑‍🍼
+:::person feeding baby::🧑‍🍼
+; MX CLAUS 
+:::mx_claus::🧑‍🎄
+:::mx claus::🧑‍🎄
+; STUDENT 
+:::student::🧑‍🎓
+; SINGER 
+:::singer::🧑‍🎤
+; ARTIST 
+:::artist::🧑‍🎨
+; TEACHER 
+:::teacher::🧑‍🏫
+; FACTORY WORKER 
+:::factory_worker::🧑‍🏭
+:::factory worker::🧑‍🏭
+; TECHNOLOGIST 
+:::technologist::🧑‍💻
+; OFFICE WORKER 
+:::office_worker::🧑‍💼
+:::office worker::🧑‍💼
+; MECHANIC 
+:::mechanic::🧑‍🔧
+; SCIENTIST 
+:::scientist::🧑‍🔬
+; ASTRONAUT 
+:::astronaut::🧑‍🚀
+; FIREFIGHTER 
+:::firefighter::🧑‍🚒
+; PEOPLE HOLDING HANDS 
+:::people_holding_hands::🧑‍🤝‍🧑
+:::people holding hands::🧑‍🤝‍🧑
+; PERSON WITH WHITE CANE 
+:::person_with_probing_cane::🧑‍🦯
+:::person with probing cane::🧑‍🦯
+; PERSON: RED HAIR 
+:::red_haired_person::🧑‍🦰
+:::red haired person::🧑‍🦰
+; PERSON: CURLY HAIR 
+:::curly_haired_person::🧑‍🦱
+:::curly haired person::🧑‍🦱
+; PERSON: BALD 
+:::bald_person::🧑‍🦲
+:::bald person::🧑‍🦲
+; PERSON: WHITE HAIR 
+:::white_haired_person::🧑‍🦳
+:::white haired person::🧑‍🦳
+; PERSON IN MOTORIZED WHEELCHAIR 
+:::person_in_motorized_wheelchair::🧑‍🦼
+:::person in motorized wheelchair::🧑‍🦼
+; PERSON IN MANUAL WHEELCHAIR 
+:::person_in_manual_wheelchair::🧑‍🦽
+:::person in manual wheelchair::🧑‍🦽
+; HEALTH WORKER 
+:::health_worker::🧑‍⚕️
+:::health worker::🧑‍⚕️
+; JUDGE 
+:::judge::🧑‍⚖️
+; PILOT 
+:::pilot::🧑‍✈️
+; ADULT 
+:::adult::🧑
+; CHILD 
+:::child::🧒
+; OLDER ADULT 
+:::older_adult::🧓
+:::older adult::🧓
+; BEARDED PERSON 
+:::bearded_person::🧔
+:::bearded person::🧔
+; PERSON WITH HEADSCARF 
+:::person_with_headscarf::🧕
+:::person with headscarf::🧕
+; WOMAN IN STEAMY ROOM 
+:::woman_in_steamy_room::🧖‍♀️
+:::woman in steamy room::🧖‍♀️
+; MAN IN STEAMY ROOM 
+:::man_in_steamy_room::🧖‍♂️
+:::man in steamy room::🧖‍♂️
+; PERSON IN STEAMY ROOM 
+:::person_in_steamy_room::🧖
+:::person in steamy room::🧖
+; WOMAN CLIMBING 
+:::woman_climbing::🧗‍♀️
+:::woman climbing::🧗‍♀️
+; MAN CLIMBING 
+:::man_climbing::🧗‍♂️
+:::man climbing::🧗‍♂️
+; PERSON CLIMBING 
+:::person_climbing::🧗
+:::person climbing::🧗
+; WOMAN IN LOTUS POSITION 
+:::woman_in_lotus_position::🧘‍♀️
+:::woman in lotus position::🧘‍♀️
+; MAN IN LOTUS POSITION 
+:::man_in_lotus_position::🧘‍♂️
+:::man in lotus position::🧘‍♂️
+; PERSON IN LOTUS POSITION 
+:::person_in_lotus_position::🧘
+:::person in lotus position::🧘
+; WOMAN MAGE 
+:::female_mage::🧙‍♀️
+:::female mage::🧙‍♀️
+; MAN MAGE 
+:::male_mage::🧙‍♂️
+:::male mage::🧙‍♂️
+; MAGE 
+:::mage::🧙
+; WOMAN FAIRY 
+:::female_fairy::🧚‍♀️
+:::female fairy::🧚‍♀️
+; MAN FAIRY 
+:::male_fairy::🧚‍♂️
+:::male fairy::🧚‍♂️
+; FAIRY 
+:::fairy::🧚
+; WOMAN VAMPIRE 
+:::female_vampire::🧛‍♀️
+:::female vampire::🧛‍♀️
+; MAN VAMPIRE 
+:::male_vampire::🧛‍♂️
+:::male vampire::🧛‍♂️
+; VAMPIRE 
+:::vampire::🧛
+; MERMAID 
+:::mermaid::🧜‍♀️
+; MERMAN 
+:::merman::🧜‍♂️
+; MERPERSON 
+:::merperson::🧜
+; WOMAN ELF 
+:::female_elf::🧝‍♀️
+:::female elf::🧝‍♀️
+; MAN ELF 
+:::male_elf::🧝‍♂️
+:::male elf::🧝‍♂️
+; ELF 
+:::elf::🧝
+; WOMAN GENIE 
+:::female_genie::🧞‍♀️
+:::female genie::🧞‍♀️
+; MAN GENIE 
+:::male_genie::🧞‍♂️
+:::male genie::🧞‍♂️
+; GENIE 
+:::genie::🧞
+; WOMAN ZOMBIE 
+:::female_zombie::🧟‍♀️
+:::female zombie::🧟‍♀️
+; MAN ZOMBIE 
+:::male_zombie::🧟‍♂️
+:::male zombie::🧟‍♂️
+; ZOMBIE 
+:::zombie::🧟
+; BRAIN 
+:::brain::🧠
+; ORANGE HEART 
+:::orange_heart::🧡
+:::orange heart::🧡
+; BILLED CAP 
+:::billed_cap::🧢
+:::billed cap::🧢
+; SCARF 
+:::scarf::🧣
+; GLOVES 
+:::gloves::🧤
+; COAT 
+:::coat::🧥
+; SOCKS 
+:::socks::🧦
+; RED GIFT ENVELOPE 
+:::red_envelope::🧧
+:::red envelope::🧧
+; FIRECRACKER 
+:::firecracker::🧨
+; JIGSAW PUZZLE PIECE 
+:::jigsaw::🧩
+; TEST TUBE 
+:::test_tube::🧪
+:::test tube::🧪
+; PETRI DISH 
+:::petri_dish::🧫
+:::petri dish::🧫
+; DNA DOUBLE HELIX 
+:::dna::🧬
+; COMPASS 
+:::compass::🧭
+; ABACUS 
+:::abacus::🧮
+; FIRE EXTINGUISHER 
+:::fire_extinguisher::🧯
+:::fire extinguisher::🧯
+; TOOLBOX 
+:::toolbox::🧰
+; BRICK 
+:::bricks::🧱
+; MAGNET 
+:::magnet::🧲
+; LUGGAGE 
+:::luggage::🧳
+; LOTION BOTTLE 
+:::lotion_bottle::🧴
+:::lotion bottle::🧴
+; SPOOL OF THREAD 
+:::thread::🧵
+; BALL OF YARN 
+:::yarn::🧶
+; SAFETY PIN 
+:::safety_pin::🧷
+:::safety pin::🧷
+; TEDDY BEAR 
+:::teddy_bear::🧸
+:::teddy bear::🧸
+; BROOM 
+:::broom::🧹
+; BASKET 
+:::basket::🧺
+; ROLL OF PAPER 
+:::roll_of_paper::🧻
+:::roll of paper::🧻
+; BAR OF SOAP 
+:::soap::🧼
+; SPONGE 
+:::sponge::🧽
+; RECEIPT 
+:::receipt::🧾
+; NAZAR AMULET 
+:::nazar_amulet::🧿
+:::nazar amulet::🧿
+; BALLET SHOES 
+:::ballet_shoes::🩰
+:::ballet shoes::🩰
+; ONE-PIECE SWIMSUIT 
+:::one_piece_swimsuit::🩱
+:::one piece swimsuit::🩱
+; BRIEFS 
+:::briefs::🩲
+; SHORTS 
+:::shorts::🩳
+; THONG SANDAL 
+:::thong_sandal::🩴
+:::thong sandal::🩴
+; DROP OF BLOOD 
+:::drop_of_blood::🩸
+:::drop of blood::🩸
+; ADHESIVE BANDAGE 
+:::adhesive_bandage::🩹
+:::adhesive bandage::🩹
+; STETHOSCOPE 
+:::stethoscope::🩺
+; YO-YO 
+:::yo_yo::🪀
+:::yo yo::🪀
+; KITE 
+:::kite::🪁
+; PARACHUTE 
+:::parachute::🪂
+; BOOMERANG 
+:::boomerang::🪃
+; MAGIC WAND 
+:::magic_wand::🪄
+:::magic wand::🪄
+; PINATA 
+:::pinata::🪅
+; NESTING DOLLS 
+:::nesting_dolls::🪆
+:::nesting dolls::🪆
+; RINGED PLANET 
+:::ringed_planet::🪐
+:::ringed planet::🪐
+; CHAIR 
+:::chair::🪑
+; RAZOR 
+:::razor::🪒
+; AXE 
+:::axe::🪓
+; DIYA LAMP 
+:::diya_lamp::🪔
+:::diya lamp::🪔
+; BANJO 
+:::banjo::🪕
+; MILITARY HELMET 
+:::military_helmet::🪖
+:::military helmet::🪖
+; ACCORDION 
+:::accordion::🪗
+; LONG DRUM 
+:::long_drum::🪘
+:::long drum::🪘
+; COIN 
+:::coin::🪙
+; CARPENTRY SAW 
+:::carpentry_saw::🪚
+:::carpentry saw::🪚
+; SCREWDRIVER 
+:::screwdriver::🪛
+; LADDER 
+:::ladder::🪜
+; HOOK 
+:::hook::🪝
+; MIRROR 
+:::mirror::🪞
+; WINDOW 
+:::window::🪟
+; PLUNGER 
+:::plunger::🪠
+; SEWING NEEDLE 
+:::sewing_needle::🪡
+:::sewing needle::🪡
+; KNOT 
+:::knot::🪢
+; BUCKET 
+:::bucket::🪣
+; MOUSE TRAP 
+:::mouse_trap::🪤
+:::mouse trap::🪤
+; TOOTHBRUSH 
+:::toothbrush::🪥
+; HEADSTONE 
+:::headstone::🪦
+; PLACARD 
+:::placard::🪧
+; ROCK 
+:::rock::🪨
+; FLY 
+:::fly::🪰
+; WORM 
+:::worm::🪱
+; BEETLE 
+:::beetle::🪲
+; COCKROACH 
+:::cockroach::🪳
+; POTTED PLANT 
+:::potted_plant::🪴
+:::potted plant::🪴
+; WOOD 
+:::wood::🪵
+; FEATHER 
+:::feather::🪶
+; ANATOMICAL HEART 
+:::anatomical_heart::🫀
+:::anatomical heart::🫀
+; LUNGS 
+:::lungs::🫁
+; PEOPLE HUGGING 
+:::people_hugging::🫂
+:::people hugging::🫂
+; BLUEBERRIES 
+:::blueberries::🫐
+; BELL PEPPER 
+:::bell_pepper::🫑
+:::bell pepper::🫑
+; OLIVE 
+:::olive::🫒
+; FLATBREAD 
+:::flatbread::🫓
+; TAMALE 
+:::tamale::🫔
+; FONDUE 
+:::fondue::🫕
+; TEAPOT 
+:::teapot::🫖
+; DOUBLE EXCLAMATION MARK 
+:::bangbang::‼️
+; EXCLAMATION QUESTION MARK 
+:::interrobang::⁉️
+; TRADE MARK SIGN 
+:::tm::™️
+; INFORMATION SOURCE 
+:::information_source::ℹ️
+:::information source::ℹ️
+; LEFT RIGHT ARROW 
+:::left_right_arrow::↔️
+:::left right arrow::↔️
+; UP DOWN ARROW 
+:::arrow_up_down::↕️
+:::arrow up down::↕️
+; NORTH WEST ARROW 
+:::arrow_upper_left::↖️
+:::arrow upper left::↖️
+; NORTH EAST ARROW 
+:::arrow_upper_right::↗️
+:::arrow upper right::↗️
+; SOUTH EAST ARROW 
+:::arrow_lower_right::↘️
+:::arrow lower right::↘️
+; SOUTH WEST ARROW 
+:::arrow_lower_left::↙️
+:::arrow lower left::↙️
+; LEFTWARDS ARROW WITH HOOK 
+:::leftwards_arrow_with_hook::↩️
+:::leftwards arrow with hook::↩️
+; RIGHTWARDS ARROW WITH HOOK 
+:::arrow_right_hook::↪️
+:::arrow right hook::↪️
+; WATCH 
+:::watch::⌚
+; HOURGLASS 
+:::hourglass::⌛
+; KEYBOARD 
+:::keyboard::⌨️
+; EJECT BUTTON 
+:::eject::⏏️
+; NEXT TRACK BUTTON 
+:::fast_forward::⏭️
+:::fast forward::⏭️
+; LAST TRACK BUTTON 
+:::rewind::⏮️
+; BLACK UP-POINTING DOUBLE TRIANGLE 
+:::arrow_double_up::⏫
+:::arrow double up::⏫
+; BLACK DOWN-POINTING DOUBLE TRIANGLE 
+:::arrow_double_down::⏬
+:::arrow double down::⏬
+; NEXT TRACK BUTTON 
+:::black_right_pointing_double_triangle_wi::⏭️
+:::black right pointing double triangle wi::⏭️
+; LAST TRACK BUTTON 
+:::black_left_pointing_double_triangle_wit::⏮️
+:::black left pointing double triangle wit::⏮️
+; PLAY OR PAUSE BUTTON 
+:::black_right_pointing_triangle_with_doub::⏯️
+:::black right pointing triangle with doub::⏯️
+; ALARM CLOCK 
+:::alarm_clock::⏰
+:::alarm clock::⏰
+; STOPWATCH 
+:::stopwatch::⏱️
+; TIMER CLOCK 
+:::timer_clock::⏲️
+:::timer clock::⏲️
+; HOURGLASS WITH FLOWING SAND 
+:::hourglass_flowing_sand::⏳
+:::hourglass flowing sand::⏳
+; PAUSE BUTTON 
+:::double_vertical_bar::⏸️
+:::double vertical bar::⏸️
+; STOP BUTTON 
+:::black_square_for_stop::⏹️
+:::black square for stop::⏹️
+; RECORD BUTTON 
+:::black_circle_for_record::⏺️
+:::black circle for record::⏺️
+; CIRCLED LATIN CAPITAL LETTER M 
+:::m::Ⓜ️
+; BLACK SMALL SQUARE 
+:::black_small_square::▪️
+:::black small square::▪️
+; WHITE SMALL SQUARE 
+:::white_small_square::▫️
+:::white small square::▫️
+; BLACK RIGHT-POINTING TRIANGLE 
+:::arrow_forward::▶️
+:::arrow forward::▶️
+; BLACK LEFT-POINTING TRIANGLE 
+:::arrow_backward::◀️
+:::arrow backward::◀️
+; WHITE MEDIUM SQUARE 
+:::white_medium_square::◻️
+:::white medium square::◻️
+; BLACK MEDIUM SQUARE 
+:::black_medium_square::◼️
+:::black medium square::◼️
+; WHITE MEDIUM SMALL SQUARE 
+:::white_medium_small_square::◽
+:::white medium small square::◽
+; BLACK MEDIUM SMALL SQUARE 
+:::black_medium_small_square::◾
+:::black medium small square::◾
+; BLACK SUN WITH RAYS 
+:::sunny::☀️
+; CLOUD 
+:::cloud::☁️
+; UMBRELLA 
+:::umbrella::☂️
+; SNOWMAN 
+:::snowman::☃️
+; COMET 
+:::comet::☄️
+; BLACK TELEPHONE 
+:::phone::☎️
+; BALLOT BOX WITH CHECK 
+:::ballot_box_with_check::☑️
+:::ballot box with check::☑️
+; UMBRELLA WITH RAIN DROPS 
+:::umbrella_with_rain_drops::☔
+:::umbrella with rain drops::☔
+; HOT BEVERAGE 
+:::coffee::☕
+; SHAMROCK 
+:::shamrock::☘️
+; WHITE UP POINTING INDEX 
+:::point_up::☝️
+:::point up::☝️
+; SKULL AND CROSSBONES 
+:::skull_and_crossbones::☠️
+:::skull and crossbones::☠️
+; RADIOACTIVE 
+:::radioactive_sign::☢️
+:::radioactive sign::☢️
+; BIOHAZARD 
+:::biohazard_sign::☣️
+:::biohazard sign::☣️
+; ORTHODOX CROSS 
+:::orthodox_cross::☦️
+:::orthodox cross::☦️
+; STAR AND CRESCENT 
+:::star_and_crescent::☪️
+:::star and crescent::☪️
+; PEACE SYMBOL 
+:::peace_symbol::☮️
+:::peace symbol::☮️
+; YIN YANG 
+:::yin_yang::☯️
+:::yin yang::☯️
+; WHEEL OF DHARMA 
+:::wheel_of_dharma::☸️
+:::wheel of dharma::☸️
+; FROWNING FACE 
+:::white_frowning_face::☹️
+:::white frowning face::☹️
+; WHITE SMILING FACE 
+:::relaxed::☺️
+; FEMALE SIGN 
+:::female_sign::♀️
+:::female sign::♀️
+; MALE SIGN 
+:::male_sign::♂️
+:::male sign::♂️
+; ARIES 
+:::aries::♈
+; TAURUS 
+:::taurus::♉
+; GEMINI 
+:::gemini::♊
+; CANCER 
+:::cancer::♋
+; LEO 
+:::leo::♌
+; VIRGO 
+:::virgo::♍
+; LIBRA 
+:::libra::♎
+; SCORPIUS 
+:::scorpius::♏
+; SAGITTARIUS 
+:::sagittarius::♐
+; CAPRICORN 
+:::capricorn::♑
+; AQUARIUS 
+:::aquarius::♒
+; PISCES 
+:::pisces::♓
+; CHESS PAWN 
+:::chess_pawn::♟️
+:::chess pawn::♟️
+; BLACK SPADE SUIT 
+:::spades::♠️
+; BLACK CLUB SUIT 
+:::clubs::♣️
+; BLACK HEART SUIT 
+:::hearts::♥️
+; BLACK DIAMOND SUIT 
+:::diamonds::♦️
+; HOT SPRINGS 
+:::hotsprings::♨️
+; BLACK UNIVERSAL RECYCLING SYMBOL 
+:::recycle::♻️
+; INFINITY 
+:::infinity::♾️
+; WHEELCHAIR SYMBOL 
+:::wheelchair::♿
+; HAMMER AND PICK 
+:::hammer_and_pick::⚒️
+:::hammer and pick::⚒️
+; ANCHOR 
+:::anchor::⚓
+; CROSSED SWORDS 
+:::crossed_swords::⚔️
+:::crossed swords::⚔️
+; MEDICAL SYMBOL 
+:::medical_symbol::⚕️
+:::medical symbol::⚕️
+; BALANCE SCALE 
+:::scales::⚖️
+; ALEMBIC 
+:::alembic::⚗️
+; GEAR 
+:::gear::⚙️
+; ATOM SYMBOL 
+:::atom_symbol::⚛️
+:::atom symbol::⚛️
+; FLEUR-DE-LIS 
+:::fleur_de_lis::⚜️
+:::fleur de lis::⚜️
+; WARNING SIGN 
+:::warning::⚠️
+; HIGH VOLTAGE SIGN 
+:::zap::⚡
+; TRANSGENDER SYMBOL 
+:::transgender_symbol::⚧️
+:::transgender symbol::⚧️
+; MEDIUM WHITE CIRCLE 
+:::white_circle::⚪
+:::white circle::⚪
+; MEDIUM BLACK CIRCLE 
+:::black_circle::⚫
+:::black circle::⚫
+; COFFIN 
+:::coffin::⚰️
+; FUNERAL URN 
+:::funeral_urn::⚱️
+:::funeral urn::⚱️
+; SOCCER BALL 
+:::soccer::⚽
+; BASEBALL 
+:::baseball::⚾
+; SNOWMAN WITHOUT SNOW 
+:::snowman_without_snow::⛄
+:::snowman without snow::⛄
+; SUN BEHIND CLOUD 
+:::partly_sunny::⛅
+:::partly sunny::⛅
+; CLOUD WITH LIGHTNING AND RAIN 
+:::thunder_cloud_and_rain::⛈️
+:::thunder cloud and rain::⛈️
+; OPHIUCHUS 
+:::ophiuchus::⛎
+; PICK 
+:::pick::⛏️
+; RESCUE WORKER’S HELMET 
+:::helmet_with_white_cross::⛑️
+:::helmet with white cross::⛑️
+; CHAINS 
+:::chains::⛓️
+; NO ENTRY 
+:::no_entry::⛔
+:::no entry::⛔
+; SHINTO SHRINE 
+:::shinto_shrine::⛩️
+:::shinto shrine::⛩️
+; CHURCH 
+:::church::⛪
+; MOUNTAIN 
+:::mountain::⛰️
+; UMBRELLA ON GROUND 
+:::umbrella_on_ground::⛱️
+:::umbrella on ground::⛱️
+; FOUNTAIN 
+:::fountain::⛲
+; FLAG IN HOLE 
+:::golf::⛳
+; FERRY 
+:::ferry::⛴️
+; SAILBOAT 
+:::boat::⛵
+; SKIER 
+:::skier::⛷️
+; ICE SKATE 
+:::ice_skate::⛸️
+:::ice skate::⛸️
 ; WOMAN BOUNCING BALL 
 :::woman_bouncing_ball::⛹️‍♀️
 :::woman bouncing ball::⛹️‍♀️
 ; MAN BOUNCING BALL 
 :::man_bouncing_ball::⛹️‍♂️
 :::man bouncing ball::⛹️‍♂️
-; BLACK TELEPHONE 
-:::telephone::☎
-; SAILBOAT 
-:::sailboat::⛵
+; PERSON BOUNCING BALL 
+:::person_with_ball::⛹️
+:::person with ball::⛹️
+; TENT 
+:::tent::⛺
+; FUEL PUMP 
+:::fuelpump::⛽
+; BLACK SCISSORS 
+:::scissors::✂️
+; WHITE HEAVY CHECK MARK 
+:::white_check_mark::✅
+:::white check mark::✅
+; AIRPLANE 
+:::airplane::✈️
 ; ENVELOPE 
-:::envelope::✉
+:::email::✉️
+; RAISED FIST 
+:::fist::✊
 ; RAISED HAND 
-:::raised_hand::✋
-:::raised hand::✋
+:::hand::✋
+; VICTORY HAND 
+:::v::✌️
+; WRITING HAND 
+:::writing_hand::✍️
+:::writing hand::✍️
+; PENCIL 
+:::pencil2::✏️
+; BLACK NIB 
+:::black_nib::✒️
+:::black nib::✒️
+; HEAVY CHECK MARK 
+:::heavy_check_mark::✔️
+:::heavy check mark::✔️
+; HEAVY MULTIPLICATION X 
+:::heavy_multiplication_x::✖️
+:::heavy multiplication x::✖️
+; LATIN CROSS 
+:::latin_cross::✝️
+:::latin cross::✝️
+; STAR OF DAVID 
+:::star_of_david::✡️
+:::star of david::✡️
+; SPARKLES 
+:::sparkles::✨
+; EIGHT SPOKED ASTERISK 
+:::eight_spoked_asterisk::✳️
+:::eight spoked asterisk::✳️
+; EIGHT POINTED BLACK STAR 
+:::eight_pointed_black_star::✴️
+:::eight pointed black star::✴️
+; SNOWFLAKE 
+:::snowflake::❄️
+; SPARKLE 
+:::sparkle::❇️
+; CROSS MARK 
+:::x::❌
+; NEGATIVE SQUARED CROSS MARK 
+:::negative_squared_cross_mark::❎
+:::negative squared cross mark::❎
+; BLACK QUESTION MARK ORNAMENT 
+:::question::❓
+; WHITE QUESTION MARK ORNAMENT 
+:::grey_question::❔
+:::grey question::❔
+; WHITE EXCLAMATION MARK ORNAMENT 
+:::grey_exclamation::❕
+:::grey exclamation::❕
 ; HEAVY EXCLAMATION MARK SYMBOL 
-:::heavy_exclamation_mark::❗
-:::heavy exclamation mark::❗
+:::exclamation::❗
+; HEART EXCLAMATION 
+:::heavy_heart_exclamation_mark_ornament::❣️
+:::heavy heart exclamation mark ornament::❣️
+; HEAVY BLACK HEART 
+:::heart::❤️
+; HEAVY PLUS SIGN 
+:::heavy_plus_sign::➕
+:::heavy plus sign::➕
+; HEAVY MINUS SIGN 
+:::heavy_minus_sign::➖
+:::heavy minus sign::➖
+; HEAVY DIVISION SIGN 
+:::heavy_division_sign::➗
+:::heavy division sign::➗
+; BLACK RIGHTWARDS ARROW 
+:::arrow_right::➡️
+:::arrow right::➡️
+; CURLY LOOP 
+:::curly_loop::➰
+:::curly loop::➰
+; DOUBLE CURLY LOOP 
+:::loop::➿
+; ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS 
+:::arrow_heading_up::⤴️
+:::arrow heading up::⤴️
+; ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS 
+:::arrow_heading_down::⤵️
+:::arrow heading down::⤵️
+; LEFTWARDS BLACK ARROW 
+:::arrow_left::⬅️
+:::arrow left::⬅️
+; UPWARDS BLACK ARROW 
+:::arrow_up::⬆️
+:::arrow up::⬆️
+; DOWNWARDS BLACK ARROW 
+:::arrow_down::⬇️
+:::arrow down::⬇️
+; BLACK LARGE SQUARE 
+:::black_large_square::⬛
+:::black large square::⬛
+; WHITE LARGE SQUARE 
+:::white_large_square::⬜
+:::white large square::⬜
+; WHITE MEDIUM STAR 
+:::star::⭐
+; HEAVY LARGE CIRCLE 
+:::o::⭕
+; WAVY DASH 
+:::wavy_dash::〰️
+:::wavy dash::〰️
+; PART ALTERNATION MARK 
+:::part_alternation_mark::〽️
+:::part alternation mark::〽️
+; CIRCLED IDEOGRAPH CONGRATULATION 
+:::congratulations::㊗️
+; CIRCLED IDEOGRAPH SECRET 
+:::secret::㊙️
+; Ascension Island Flag 
+:::flag-ac::🇦🇨
+; Andorra Flag 
+:::flag-ad::🇦🇩
+; United Arab Emirates Flag 
+:::flag-ae::🇦🇪
+; Afghanistan Flag 
+:::flag-af::🇦🇫
+; Antigua & Barbuda Flag 
+:::flag-ag::🇦🇬
+; Anguilla Flag 
+:::flag-ai::🇦🇮
+; Albania Flag 
+:::flag-al::🇦🇱
+; Armenia Flag 
+:::flag-am::🇦🇲
+; Angola Flag 
+:::flag-ao::🇦🇴
+; Antarctica Flag 
+:::flag-aq::🇦🇶
+; Argentina Flag 
+:::flag-ar::🇦🇷
+; American Samoa Flag 
+:::flag-as::🇦🇸
+; Austria Flag 
+:::flag-at::🇦🇹
+; Australia Flag 
+:::flag-au::🇦🇺
+; Aruba Flag 
+:::flag-aw::🇦🇼
+; Åland Islands Flag 
+:::flag-ax::🇦🇽
+; Azerbaijan Flag 
+:::flag-az::🇦🇿
+; Bosnia & Herzegovina Flag 
+:::flag-ba::🇧🇦
+; Barbados Flag 
+:::flag-bb::🇧🇧
+; Bangladesh Flag 
+:::flag-bd::🇧🇩
+; Belgium Flag 
+:::flag-be::🇧🇪
+; Burkina Faso Flag 
+:::flag-bf::🇧🇫
+; Bulgaria Flag 
+:::flag-bg::🇧🇬
+; Bahrain Flag 
+:::flag-bh::🇧🇭
+; Burundi Flag 
+:::flag-bi::🇧🇮
+; Benin Flag 
+:::flag-bj::🇧🇯
+; St. Barthélemy Flag 
+:::flag-bl::🇧🇱
+; Bermuda Flag 
+:::flag-bm::🇧🇲
+; Brunei Flag 
+:::flag-bn::🇧🇳
+; Bolivia Flag 
+:::flag-bo::🇧🇴
+; Caribbean Netherlands Flag 
+:::flag-bq::🇧🇶
+; Brazil Flag 
+:::flag-br::🇧🇷
+; Bahamas Flag 
+:::flag-bs::🇧🇸
+; Bhutan Flag 
+:::flag-bt::🇧🇹
+; Bouvet Island Flag 
+:::flag-bv::🇧🇻
+; Botswana Flag 
+:::flag-bw::🇧🇼
+; Belarus Flag 
+:::flag-by::🇧🇾
+; Belize Flag 
+:::flag-bz::🇧🇿
+; Canada Flag 
+:::flag-ca::🇨🇦
+; Cocos (Keeling) Islands Flag 
+:::flag-cc::🇨🇨
+; Congo - Kinshasa Flag 
+:::flag-cd::🇨🇩
+; Central African Republic Flag 
+:::flag-cf::🇨🇫
+; Congo - Brazzaville Flag 
+:::flag-cg::🇨🇬
+; Switzerland Flag 
+:::flag-ch::🇨🇭
+; Côte d’Ivoire Flag 
+:::flag-ci::🇨🇮
+; Cook Islands Flag 
+:::flag-ck::🇨🇰
+; Chile Flag 
+:::flag-cl::🇨🇱
+; Cameroon Flag 
+:::flag-cm::🇨🇲
+; China Flag 
+:::flag-cn::🇨🇳
+; Colombia Flag 
+:::flag-co::🇨🇴
+; Clipperton Island Flag 
+:::flag-cp::🇨🇵
+; Costa Rica Flag 
+:::flag-cr::🇨🇷
+; Cuba Flag 
+:::flag-cu::🇨🇺
+; Cape Verde Flag 
+:::flag-cv::🇨🇻
+; Curaçao Flag 
+:::flag-cw::🇨🇼
+; Christmas Island Flag 
+:::flag-cx::🇨🇽
+; Cyprus Flag 
+:::flag-cy::🇨🇾
+; Czechia Flag 
+:::flag-cz::🇨🇿
+; Germany Flag 
+:::flag-de::🇩🇪
+; Diego Garcia Flag 
+:::flag-dg::🇩🇬
+; Djibouti Flag 
+:::flag-dj::🇩🇯
+; Denmark Flag 
+:::flag-dk::🇩🇰
+; Dominica Flag 
+:::flag-dm::🇩🇲
+; Dominican Republic Flag 
+:::flag-do::🇩🇴
+; Algeria Flag 
+:::flag-dz::🇩🇿
+; Ceuta & Melilla Flag 
+:::flag-ea::🇪🇦
+; Ecuador Flag 
+:::flag-ec::🇪🇨
+; Estonia Flag 
+:::flag-ee::🇪🇪
+; Egypt Flag 
+:::flag-eg::🇪🇬
+; Western Sahara Flag 
+:::flag-eh::🇪🇭
+; Eritrea Flag 
+:::flag-er::🇪🇷
+; Spain Flag 
+:::flag-es::🇪🇸
+; Ethiopia Flag 
+:::flag-et::🇪🇹
+; European Union Flag 
+:::flag-eu::🇪🇺
+; Finland Flag 
+:::flag-fi::🇫🇮
+; Fiji Flag 
+:::flag-fj::🇫🇯
+; Falkland Islands Flag 
+:::flag-fk::🇫🇰
+; Micronesia Flag 
+:::flag-fm::🇫🇲
+; Faroe Islands Flag 
+:::flag-fo::🇫🇴
+; France Flag 
+:::flag-fr::🇫🇷
+; Gabon Flag 
+:::flag-ga::🇬🇦
+; United Kingdom Flag 
+:::uk::🇬🇧
+; United Kingdom Flag 
+:::flag-gb::🇬🇧
+; Grenada Flag 
+:::flag-gd::🇬🇩
+; Georgia Flag 
+:::flag-ge::🇬🇪
+; French Guiana Flag 
+:::flag-gf::🇬🇫
+; Guernsey Flag 
+:::flag-gg::🇬🇬
+; Ghana Flag 
+:::flag-gh::🇬🇭
+; Gibraltar Flag 
+:::flag-gi::🇬🇮
+; Greenland Flag 
+:::flag-gl::🇬🇱
+; Gambia Flag 
+:::flag-gm::🇬🇲
+; Guinea Flag 
+:::flag-gn::🇬🇳
+; Guadeloupe Flag 
+:::flag-gp::🇬🇵
+; Equatorial Guinea Flag 
+:::flag-gq::🇬🇶
+; Greece Flag 
+:::flag-gr::🇬🇷
+; South Georgia & South Sandwich Islands Flag 
+:::flag-gs::🇬🇸
+; Guatemala Flag 
+:::flag-gt::🇬🇹
+; Guam Flag 
+:::flag-gu::🇬🇺
+; Guinea-Bissau Flag 
+:::flag-gw::🇬🇼
+; Guyana Flag 
+:::flag-gy::🇬🇾
+; Hong Kong SAR China Flag 
+:::flag-hk::🇭🇰
+; Heard & McDonald Islands Flag 
+:::flag-hm::🇭🇲
+; Honduras Flag 
+:::flag-hn::🇭🇳
+; Croatia Flag 
+:::flag-hr::🇭🇷
+; Haiti Flag 
+:::flag-ht::🇭🇹
+; Hungary Flag 
+:::flag-hu::🇭🇺
+; Canary Islands Flag 
+:::flag-ic::🇮🇨
+; Indonesia Flag 
+:::flag-id::🇮🇩
+; Ireland Flag 
+:::flag-ie::🇮🇪
+; Israel Flag 
+:::flag-il::🇮🇱
+; Isle of Man Flag 
+:::flag-im::🇮🇲
+; India Flag 
+:::flag-in::🇮🇳
+; British Indian Ocean Territory Flag 
+:::flag-io::🇮🇴
+; Iraq Flag 
+:::flag-iq::🇮🇶
+; Iran Flag 
+:::flag-ir::🇮🇷
+; Iceland Flag 
+:::flag-is::🇮🇸
+; Italy Flag 
+:::flag-it::🇮🇹
+; Jersey Flag 
+:::flag-je::🇯🇪
+; Jamaica Flag 
+:::flag-jm::🇯🇲
+; Jordan Flag 
+:::flag-jo::🇯🇴
+; Japan Flag 
+:::flag-jp::🇯🇵
+; Kenya Flag 
+:::flag-ke::🇰🇪
+; Kyrgyzstan Flag 
+:::flag-kg::🇰🇬
+; Cambodia Flag 
+:::flag-kh::🇰🇭
+; Kiribati Flag 
+:::flag-ki::🇰🇮
+; Comoros Flag 
+:::flag-km::🇰🇲
+; St. Kitts & Nevis Flag 
+:::flag-kn::🇰🇳
+; North Korea Flag 
+:::flag-kp::🇰🇵
+; South Korea Flag 
+:::flag-kr::🇰🇷
+; Kuwait Flag 
+:::flag-kw::🇰🇼
+; Cayman Islands Flag 
+:::flag-ky::🇰🇾
+; Kazakhstan Flag 
+:::flag-kz::🇰🇿
+; Laos Flag 
+:::flag-la::🇱🇦
+; Lebanon Flag 
+:::flag-lb::🇱🇧
+; St. Lucia Flag 
+:::flag-lc::🇱🇨
+; Liechtenstein Flag 
+:::flag-li::🇱🇮
+; Sri Lanka Flag 
+:::flag-lk::🇱🇰
+; Liberia Flag 
+:::flag-lr::🇱🇷
+; Lesotho Flag 
+:::flag-ls::🇱🇸
+; Lithuania Flag 
+:::flag-lt::🇱🇹
+; Luxembourg Flag 
+:::flag-lu::🇱🇺
+; Latvia Flag 
+:::flag-lv::🇱🇻
+; Libya Flag 
+:::flag-ly::🇱🇾
+; Morocco Flag 
+:::flag-ma::🇲🇦
+; Monaco Flag 
+:::flag-mc::🇲🇨
+; Moldova Flag 
+:::flag-md::🇲🇩
+; Montenegro Flag 
+:::flag-me::🇲🇪
+; St. Martin Flag 
+:::flag-mf::🇲🇫
+; Madagascar Flag 
+:::flag-mg::🇲🇬
+; Marshall Islands Flag 
+:::flag-mh::🇲🇭
+; North Macedonia Flag 
+:::flag-mk::🇲🇰
+; Mali Flag 
+:::flag-ml::🇲🇱
+; Myanmar (Burma) Flag 
+:::flag-mm::🇲🇲
+; Mongolia Flag 
+:::flag-mn::🇲🇳
+; Macao SAR China Flag 
+:::flag-mo::🇲🇴
+; Northern Mariana Islands Flag 
+:::flag-mp::🇲🇵
+; Martinique Flag 
+:::flag-mq::🇲🇶
+; Mauritania Flag 
+:::flag-mr::🇲🇷
+; Montserrat Flag 
+:::flag-ms::🇲🇸
+; Malta Flag 
+:::flag-mt::🇲🇹
+; Mauritius Flag 
+:::flag-mu::🇲🇺
+; Maldives Flag 
+:::flag-mv::🇲🇻
+; Malawi Flag 
+:::flag-mw::🇲🇼
+; Mexico Flag 
+:::flag-mx::🇲🇽
+; Malaysia Flag 
+:::flag-my::🇲🇾
+; Mozambique Flag 
+:::flag-mz::🇲🇿
+; Namibia Flag 
+:::flag-na::🇳🇦
+; New Caledonia Flag 
+:::flag-nc::🇳🇨
+; Niger Flag 
+:::flag-ne::🇳🇪
+; Norfolk Island Flag 
+:::flag-nf::🇳🇫
+; Nigeria Flag 
+:::flag-ng::🇳🇬
+; Nicaragua Flag 
+:::flag-ni::🇳🇮
+; Netherlands Flag 
+:::flag-nl::🇳🇱
+; Norway Flag 
+:::flag-no::🇳🇴
+; Nepal Flag 
+:::flag-np::🇳🇵
+; Nauru Flag 
+:::flag-nr::🇳🇷
+; Niue Flag 
+:::flag-nu::🇳🇺
+; New Zealand Flag 
+:::flag-nz::🇳🇿
+; Oman Flag 
+:::flag-om::🇴🇲
+; Panama Flag 
+:::flag-pa::🇵🇦
+; Peru Flag 
+:::flag-pe::🇵🇪
+; French Polynesia Flag 
+:::flag-pf::🇵🇫
+; Papua New Guinea Flag 
+:::flag-pg::🇵🇬
+; Philippines Flag 
+:::flag-ph::🇵🇭
+; Pakistan Flag 
+:::flag-pk::🇵🇰
+; Poland Flag 
+:::flag-pl::🇵🇱
+; St. Pierre & Miquelon Flag 
+:::flag-pm::🇵🇲
+; Pitcairn Islands Flag 
+:::flag-pn::🇵🇳
+; Puerto Rico Flag 
+:::flag-pr::🇵🇷
+; Palestinian Territories Flag 
+:::flag-ps::🇵🇸
+; Portugal Flag 
+:::flag-pt::🇵🇹
+; Palau Flag 
+:::flag-pw::🇵🇼
+; Paraguay Flag 
+:::flag-py::🇵🇾
+; Qatar Flag 
+:::flag-qa::🇶🇦
+; Réunion Flag 
+:::flag-re::🇷🇪
+; Romania Flag 
+:::flag-ro::🇷🇴
+; Serbia Flag 
+:::flag-rs::🇷🇸
+; Russia Flag 
+:::flag-ru::🇷🇺
+; Rwanda Flag 
+:::flag-rw::🇷🇼
+; Saudi Arabia Flag 
+:::flag-sa::🇸🇦
+; Solomon Islands Flag 
+:::flag-sb::🇸🇧
+; Seychelles Flag 
+:::flag-sc::🇸🇨
+; Sudan Flag 
+:::flag-sd::🇸🇩
+; Sweden Flag 
+:::flag-se::🇸🇪
+; Singapore Flag 
+:::flag-sg::🇸🇬
+; St. Helena Flag 
+:::flag-sh::🇸🇭
+; Slovenia Flag 
+:::flag-si::🇸🇮
+; Svalbard & Jan Mayen Flag 
+:::flag-sj::🇸🇯
+; Slovakia Flag 
+:::flag-sk::🇸🇰
+; Sierra Leone Flag 
+:::flag-sl::🇸🇱
+; San Marino Flag 
+:::flag-sm::🇸🇲
+; Senegal Flag 
+:::flag-sn::🇸🇳
+; Somalia Flag 
+:::flag-so::🇸🇴
+; Suriname Flag 
+:::flag-sr::🇸🇷
+; South Sudan Flag 
+:::flag-ss::🇸🇸
+; São Tomé & Príncipe Flag 
+:::flag-st::🇸🇹
+; El Salvador Flag 
+:::flag-sv::🇸🇻
+; Sint Maarten Flag 
+:::flag-sx::🇸🇽
+; Syria Flag 
+:::flag-sy::🇸🇾
+; Eswatini Flag 
+:::flag-sz::🇸🇿
+; Tristan da Cunha Flag 
+:::flag-ta::🇹🇦
+; Turks & Caicos Islands Flag 
+:::flag-tc::🇹🇨
+; Chad Flag 
+:::flag-td::🇹🇩
+; French Southern Territories Flag 
+:::flag-tf::🇹🇫
+; Togo Flag 
+:::flag-tg::🇹🇬
+; Thailand Flag 
+:::flag-th::🇹🇭
+; Tajikistan Flag 
+:::flag-tj::🇹🇯
+; Tokelau Flag 
+:::flag-tk::🇹🇰
+; Timor-Leste Flag 
+:::flag-tl::🇹🇱
+; Turkmenistan Flag 
+:::flag-tm::🇹🇲
+; Tunisia Flag 
+:::flag-tn::🇹🇳
+; Tonga Flag 
+:::flag-to::🇹🇴
+; Turkey Flag 
+:::flag-tr::🇹🇷
+; Trinidad & Tobago Flag 
+:::flag-tt::🇹🇹
+; Tuvalu Flag 
+:::flag-tv::🇹🇻
+; Taiwan Flag 
+:::flag-tw::🇹🇼
+; Tanzania Flag 
+:::flag-tz::🇹🇿
+; Ukraine Flag 
+:::flag-ua::🇺🇦
+; Uganda Flag 
+:::flag-ug::🇺🇬
+; U.S. Outlying Islands Flag 
+:::flag-um::🇺🇲
+; United Nations Flag 
+:::flag-un::🇺🇳
+; United States Flag 
+:::flag-us::🇺🇸
+; Uruguay Flag 
+:::flag-uy::🇺🇾
+; Uzbekistan Flag 
+:::flag-uz::🇺🇿
+; Vatican City Flag 
+:::flag-va::🇻🇦
+; St. Vincent & Grenadines Flag 
+:::flag-vc::🇻🇨
+; Venezuela Flag 
+:::flag-ve::🇻🇪
+; British Virgin Islands Flag 
+:::flag-vg::🇻🇬
+; U.S. Virgin Islands Flag 
+:::flag-vi::🇻🇮
+; Vietnam Flag 
+:::flag-vn::🇻🇳
+; Vanuatu Flag 
+:::flag-vu::🇻🇺
+; Wallis & Futuna Flag 
+:::flag-wf::🇼🇫
+; Samoa Flag 
+:::flag-ws::🇼🇸
+; Kosovo Flag 
+:::flag-xk::🇽🇰
+; Yemen Flag 
+:::flag-ye::🇾🇪
+; Mayotte Flag 
+:::flag-yt::🇾🇹
+; South Africa Flag 
+:::flag-za::🇿🇦
+; Zambia Flag 
+:::flag-zm::🇿🇲
+; Zimbabwe Flag 
+:::flag-zw::🇿🇼
 ; WAXING GIBBOUS MOON SYMBOL 
 :::waxing_gibbous_moon::🌔
 :::waxing gibbous moon::🌔
-; WHITE SUN WITH SMALL CLOUD 
-:::sun_small_cloud::🌤
-:::sun small cloud::🌤
-; WHITE SUN BEHIND CLOUD 
-:::sun_behind_cloud::🌥
-:::sun behind cloud::🌥
-; WHITE SUN BEHIND CLOUD WITH RAIN 
-:::sun_behind_rain_cloud::🌦
-:::sun behind rain cloud::🌦
+; SUN BEHIND SMALL CLOUD 
+:::sun_small_cloud::🌤️
+:::sun small cloud::🌤️
+; SUN BEHIND LARGE CLOUD 
+:::sun_behind_cloud::🌥️
+:::sun behind cloud::🌥️
+; SUN BEHIND RAIN CLOUD 
+:::sun_behind_rain_cloud::🌦️
+:::sun behind rain cloud::🌦️
 ; CLOUD WITH LIGHTNING 
-:::lightning_cloud::🌩
-:::lightning cloud::🌩
-; CLOUD WITH TORNADO 
-:::tornado_cloud::🌪
-:::tornado cloud::🌪
+:::lightning_cloud::🌩️
+:::lightning cloud::🌩️
+; TORNADO 
+:::tornado_cloud::🌪️
+:::tornado cloud::🌪️
 ; COOKING 
 :::cooking::🍳
+; WOMAN RUNNING 
+:::woman-running::🏃‍♀️
+; MAN RUNNING 
+:::man-running::🏃‍♂️
 ; RUNNER 
 :::running::🏃
+; WOMAN SURFING 
+:::woman-surfing::🏄‍♀️
+; MAN SURFING 
+:::man-surfing::🏄‍♂️
+; WOMAN SWIMMING 
+:::woman-swimming::🏊‍♀️
+; MAN SWIMMING 
+:::man-swimming::🏊‍♂️
+; WOMAN LIFTING WEIGHTS 
+:::woman-lifting-weights::🏋️‍♀️
+; MAN LIFTING WEIGHTS 
+:::man-lifting-weights::🏋️‍♂️
+; WOMAN GOLFING 
+:::woman-golfing::🏌️‍♀️
+; MAN GOLFING 
+:::man-golfing::🏌️‍♂️
 ; IZAKAYA LANTERN 
 :::lantern::🏮
+; RAINBOW FLAG 
+:::rainbow-flag::🏳️‍🌈
+; England Flag 
+:::flag-england::🏴󠁧󠁢󠁥󠁮󠁧󠁿
+; Scotland Flag 
+:::flag-scotland::🏴󠁧󠁢󠁳󠁣󠁴󠁿
+; Wales Flag 
+:::flag-wales::🏴󠁧󠁢󠁷󠁬󠁳󠁿
 ; EMOJI MODIFIER FITZPATRICK TYPE-1-2 
 :::skin-tone-2::🏻
 ; EMOJI MODIFIER FITZPATRICK TYPE-3 
@@ -3934,11 +5282,16 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::skin-tone-6::🏿
 ; HONEYBEE 
 :::honeybee::🐝
+; LADY BEETLE 
+:::lady_beetle::🐞
+:::lady beetle::🐞
 ; DOLPHIN 
 :::flipper::🐬
 ; PAW PRINTS 
 :::paw_prints::🐾
 :::paw prints::🐾
+; EYE IN SPEECH BUBBLE 
+:::eye-in-speech-bubble::👁️‍🗨️
 ; FISTED HAND SIGN 
 :::punch::👊
 ; THUMBS UP SIGN 
@@ -3951,11 +5304,179 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::tshirt::👕
 ; MANS SHOE 
 :::shoe::👞
-; FAMILY 
-:::man-woman-boy::👪
+; MAN FARMER 
+:::male-farmer::👨‍🌾
+; MAN COOK 
+:::male-cook::👨‍🍳
+; MAN STUDENT 
+:::male-student::👨‍🎓
+; MAN SINGER 
+:::male-singer::👨‍🎤
+; MAN ARTIST 
+:::male-artist::👨‍🎨
+; MAN TEACHER 
+:::male-teacher::👨‍🏫
+; MAN FACTORY WORKER 
+:::male-factory-worker::👨‍🏭
+; FAMILY: MAN, BOY, BOY 
+:::man-boy-boy::👨‍👦‍👦
+; FAMILY: MAN, BOY 
+:::man-boy::👨‍👦
+; FAMILY: MAN, GIRL, BOY 
+:::man-girl-boy::👨‍👧‍👦
+; FAMILY: MAN, GIRL, GIRL 
+:::man-girl-girl::👨‍👧‍👧
+; FAMILY: MAN, GIRL 
+:::man-girl::👨‍👧
+; FAMILY: MAN, MAN, BOY 
+:::man-man-boy::👨‍👨‍👦
+; FAMILY: MAN, MAN, BOY, BOY 
+:::man-man-boy-boy::👨‍👨‍👦‍👦
+; FAMILY: MAN, MAN, GIRL 
+:::man-man-girl::👨‍👨‍👧
+; FAMILY: MAN, MAN, GIRL, BOY 
+:::man-man-girl-boy::👨‍👨‍👧‍👦
+; FAMILY: MAN, MAN, GIRL, GIRL 
+:::man-man-girl-girl::👨‍👨‍👧‍👧
+; FAMILY: MAN, WOMAN, BOY 
+:::man-woman-boy::👨‍👩‍👦
+; FAMILY: MAN, WOMAN, BOY, BOY 
+:::man-woman-boy-boy::👨‍👩‍👦‍👦
+; FAMILY: MAN, WOMAN, GIRL 
+:::man-woman-girl::👨‍👩‍👧
+; FAMILY: MAN, WOMAN, GIRL, BOY 
+:::man-woman-girl-boy::👨‍👩‍👧‍👦
+; FAMILY: MAN, WOMAN, GIRL, GIRL 
+:::man-woman-girl-girl::👨‍👩‍👧‍👧
+; MAN TECHNOLOGIST 
+:::male-technologist::👨‍💻
+; MAN OFFICE WORKER 
+:::male-office-worker::👨‍💼
+; MAN MECHANIC 
+:::male-mechanic::👨‍🔧
+; MAN SCIENTIST 
+:::male-scientist::👨‍🔬
+; MAN ASTRONAUT 
+:::male-astronaut::👨‍🚀
+; MAN FIREFIGHTER 
+:::male-firefighter::👨‍🚒
+; MAN HEALTH WORKER 
+:::male-doctor::👨‍⚕️
+; MAN JUDGE 
+:::male-judge::👨‍⚖️
+; MAN PILOT 
+:::male-pilot::👨‍✈️
+; COUPLE WITH HEART: MAN, MAN 
+:::man-heart-man::👨‍❤️‍👨
+; KISS: MAN, MAN 
+:::man-kiss-man::👨‍❤️‍💋‍👨
+; WOMAN FARMER 
+:::female-farmer::👩‍🌾
+; WOMAN COOK 
+:::female-cook::👩‍🍳
+; WOMAN STUDENT 
+:::female-student::👩‍🎓
+; WOMAN SINGER 
+:::female-singer::👩‍🎤
+; WOMAN ARTIST 
+:::female-artist::👩‍🎨
+; WOMAN TEACHER 
+:::female-teacher::👩‍🏫
+; WOMAN FACTORY WORKER 
+:::female-factory-worker::👩‍🏭
+; FAMILY: WOMAN, BOY, BOY 
+:::woman-boy-boy::👩‍👦‍👦
+; FAMILY: WOMAN, BOY 
+:::woman-boy::👩‍👦
+; FAMILY: WOMAN, GIRL, BOY 
+:::woman-girl-boy::👩‍👧‍👦
+; FAMILY: WOMAN, GIRL, GIRL 
+:::woman-girl-girl::👩‍👧‍👧
+; FAMILY: WOMAN, GIRL 
+:::woman-girl::👩‍👧
+; FAMILY: WOMAN, WOMAN, BOY 
+:::woman-woman-boy::👩‍👩‍👦
+; FAMILY: WOMAN, WOMAN, BOY, BOY 
+:::woman-woman-boy-boy::👩‍👩‍👦‍👦
+; FAMILY: WOMAN, WOMAN, GIRL 
+:::woman-woman-girl::👩‍👩‍👧
+; FAMILY: WOMAN, WOMAN, GIRL, BOY 
+:::woman-woman-girl-boy::👩‍👩‍👧‍👦
+; FAMILY: WOMAN, WOMAN, GIRL, GIRL 
+:::woman-woman-girl-girl::👩‍👩‍👧‍👧
+; WOMAN TECHNOLOGIST 
+:::female-technologist::👩‍💻
+; WOMAN OFFICE WORKER 
+:::female-office-worker::👩‍💼
+; WOMAN MECHANIC 
+:::female-mechanic::👩‍🔧
+; WOMAN SCIENTIST 
+:::female-scientist::👩‍🔬
+; WOMAN ASTRONAUT 
+:::female-astronaut::👩‍🚀
+; WOMAN FIREFIGHTER 
+:::female-firefighter::👩‍🚒
+; WOMAN HEALTH WORKER 
+:::female-doctor::👩‍⚕️
+; WOMAN JUDGE 
+:::female-judge::👩‍⚖️
+; WOMAN PILOT 
+:::female-pilot::👩‍✈️
+; COUPLE WITH HEART: WOMAN, MAN 
+:::woman-heart-man::👩‍❤️‍👨
+; COUPLE WITH HEART: WOMAN, WOMAN 
+:::woman-heart-woman::👩‍❤️‍👩
+; KISS: WOMAN, MAN 
+:::woman-kiss-man::👩‍❤️‍💋‍👨
+; KISS: WOMAN, WOMAN 
+:::woman-kiss-woman::👩‍❤️‍💋‍👩
 ; MAN AND WOMAN HOLDING HANDS 
-:::man_and_woman_holding_hands::👫
-:::man and woman holding hands::👫
+:::woman_and_man_holding_hands::👫
+:::woman and man holding hands::👫
+; MAN AND WOMAN HOLDING HANDS 
+:::couple::👫
+; TWO MEN HOLDING HANDS 
+:::men_holding_hands::👬
+:::men holding hands::👬
+; TWO WOMEN HOLDING HANDS 
+:::women_holding_hands::👭
+:::women holding hands::👭
+; WOMAN POLICE OFFICER 
+:::female-police-officer::👮‍♀️
+; MAN POLICE OFFICER 
+:::male-police-officer::👮‍♂️
+; WOMEN WITH BUNNY EARS 
+:::woman-with-bunny-ears-partying::👯‍♀️
+; MEN WITH BUNNY EARS 
+:::man-with-bunny-ears-partying::👯‍♂️
+; WOMAN: BLOND HAIR 
+:::blond-haired-woman::👱‍♀️
+; MAN: BLOND HAIR 
+:::blond-haired-man::👱‍♂️
+; WOMAN WEARING TURBAN 
+:::woman-wearing-turban::👳‍♀️
+; MAN WEARING TURBAN 
+:::man-wearing-turban::👳‍♂️
+; WOMAN CONSTRUCTION WORKER 
+:::female-construction-worker::👷‍♀️
+; MAN CONSTRUCTION WORKER 
+:::male-construction-worker::👷‍♂️
+; WOMAN TIPPING HAND 
+:::woman-tipping-hand::💁‍♀️
+; MAN TIPPING HAND 
+:::man-tipping-hand::💁‍♂️
+; WOMAN GUARD 
+:::female-guard::💂‍♀️
+; MAN GUARD 
+:::male-guard::💂‍♂️
+; WOMAN GETTING MASSAGE 
+:::woman-getting-massage::💆‍♀️
+; MAN GETTING MASSAGE 
+:::man-getting-massage::💆‍♂️
+; WOMAN GETTING HAIRCUT 
+:::woman-getting-haircut::💇‍♀️
+; MAN GETTING HAIRCUT 
+:::man-getting-haircut::💇‍♂️
 ; COLLISION SYMBOL 
 :::collision::💥
 ; PILE OF POO 
@@ -3971,6 +5492,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::e-mail::📧
 ; HOCHO 
 :::knife::🔪
+; WOMAN DETECTIVE 
+:::female-detective::🕵️‍♀️
+; MAN DETECTIVE 
+:::male-detective::🕵️‍♂️
 ; REVERSED HAND WITH MIDDLE FINGER EXTENDED 
 :::reversed_hand_with_middle_finger_extend::🖕
 :::reversed hand with middle finger extend::🖕
@@ -3978,12 +5503,52 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :::spock-hand::🖖
 ; SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES 
 :::satisfied::😆
+; WOMAN GESTURING NO 
+:::woman-gesturing-no::🙅‍♀️
+; MAN GESTURING NO 
+:::man-gesturing-no::🙅‍♂️
+; WOMAN GESTURING OK 
+:::woman-gesturing-ok::🙆‍♀️
+; MAN GESTURING OK 
+:::man-gesturing-ok::🙆‍♂️
+; WOMAN BOWING 
+:::woman-bowing::🙇‍♀️
+; MAN BOWING 
+:::man-bowing::🙇‍♂️
+; WOMAN RAISING HAND 
+:::woman-raising-hand::🙋‍♀️
+; MAN RAISING HAND 
+:::man-raising-hand::🙋‍♂️
+; WOMAN FROWNING 
+:::woman-frowning::🙍‍♀️
+; MAN FROWNING 
+:::man-frowning::🙍‍♂️
+; WOMAN POUTING 
+:::woman-pouting::🙎‍♀️
+; MAN POUTING 
+:::man-pouting::🙎‍♂️
 ; AUTOMOBILE 
 :::red_car::🚗
 :::red car::🚗
+; WOMAN ROWING BOAT 
+:::woman-rowing-boat::🚣‍♀️
+; MAN ROWING BOAT 
+:::man-rowing-boat::🚣‍♂️
 ; NON-POTABLE WATER SYMBOL 
 :::non-potable_water::🚱
 :::non-potable water::🚱
+; WOMAN BIKING 
+:::woman-biking::🚴‍♀️
+; MAN BIKING 
+:::man-biking::🚴‍♂️
+; WOMAN MOUNTAIN BIKING 
+:::woman-mountain-biking::🚵‍♀️
+; MAN MOUNTAIN BIKING 
+:::man-mountain-biking::🚵‍♂️
+; WOMAN WALKING 
+:::woman-walking::🚶‍♀️
+; MAN WALKING 
+:::man-walking::🚶‍♂️
 ; SIGN OF THE HORNS 
 :::sign_of_the_horns::🤘
 :::sign of the horns::🤘
@@ -3993,810 +5558,100 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; RIGHT-FACING FIST 
 :::right-facing_fist::🤜
 :::right-facing fist::🤜
-; REGIONAL INDICATOR SYMBOL LETTERS AC 
-:::flag-ac::🇦🇨
-; REGIONAL INDICATOR SYMBOL LETTERS AD 
-:::flag-ad::🇦🇩
-; REGIONAL INDICATOR SYMBOL LETTERS AE 
-:::flag-ae::🇦🇪
-; REGIONAL INDICATOR SYMBOL LETTERS AF 
-:::flag-af::🇦🇫
-; REGIONAL INDICATOR SYMBOL LETTERS AG 
-:::flag-ag::🇦🇬
-; REGIONAL INDICATOR SYMBOL LETTERS AI 
-:::flag-ai::🇦🇮
-; REGIONAL INDICATOR SYMBOL LETTERS AL 
-:::flag-al::🇦🇱
-; REGIONAL INDICATOR SYMBOL LETTERS AM 
-:::flag-am::🇦🇲
-; REGIONAL INDICATOR SYMBOL LETTERS AO 
-:::flag-ao::🇦🇴
-; REGIONAL INDICATOR SYMBOL LETTERS AQ 
-:::flag-aq::🇦🇶
-; REGIONAL INDICATOR SYMBOL LETTERS AR 
-:::flag-ar::🇦🇷
-; REGIONAL INDICATOR SYMBOL LETTERS AS 
-:::flag-as::🇦🇸
-; REGIONAL INDICATOR SYMBOL LETTERS AT 
-:::flag-at::🇦🇹
-; REGIONAL INDICATOR SYMBOL LETTERS AU 
-:::flag-au::🇦🇺
-; REGIONAL INDICATOR SYMBOL LETTERS AW 
-:::flag-aw::🇦🇼
-; REGIONAL INDICATOR SYMBOL LETTERS AX 
-:::flag-ax::🇦🇽
-; REGIONAL INDICATOR SYMBOL LETTERS AZ 
-:::flag-az::🇦🇿
-; REGIONAL INDICATOR SYMBOL LETTERS BA 
-:::flag-ba::🇧🇦
-; REGIONAL INDICATOR SYMBOL LETTERS BB 
-:::flag-bb::🇧🇧
-; REGIONAL INDICATOR SYMBOL LETTERS BD 
-:::flag-bd::🇧🇩
-; REGIONAL INDICATOR SYMBOL LETTERS BE 
-:::flag-be::🇧🇪
-; REGIONAL INDICATOR SYMBOL LETTERS BF 
-:::flag-bf::🇧🇫
-; REGIONAL INDICATOR SYMBOL LETTERS BG 
-:::flag-bg::🇧🇬
-; REGIONAL INDICATOR SYMBOL LETTERS BH 
-:::flag-bh::🇧🇭
-; REGIONAL INDICATOR SYMBOL LETTERS BI 
-:::flag-bi::🇧🇮
-; REGIONAL INDICATOR SYMBOL LETTERS BJ 
-:::flag-bj::🇧🇯
-; REGIONAL INDICATOR SYMBOL LETTERS BL 
-:::flag-bl::🇧🇱
-; REGIONAL INDICATOR SYMBOL LETTERS BM 
-:::flag-bm::🇧🇲
-; REGIONAL INDICATOR SYMBOL LETTERS BN 
-:::flag-bn::🇧🇳
-; REGIONAL INDICATOR SYMBOL LETTERS BO 
-:::flag-bo::🇧🇴
-; REGIONAL INDICATOR SYMBOL LETTERS BQ 
-:::flag-bq::🇧🇶
-; REGIONAL INDICATOR SYMBOL LETTERS BR 
-:::flag-br::🇧🇷
-; REGIONAL INDICATOR SYMBOL LETTERS BS 
-:::flag-bs::🇧🇸
-; REGIONAL INDICATOR SYMBOL LETTERS BT 
-:::flag-bt::🇧🇹
-; REGIONAL INDICATOR SYMBOL LETTERS BV 
-:::flag-bv::🇧🇻
-; REGIONAL INDICATOR SYMBOL LETTERS BW 
-:::flag-bw::🇧🇼
-; REGIONAL INDICATOR SYMBOL LETTERS BY 
-:::flag-by::🇧🇾
-; REGIONAL INDICATOR SYMBOL LETTERS BZ 
-:::flag-bz::🇧🇿
-; REGIONAL INDICATOR SYMBOL LETTERS CA 
-:::flag-ca::🇨🇦
-; REGIONAL INDICATOR SYMBOL LETTERS CC 
-:::flag-cc::🇨🇨
-; REGIONAL INDICATOR SYMBOL LETTERS CD 
-:::flag-cd::🇨🇩
-; REGIONAL INDICATOR SYMBOL LETTERS CF 
-:::flag-cf::🇨🇫
-; REGIONAL INDICATOR SYMBOL LETTERS CG 
-:::flag-cg::🇨🇬
-; REGIONAL INDICATOR SYMBOL LETTERS CH 
-:::flag-ch::🇨🇭
-; REGIONAL INDICATOR SYMBOL LETTERS CI 
-:::flag-ci::🇨🇮
-; REGIONAL INDICATOR SYMBOL LETTERS CK 
-:::flag-ck::🇨🇰
-; REGIONAL INDICATOR SYMBOL LETTERS CL 
-:::flag-cl::🇨🇱
-; REGIONAL INDICATOR SYMBOL LETTERS CM 
-:::flag-cm::🇨🇲
-; REGIONAL INDICATOR SYMBOL LETTERS CN 
-:::flag-cn::🇨🇳
-; REGIONAL INDICATOR SYMBOL LETTERS CN 
-:::cn::🇨🇳
-; REGIONAL INDICATOR SYMBOL LETTERS CO 
-:::flag-co::🇨🇴
-; REGIONAL INDICATOR SYMBOL LETTERS CP 
-:::flag-cp::🇨🇵
-; REGIONAL INDICATOR SYMBOL LETTERS CR 
-:::flag-cr::🇨🇷
-; REGIONAL INDICATOR SYMBOL LETTERS CU 
-:::flag-cu::🇨🇺
-; REGIONAL INDICATOR SYMBOL LETTERS CV 
-:::flag-cv::🇨🇻
-; REGIONAL INDICATOR SYMBOL LETTERS CW 
-:::flag-cw::🇨🇼
-; REGIONAL INDICATOR SYMBOL LETTERS CX 
-:::flag-cx::🇨🇽
-; REGIONAL INDICATOR SYMBOL LETTERS CY 
-:::flag-cy::🇨🇾
-; REGIONAL INDICATOR SYMBOL LETTERS CZ 
-:::flag-cz::🇨🇿
-; REGIONAL INDICATOR SYMBOL LETTERS DE 
-:::flag-de::🇩🇪
-; REGIONAL INDICATOR SYMBOL LETTERS DE 
-:::de::🇩🇪
-; REGIONAL INDICATOR SYMBOL LETTERS DG 
-:::flag-dg::🇩🇬
-; REGIONAL INDICATOR SYMBOL LETTERS DJ 
-:::flag-dj::🇩🇯
-; REGIONAL INDICATOR SYMBOL LETTERS DK 
-:::flag-dk::🇩🇰
-; REGIONAL INDICATOR SYMBOL LETTERS DM 
-:::flag-dm::🇩🇲
-; REGIONAL INDICATOR SYMBOL LETTERS DO 
-:::flag-do::🇩🇴
-; REGIONAL INDICATOR SYMBOL LETTERS DZ 
-:::flag-dz::🇩🇿
-; REGIONAL INDICATOR SYMBOL LETTERS EA 
-:::flag-ea::🇪🇦
-; REGIONAL INDICATOR SYMBOL LETTERS EC 
-:::flag-ec::🇪🇨
-; REGIONAL INDICATOR SYMBOL LETTERS EE 
-:::flag-ee::🇪🇪
-; REGIONAL INDICATOR SYMBOL LETTERS EG 
-:::flag-eg::🇪🇬
-; REGIONAL INDICATOR SYMBOL LETTERS EH 
-:::flag-eh::🇪🇭
-; REGIONAL INDICATOR SYMBOL LETTERS ER 
-:::flag-er::🇪🇷
-; REGIONAL INDICATOR SYMBOL LETTERS ES 
-:::flag-es::🇪🇸
-; REGIONAL INDICATOR SYMBOL LETTERS ES 
-:::es::🇪🇸
-; REGIONAL INDICATOR SYMBOL LETTERS ET 
-:::flag-et::🇪🇹
-; REGIONAL INDICATOR SYMBOL LETTERS EU 
-:::flag-eu::🇪🇺
-; REGIONAL INDICATOR SYMBOL LETTERS FI 
-:::flag-fi::🇫🇮
-; REGIONAL INDICATOR SYMBOL LETTERS FJ 
-:::flag-fj::🇫🇯
-; REGIONAL INDICATOR SYMBOL LETTERS FK 
-:::flag-fk::🇫🇰
-; REGIONAL INDICATOR SYMBOL LETTERS FM 
-:::flag-fm::🇫🇲
-; REGIONAL INDICATOR SYMBOL LETTERS FO 
-:::flag-fo::🇫🇴
-; REGIONAL INDICATOR SYMBOL LETTERS FR 
-:::flag-fr::🇫🇷
-; REGIONAL INDICATOR SYMBOL LETTERS FR 
-:::fr::🇫🇷
-; REGIONAL INDICATOR SYMBOL LETTERS GA 
-:::flag-ga::🇬🇦
-; REGIONAL INDICATOR SYMBOL LETTERS GB 
-:::flag-gb::🇬🇧
-; REGIONAL INDICATOR SYMBOL LETTERS GB 
-:::gb::🇬🇧
-; REGIONAL INDICATOR SYMBOL LETTERS GB 
-:::uk::🇬🇧
-; REGIONAL INDICATOR SYMBOL LETTERS GD 
-:::flag-gd::🇬🇩
-; REGIONAL INDICATOR SYMBOL LETTERS GE 
-:::flag-ge::🇬🇪
-; REGIONAL INDICATOR SYMBOL LETTERS GF 
-:::flag-gf::🇬🇫
-; REGIONAL INDICATOR SYMBOL LETTERS GG 
-:::flag-gg::🇬🇬
-; REGIONAL INDICATOR SYMBOL LETTERS GH 
-:::flag-gh::🇬🇭
-; REGIONAL INDICATOR SYMBOL LETTERS GI 
-:::flag-gi::🇬🇮
-; REGIONAL INDICATOR SYMBOL LETTERS GL 
-:::flag-gl::🇬🇱
-; REGIONAL INDICATOR SYMBOL LETTERS GM 
-:::flag-gm::🇬🇲
-; REGIONAL INDICATOR SYMBOL LETTERS GN 
-:::flag-gn::🇬🇳
-; REGIONAL INDICATOR SYMBOL LETTERS GP 
-:::flag-gp::🇬🇵
-; REGIONAL INDICATOR SYMBOL LETTERS GQ 
-:::flag-gq::🇬🇶
-; REGIONAL INDICATOR SYMBOL LETTERS GR 
-:::flag-gr::🇬🇷
-; REGIONAL INDICATOR SYMBOL LETTERS GS 
-:::flag-gs::🇬🇸
-; REGIONAL INDICATOR SYMBOL LETTERS GT 
-:::flag-gt::🇬🇹
-; REGIONAL INDICATOR SYMBOL LETTERS GU 
-:::flag-gu::🇬🇺
-; REGIONAL INDICATOR SYMBOL LETTERS GW 
-:::flag-gw::🇬🇼
-; REGIONAL INDICATOR SYMBOL LETTERS GY 
-:::flag-gy::🇬🇾
-; REGIONAL INDICATOR SYMBOL LETTERS HK 
-:::flag-hk::🇭🇰
-; REGIONAL INDICATOR SYMBOL LETTERS HM 
-:::flag-hm::🇭🇲
-; REGIONAL INDICATOR SYMBOL LETTERS HN 
-:::flag-hn::🇭🇳
-; REGIONAL INDICATOR SYMBOL LETTERS HR 
-:::flag-hr::🇭🇷
-; REGIONAL INDICATOR SYMBOL LETTERS HT 
-:::flag-ht::🇭🇹
-; REGIONAL INDICATOR SYMBOL LETTERS HU 
-:::flag-hu::🇭🇺
-; REGIONAL INDICATOR SYMBOL LETTERS IC 
-:::flag-ic::🇮🇨
-; REGIONAL INDICATOR SYMBOL LETTERS ID 
-:::flag-id::🇮🇩
-; REGIONAL INDICATOR SYMBOL LETTERS IE 
-:::flag-ie::🇮🇪
-; REGIONAL INDICATOR SYMBOL LETTERS IL 
-:::flag-il::🇮🇱
-; REGIONAL INDICATOR SYMBOL LETTERS IM 
-:::flag-im::🇮🇲
-; REGIONAL INDICATOR SYMBOL LETTERS IN 
-:::flag-in::🇮🇳
-; REGIONAL INDICATOR SYMBOL LETTERS IO 
-:::flag-io::🇮🇴
-; REGIONAL INDICATOR SYMBOL LETTERS IQ 
-:::flag-iq::🇮🇶
-; REGIONAL INDICATOR SYMBOL LETTERS IR 
-:::flag-ir::🇮🇷
-; REGIONAL INDICATOR SYMBOL LETTERS IS 
-:::flag-is::🇮🇸
-; REGIONAL INDICATOR SYMBOL LETTERS IT 
-:::flag-it::🇮🇹
-; REGIONAL INDICATOR SYMBOL LETTERS IT 
-:::it::🇮🇹
-; REGIONAL INDICATOR SYMBOL LETTERS JE 
-:::flag-je::🇯🇪
-; REGIONAL INDICATOR SYMBOL LETTERS JM 
-:::flag-jm::🇯🇲
-; REGIONAL INDICATOR SYMBOL LETTERS JO 
-:::flag-jo::🇯🇴
-; REGIONAL INDICATOR SYMBOL LETTERS JP 
-:::flag-jp::🇯🇵
-; REGIONAL INDICATOR SYMBOL LETTERS JP 
-:::jp::🇯🇵
-; REGIONAL INDICATOR SYMBOL LETTERS KE 
-:::flag-ke::🇰🇪
-; REGIONAL INDICATOR SYMBOL LETTERS KG 
-:::flag-kg::🇰🇬
-; REGIONAL INDICATOR SYMBOL LETTERS KH 
-:::flag-kh::🇰🇭
-; REGIONAL INDICATOR SYMBOL LETTERS KI 
-:::flag-ki::🇰🇮
-; REGIONAL INDICATOR SYMBOL LETTERS KM 
-:::flag-km::🇰🇲
-; REGIONAL INDICATOR SYMBOL LETTERS KN 
-:::flag-kn::🇰🇳
-; REGIONAL INDICATOR SYMBOL LETTERS KP 
-:::flag-kp::🇰🇵
-; REGIONAL INDICATOR SYMBOL LETTERS KR 
-:::flag-kr::🇰🇷
-; REGIONAL INDICATOR SYMBOL LETTERS KR 
-:::kr::🇰🇷
-; REGIONAL INDICATOR SYMBOL LETTERS KW 
-:::flag-kw::🇰🇼
-; REGIONAL INDICATOR SYMBOL LETTERS KY 
-:::flag-ky::🇰🇾
-; REGIONAL INDICATOR SYMBOL LETTERS KZ 
-:::flag-kz::🇰🇿
-; REGIONAL INDICATOR SYMBOL LETTERS LA 
-:::flag-la::🇱🇦
-; REGIONAL INDICATOR SYMBOL LETTERS LB 
-:::flag-lb::🇱🇧
-; REGIONAL INDICATOR SYMBOL LETTERS LC 
-:::flag-lc::🇱🇨
-; REGIONAL INDICATOR SYMBOL LETTERS LI 
-:::flag-li::🇱🇮
-; REGIONAL INDICATOR SYMBOL LETTERS LK 
-:::flag-lk::🇱🇰
-; REGIONAL INDICATOR SYMBOL LETTERS LR 
-:::flag-lr::🇱🇷
-; REGIONAL INDICATOR SYMBOL LETTERS LS 
-:::flag-ls::🇱🇸
-; REGIONAL INDICATOR SYMBOL LETTERS LT 
-:::flag-lt::🇱🇹
-; REGIONAL INDICATOR SYMBOL LETTERS LU 
-:::flag-lu::🇱🇺
-; REGIONAL INDICATOR SYMBOL LETTERS LV 
-:::flag-lv::🇱🇻
-; REGIONAL INDICATOR SYMBOL LETTERS LY 
-:::flag-ly::🇱🇾
-; REGIONAL INDICATOR SYMBOL LETTERS MA 
-:::flag-ma::🇲🇦
-; REGIONAL INDICATOR SYMBOL LETTERS MC 
-:::flag-mc::🇲🇨
-; REGIONAL INDICATOR SYMBOL LETTERS MD 
-:::flag-md::🇲🇩
-; REGIONAL INDICATOR SYMBOL LETTERS ME 
-:::flag-me::🇲🇪
-; REGIONAL INDICATOR SYMBOL LETTERS MF 
-:::flag-mf::🇲🇫
-; REGIONAL INDICATOR SYMBOL LETTERS MG 
-:::flag-mg::🇲🇬
-; REGIONAL INDICATOR SYMBOL LETTERS MH 
-:::flag-mh::🇲🇭
-; REGIONAL INDICATOR SYMBOL LETTERS MK 
-:::flag-mk::🇲🇰
-; REGIONAL INDICATOR SYMBOL LETTERS ML 
-:::flag-ml::🇲🇱
-; REGIONAL INDICATOR SYMBOL LETTERS MM 
-:::flag-mm::🇲🇲
-; REGIONAL INDICATOR SYMBOL LETTERS MN 
-:::flag-mn::🇲🇳
-; REGIONAL INDICATOR SYMBOL LETTERS MO 
-:::flag-mo::🇲🇴
-; REGIONAL INDICATOR SYMBOL LETTERS MP 
-:::flag-mp::🇲🇵
-; REGIONAL INDICATOR SYMBOL LETTERS MQ 
-:::flag-mq::🇲🇶
-; REGIONAL INDICATOR SYMBOL LETTERS MR 
-:::flag-mr::🇲🇷
-; REGIONAL INDICATOR SYMBOL LETTERS MS 
-:::flag-ms::🇲🇸
-; REGIONAL INDICATOR SYMBOL LETTERS MT 
-:::flag-mt::🇲🇹
-; REGIONAL INDICATOR SYMBOL LETTERS MU 
-:::flag-mu::🇲🇺
-; REGIONAL INDICATOR SYMBOL LETTERS MV 
-:::flag-mv::🇲🇻
-; REGIONAL INDICATOR SYMBOL LETTERS MW 
-:::flag-mw::🇲🇼
-; REGIONAL INDICATOR SYMBOL LETTERS MX 
-:::flag-mx::🇲🇽
-; REGIONAL INDICATOR SYMBOL LETTERS MY 
-:::flag-my::🇲🇾
-; REGIONAL INDICATOR SYMBOL LETTERS MZ 
-:::flag-mz::🇲🇿
-; REGIONAL INDICATOR SYMBOL LETTERS NA 
-:::flag-na::🇳🇦
-; REGIONAL INDICATOR SYMBOL LETTERS NC 
-:::flag-nc::🇳🇨
-; REGIONAL INDICATOR SYMBOL LETTERS NE 
-:::flag-ne::🇳🇪
-; REGIONAL INDICATOR SYMBOL LETTERS NF 
-:::flag-nf::🇳🇫
-; REGIONAL INDICATOR SYMBOL LETTERS NG 
-:::flag-ng::🇳🇬
-; REGIONAL INDICATOR SYMBOL LETTERS NI 
-:::flag-ni::🇳🇮
-; REGIONAL INDICATOR SYMBOL LETTERS NL 
-:::flag-nl::🇳🇱
-; REGIONAL INDICATOR SYMBOL LETTERS NO 
-:::flag-no::🇳🇴
-; REGIONAL INDICATOR SYMBOL LETTERS NP 
-:::flag-np::🇳🇵
-; REGIONAL INDICATOR SYMBOL LETTERS NR 
-:::flag-nr::🇳🇷
-; REGIONAL INDICATOR SYMBOL LETTERS NU 
-:::flag-nu::🇳🇺
-; REGIONAL INDICATOR SYMBOL LETTERS NZ 
-:::flag-nz::🇳🇿
-; REGIONAL INDICATOR SYMBOL LETTERS OM 
-:::flag-om::🇴🇲
-; REGIONAL INDICATOR SYMBOL LETTERS PA 
-:::flag-pa::🇵🇦
-; REGIONAL INDICATOR SYMBOL LETTERS PE 
-:::flag-pe::🇵🇪
-; REGIONAL INDICATOR SYMBOL LETTERS PF 
-:::flag-pf::🇵🇫
-; REGIONAL INDICATOR SYMBOL LETTERS PG 
-:::flag-pg::🇵🇬
-; REGIONAL INDICATOR SYMBOL LETTERS PH 
-:::flag-ph::🇵🇭
-; REGIONAL INDICATOR SYMBOL LETTERS PK 
-:::flag-pk::🇵🇰
-; REGIONAL INDICATOR SYMBOL LETTERS PL 
-:::flag-pl::🇵🇱
-; REGIONAL INDICATOR SYMBOL LETTERS PM 
-:::flag-pm::🇵🇲
-; REGIONAL INDICATOR SYMBOL LETTERS PN 
-:::flag-pn::🇵🇳
-; REGIONAL INDICATOR SYMBOL LETTERS PR 
-:::flag-pr::🇵🇷
-; REGIONAL INDICATOR SYMBOL LETTERS PS 
-:::flag-ps::🇵🇸
-; REGIONAL INDICATOR SYMBOL LETTERS PT 
-:::flag-pt::🇵🇹
-; REGIONAL INDICATOR SYMBOL LETTERS PW 
-:::flag-pw::🇵🇼
-; REGIONAL INDICATOR SYMBOL LETTERS PY 
-:::flag-py::🇵🇾
-; REGIONAL INDICATOR SYMBOL LETTERS QA 
-:::flag-qa::🇶🇦
-; REGIONAL INDICATOR SYMBOL LETTERS RE 
-:::flag-re::🇷🇪
-; REGIONAL INDICATOR SYMBOL LETTERS RO 
-:::flag-ro::🇷🇴
-; REGIONAL INDICATOR SYMBOL LETTERS RS 
-:::flag-rs::🇷🇸
-; REGIONAL INDICATOR SYMBOL LETTERS RU 
-:::flag-ru::🇷🇺
-; REGIONAL INDICATOR SYMBOL LETTERS RU 
-:::ru::🇷🇺
-; REGIONAL INDICATOR SYMBOL LETTERS RW 
-:::flag-rw::🇷🇼
-; REGIONAL INDICATOR SYMBOL LETTERS SA 
-:::flag-sa::🇸🇦
-; REGIONAL INDICATOR SYMBOL LETTERS SB 
-:::flag-sb::🇸🇧
-; REGIONAL INDICATOR SYMBOL LETTERS SC 
-:::flag-sc::🇸🇨
-; REGIONAL INDICATOR SYMBOL LETTERS SD 
-:::flag-sd::🇸🇩
-; REGIONAL INDICATOR SYMBOL LETTERS SE 
-:::flag-se::🇸🇪
-; REGIONAL INDICATOR SYMBOL LETTERS SG 
-:::flag-sg::🇸🇬
-; REGIONAL INDICATOR SYMBOL LETTERS SH 
-:::flag-sh::🇸🇭
-; REGIONAL INDICATOR SYMBOL LETTERS SI 
-:::flag-si::🇸🇮
-; REGIONAL INDICATOR SYMBOL LETTERS SJ 
-:::flag-sj::🇸🇯
-; REGIONAL INDICATOR SYMBOL LETTERS SK 
-:::flag-sk::🇸🇰
-; REGIONAL INDICATOR SYMBOL LETTERS SL 
-:::flag-sl::🇸🇱
-; REGIONAL INDICATOR SYMBOL LETTERS SM 
-:::flag-sm::🇸🇲
-; REGIONAL INDICATOR SYMBOL LETTERS SN 
-:::flag-sn::🇸🇳
-; REGIONAL INDICATOR SYMBOL LETTERS SO 
-:::flag-so::🇸🇴
-; REGIONAL INDICATOR SYMBOL LETTERS SR 
-:::flag-sr::🇸🇷
-; REGIONAL INDICATOR SYMBOL LETTERS SS 
-:::flag-ss::🇸🇸
-; REGIONAL INDICATOR SYMBOL LETTERS ST 
-:::flag-st::🇸🇹
-; REGIONAL INDICATOR SYMBOL LETTERS SV 
-:::flag-sv::🇸🇻
-; REGIONAL INDICATOR SYMBOL LETTERS SX 
-:::flag-sx::🇸🇽
-; REGIONAL INDICATOR SYMBOL LETTERS SY 
-:::flag-sy::🇸🇾
-; REGIONAL INDICATOR SYMBOL LETTERS SZ 
-:::flag-sz::🇸🇿
-; REGIONAL INDICATOR SYMBOL LETTERS TA 
-:::flag-ta::🇹🇦
-; REGIONAL INDICATOR SYMBOL LETTERS TC 
-:::flag-tc::🇹🇨
-; REGIONAL INDICATOR SYMBOL LETTERS TD 
-:::flag-td::🇹🇩
-; REGIONAL INDICATOR SYMBOL LETTERS TF 
-:::flag-tf::🇹🇫
-; REGIONAL INDICATOR SYMBOL LETTERS TG 
-:::flag-tg::🇹🇬
-; REGIONAL INDICATOR SYMBOL LETTERS TH 
-:::flag-th::🇹🇭
-; REGIONAL INDICATOR SYMBOL LETTERS TJ 
-:::flag-tj::🇹🇯
-; REGIONAL INDICATOR SYMBOL LETTERS TK 
-:::flag-tk::🇹🇰
-; REGIONAL INDICATOR SYMBOL LETTERS TL 
-:::flag-tl::🇹🇱
-; REGIONAL INDICATOR SYMBOL LETTERS TM 
-:::flag-tm::🇹🇲
-; REGIONAL INDICATOR SYMBOL LETTERS TN 
-:::flag-tn::🇹🇳
-; REGIONAL INDICATOR SYMBOL LETTERS TO 
-:::flag-to::🇹🇴
-; REGIONAL INDICATOR SYMBOL LETTERS TR 
-:::flag-tr::🇹🇷
-; REGIONAL INDICATOR SYMBOL LETTERS TT 
-:::flag-tt::🇹🇹
-; REGIONAL INDICATOR SYMBOL LETTERS TV 
-:::flag-tv::🇹🇻
-; REGIONAL INDICATOR SYMBOL LETTERS TW 
-:::flag-tw::🇹🇼
-; REGIONAL INDICATOR SYMBOL LETTERS TZ 
-:::flag-tz::🇹🇿
-; REGIONAL INDICATOR SYMBOL LETTERS UA 
-:::flag-ua::🇺🇦
-; REGIONAL INDICATOR SYMBOL LETTERS UG 
-:::flag-ug::🇺🇬
-; REGIONAL INDICATOR SYMBOL LETTERS UM 
-:::flag-um::🇺🇲
-; REGIONAL INDICATOR SYMBOL LETTERS UN 
-:::flag-un::🇺🇳
-; REGIONAL INDICATOR SYMBOL LETTERS US 
-:::flag-us::🇺🇸
-; REGIONAL INDICATOR SYMBOL LETTERS US 
-:::us::🇺🇸
-; REGIONAL INDICATOR SYMBOL LETTERS UY 
-:::flag-uy::🇺🇾
-; REGIONAL INDICATOR SYMBOL LETTERS UZ 
-:::flag-uz::🇺🇿
-; REGIONAL INDICATOR SYMBOL LETTERS VA 
-:::flag-va::🇻🇦
-; REGIONAL INDICATOR SYMBOL LETTERS VC 
-:::flag-vc::🇻🇨
-; REGIONAL INDICATOR SYMBOL LETTERS VE 
-:::flag-ve::🇻🇪
-; REGIONAL INDICATOR SYMBOL LETTERS VG 
-:::flag-vg::🇻🇬
-; REGIONAL INDICATOR SYMBOL LETTERS VI 
-:::flag-vi::🇻🇮
-; REGIONAL INDICATOR SYMBOL LETTERS VN 
-:::flag-vn::🇻🇳
-; REGIONAL INDICATOR SYMBOL LETTERS VU 
-:::flag-vu::🇻🇺
-; REGIONAL INDICATOR SYMBOL LETTERS WF 
-:::flag-wf::🇼🇫
-; REGIONAL INDICATOR SYMBOL LETTERS WS 
-:::flag-ws::🇼🇸
-; REGIONAL INDICATOR SYMBOL LETTERS XK 
-:::flag-xk::🇽🇰
-; REGIONAL INDICATOR SYMBOL LETTERS YE 
-:::flag-ye::🇾🇪
-; REGIONAL INDICATOR SYMBOL LETTERS YT 
-:::flag-yt::🇾🇹
-; REGIONAL INDICATOR SYMBOL LETTERS ZA 
-:::flag-za::🇿🇦
-; REGIONAL INDICATOR SYMBOL LETTERS ZM 
-:::flag-zm::🇿🇲
-; REGIONAL INDICATOR SYMBOL LETTERS ZW 
-:::flag-zw::🇿🇼
-; MALE-FARMER 
-:::male-farmer::👨‍🌾
-; MALE-COOK 
-:::male-cook::👨‍🍳
-; MALE-STUDENT 
-:::male-student::👨‍🎓
-; MALE-SINGER 
-:::male-singer::👨‍🎤
-; MALE-ARTIST 
-:::male-artist::👨‍🎨
-; MALE-TEACHER 
-:::male-teacher::👨‍🏫
-; MALE-FACTORY-WORKER 
-:::male-factory-worker::👨‍🏭
-; MAN-BOY 
-:::man-boy::👨‍👦
-; MAN-GIRL 
-:::man-girl::👨‍👧
-; MALE-TECHNOLOGIST 
-:::male-technologist::👨‍💻
-; MALE-OFFICE-WORKER 
-:::male-office-worker::👨‍💼
-; MALE-MECHANIC 
-:::male-mechanic::👨‍🔧
-; MALE-SCIENTIST 
-:::male-scientist::👨‍🔬
-; MALE-ASTRONAUT 
-:::male-astronaut::👨‍🚀
-; MALE-FIREFIGHTER 
-:::male-firefighter::👨‍🚒
-; FEMALE-FARMER 
-:::female-farmer::👩‍🌾
-; FEMALE-COOK 
-:::female-cook::👩‍🍳
-; FEMALE-STUDENT 
-:::female-student::👩‍🎓
-; FEMALE-SINGER 
-:::female-singer::👩‍🎤
-; FEMALE-ARTIST 
-:::female-artist::👩‍🎨
-; FEMALE-TEACHER 
-:::female-teacher::👩‍🏫
-; FEMALE-FACTORY-WORKER 
-:::female-factory-worker::👩‍🏭
-; WOMAN-BOY 
-:::woman-boy::👩‍👦
-; WOMAN-GIRL 
-:::woman-girl::👩‍👧
-; FEMALE-TECHNOLOGIST 
-:::female-technologist::👩‍💻
-; FEMALE-OFFICE-WORKER 
-:::female-office-worker::👩‍💼
-; FEMALE-MECHANIC 
-:::female-mechanic::👩‍🔧
-; FEMALE-SCIENTIST 
-:::female-scientist::👩‍🔬
-; FEMALE-ASTRONAUT 
-:::female-astronaut::👩‍🚀
-; FEMALE-FIREFIGHTER 
-:::female-firefighter::👩‍🚒
-; WOMAN-RUNNING 
-:::woman-running::🏃‍♀️
-; MAN-RUNNING 
-:::man-running::🏃‍♂️
-; WOMAN-SURFING 
-:::woman-surfing::🏄‍♀️
-; MAN-SURFING 
-:::man-surfing::🏄‍♂️
-; WOMAN-SWIMMING 
-:::woman-swimming::🏊‍♀️
-; MAN-SWIMMING 
-:::man-swimming::🏊‍♂️
-; WOMAN-LIFTING-WEIGHTS 
-:::woman-lifting-weights::🏋️‍♀️
-; MAN-LIFTING-WEIGHTS 
-:::man-lifting-weights::🏋️‍♂️
-; WOMAN-GOLFING 
-:::woman-golfing::🏌️‍♀️
-; MAN-GOLFING 
-:::man-golfing::🏌️‍♂️
-; RAINBOW-FLAG 
-:::rainbow-flag::🏳️‍🌈
-; EYE-IN-SPEECH-BUBBLE 
-:::eye-in-speech-bubble::👁️‍🗨️
-; MAN-BOY-BOY 
-:::man-boy-boy::👨‍👦‍👦
-; MAN-GIRL-BOY 
-:::man-girl-boy::👨‍👧‍👦
-; MAN-GIRL-GIRL 
-:::man-girl-girl::👨‍👧‍👧
-; MAN-MAN-BOY 
-:::man-man-boy::👨‍👨‍👦
-; MAN-MAN-BOY-BOY 
-:::man-man-boy-boy::👨‍👨‍👦‍👦
-; MAN-MAN-GIRL 
-:::man-man-girl::👨‍👨‍👧
-; MAN-MAN-GIRL-BOY 
-:::man-man-girl-boy::👨‍👨‍👧‍👦
-; MAN-MAN-GIRL-GIRL 
-:::man-man-girl-girl::👨‍👨‍👧‍👧
-; MAN-WOMAN-BOY-BOY 
-:::man-woman-boy-boy::👨‍👩‍👦‍👦
-; MAN-WOMAN-GIRL 
-:::man-woman-girl::👨‍👩‍👧
-; MAN-WOMAN-GIRL-BOY 
-:::man-woman-girl-boy::👨‍👩‍👧‍👦
-; MAN-WOMAN-GIRL-GIRL 
-:::man-woman-girl-girl::👨‍👩‍👧‍👧
-; MALE-DOCTOR 
-:::male-doctor::👨‍⚕️
-; MALE-JUDGE 
-:::male-judge::👨‍⚖️
-; MALE-PILOT 
-:::male-pilot::👨‍✈️
-; MAN-HEART-MAN 
-:::man-heart-man::👨‍❤️‍👨
-; MAN-KISS-MAN 
-:::man-kiss-man::👨‍❤️‍💋‍👨
-; WOMAN-BOY-BOY 
-:::woman-boy-boy::👩‍👦‍👦
-; WOMAN-GIRL-BOY 
-:::woman-girl-boy::👩‍👧‍👦
-; WOMAN-GIRL-GIRL 
-:::woman-girl-girl::👩‍👧‍👧
-; WOMAN-WOMAN-BOY 
-:::woman-woman-boy::👩‍👩‍👦
-; WOMAN-WOMAN-BOY-BOY 
-:::woman-woman-boy-boy::👩‍👩‍👦‍👦
-; WOMAN-WOMAN-GIRL 
-:::woman-woman-girl::👩‍👩‍👧
-; WOMAN-WOMAN-GIRL-BOY 
-:::woman-woman-girl-boy::👩‍👩‍👧‍👦
-; WOMAN-WOMAN-GIRL-GIRL 
-:::woman-woman-girl-girl::👩‍👩‍👧‍👧
-; FEMALE-DOCTOR 
-:::female-doctor::👩‍⚕️
-; FEMALE-JUDGE 
-:::female-judge::👩‍⚖️
-; FEMALE-PILOT 
-:::female-pilot::👩‍✈️
-; WOMAN-HEART-MAN 
-:::woman-heart-man::👩‍❤️‍👨
-; WOMAN-HEART-WOMAN 
-:::woman-heart-woman::👩‍❤️‍👩
-; WOMAN-KISS-MAN 
-:::woman-kiss-man::👩‍❤️‍💋‍👨
-; WOMAN-KISS-WOMAN 
-:::woman-kiss-woman::👩‍❤️‍💋‍👩
-; FEMALE-POLICE-OFFICER 
-:::female-police-officer::👮‍♀️
-; MALE-POLICE-OFFICER 
-:::male-police-officer::👮‍♂️
-; WOMAN-WITH-BUNNY-EARS-PARTYING 
-:::woman-with-bunny-ears-partying::👯‍♀️
-; MAN-WITH-BUNNY-EARS-PARTYING 
-:::man-with-bunny-ears-partying::👯‍♂️
-; BLOND-HAIRED-WOMAN 
-:::blond-haired-woman::👱‍♀️
-; BLOND-HAIRED-MAN 
-:::blond-haired-man::👱‍♂️
-; WOMAN-WEARING-TURBAN 
-:::woman-wearing-turban::👳‍♀️
-; MAN-WEARING-TURBAN 
-:::man-wearing-turban::👳‍♂️
-; FEMALE-CONSTRUCTION-WORKER 
-:::female-construction-worker::👷‍♀️
-; MALE-CONSTRUCTION-WORKER 
-:::male-construction-worker::👷‍♂️
-; WOMAN-TIPPING-HAND 
-:::woman-tipping-hand::💁‍♀️
-; MAN-TIPPING-HAND 
-:::man-tipping-hand::💁‍♂️
-; FEMALE-GUARD 
-:::female-guard::💂‍♀️
-; MALE-GUARD 
-:::male-guard::💂‍♂️
-; WOMAN-GETTING-MASSAGE 
-:::woman-getting-massage::💆‍♀️
-; MAN-GETTING-MASSAGE 
-:::man-getting-massage::💆‍♂️
-; WOMAN-GETTING-HAIRCUT 
-:::woman-getting-haircut::💇‍♀️
-; MAN-GETTING-HAIRCUT 
-:::man-getting-haircut::💇‍♂️
-; FEMALE-DETECTIVE 
-:::female-detective::🕵️‍♀️
-; MALE-DETECTIVE 
-:::male-detective::🕵️‍♂️
-; WOMAN-GESTURING-NO 
-:::woman-gesturing-no::🙅‍♀️
-; MAN-GESTURING-NO 
-:::man-gesturing-no::🙅‍♂️
-; WOMAN-GESTURING-OK 
-:::woman-gesturing-ok::🙆‍♀️
-; MAN-GESTURING-OK 
-:::man-gesturing-ok::🙆‍♂️
-; WOMAN-BOWING 
-:::woman-bowing::🙇‍♀️
-; MAN-BOWING 
-:::man-bowing::🙇‍♂️
-; WOMAN-RAISING-HAND 
-:::woman-raising-hand::🙋‍♀️
-; MAN-RAISING-HAND 
-:::man-raising-hand::🙋‍♂️
-; WOMAN-FROWNING 
-:::woman-frowning::🙍‍♀️
-; MAN-FROWNING 
-:::man-frowning::🙍‍♂️
-; WOMAN-POUTING 
-:::woman-pouting::🙎‍♀️
-; MAN-POUTING 
-:::man-pouting::🙎‍♂️
-; WOMAN-ROWING-BOAT 
-:::woman-rowing-boat::🚣‍♀️
-; MAN-ROWING-BOAT 
-:::man-rowing-boat::🚣‍♂️
-; WOMAN-BIKING 
-:::woman-biking::🚴‍♀️
-; MAN-BIKING 
-:::man-biking::🚴‍♂️
-; WOMAN-MOUNTAIN-BIKING 
-:::woman-mountain-biking::🚵‍♀️
-; MAN-MOUNTAIN-BIKING 
-:::man-mountain-biking::🚵‍♂️
-; WOMAN-WALKING 
-:::woman-walking::🚶‍♀️
-; MAN-WALKING 
-:::man-walking::🚶‍♂️
-; WOMAN-FACEPALMING 
+; HAND WITH INDEX AND MIDDLE FINGERS CROSSED 
+:::hand_with_index_and_middle_fingers_cros::🤞
+:::hand with index and middle fingers cros::🤞
+; WOMAN FACEPALMING 
 :::woman-facepalming::🤦‍♀️
-; MAN-FACEPALMING 
+; MAN FACEPALMING 
 :::man-facepalming::🤦‍♂️
-; WOMAN-SHRUGGING 
+; FACE WITH ONE EYEBROW RAISED 
+:::face_with_one_eyebrow_raised::🤨
+:::face with one eyebrow raised::🤨
+; GRINNING FACE WITH STAR EYES 
+:::star-struck::🤩
+; GRINNING FACE WITH STAR EYES 
+:::grinning_face_with_star_eyes::🤩
+:::grinning face with star eyes::🤩
+; GRINNING FACE WITH ONE LARGE AND ONE SMALL EYE 
+:::grinning_face_with_one_large_and_one_sm::🤪
+:::grinning face with one large and one sm::🤪
+; FACE WITH FINGER COVERING CLOSED LIPS 
+:::face_with_finger_covering_closed_lips::🤫
+:::face with finger covering closed lips::🤫
+; SERIOUS FACE WITH SYMBOLS COVERING MOUTH 
+:::serious_face_with_symbols_covering_mout::🤬
+:::serious face with symbols covering mout::🤬
+; SMILING FACE WITH SMILING EYES AND HAND COVERING MOUTH 
+:::smiling_face_with_smiling_eyes_and_hand::🤭
+:::smiling face with smiling eyes and hand::🤭
+; FACE WITH OPEN MOUTH VOMITING 
+:::face_with_open_mouth_vomiting::🤮
+:::face with open mouth vomiting::🤮
+; SHOCKED FACE WITH EXPLODING HEAD 
+:::shocked_face_with_exploding_head::🤯
+:::shocked face with exploding head::🤯
+; BREAST-FEEDING 
+:::breast-feeding::🤱
+; MOTHER CHRISTMAS 
+:::mother_christmas::🤶
+:::mother christmas::🤶
+; WOMAN SHRUGGING 
 :::woman-shrugging::🤷‍♀️
-; MAN-SHRUGGING 
+; MAN SHRUGGING 
 :::man-shrugging::🤷‍♂️
-; WOMAN-CARTWHEELING 
+; WOMAN CARTWHEELING 
 :::woman-cartwheeling::🤸‍♀️
-; MAN-CARTWHEELING 
+; MAN CARTWHEELING 
 :::man-cartwheeling::🤸‍♂️
-; WOMAN-JUGGLING 
+; WOMAN JUGGLING 
 :::woman-juggling::🤹‍♀️
-; MAN-JUGGLING 
+; MAN JUGGLING 
 :::man-juggling::🤹‍♂️
-; WOMAN-WRESTLING 
+; WOMEN WRESTLING 
 :::woman-wrestling::🤼‍♀️
-; MAN-WRESTLING 
+; MEN WRESTLING 
 :::man-wrestling::🤼‍♂️
-; WOMAN-PLAYING-WATER-POLO 
+; WOMAN PLAYING WATER POLO 
 :::woman-playing-water-polo::🤽‍♀️
-; MAN-PLAYING-WATER-POLO 
+; MAN PLAYING WATER POLO 
 :::man-playing-water-polo::🤽‍♂️
-; WOMAN-PLAYING-HANDBALL 
+; WOMAN PLAYING HANDBALL 
 :::woman-playing-handball::🤾‍♀️
-; MAN-PLAYING-HANDBALL 
+; MAN PLAYING HANDBALL 
 :::man-playing-handball::🤾‍♂️
-; WOMAN-BOUNCING-BALL 
+; T-REX 
+:::t-rex::🦖
+; ONE-PIECE SWIMSUIT 
+:::one-piece_swimsuit::🩱
+:::one-piece swimsuit::🩱
+; YO-YO 
+:::yo-yo::🪀
+; BLACK TELEPHONE 
+:::telephone::☎️
+; MEDICAL SYMBOL 
+:::staff_of_aesculapius::⚕️
+:::staff of aesculapius::⚕️
+; SAILBOAT 
+:::sailboat::⛵
+; WOMAN BOUNCING BALL 
 :::woman-bouncing-ball::⛹️‍♀️
-; MAN-BOUNCING-BALL 
+; MAN BOUNCING BALL 
 :::man-bouncing-ball::⛹️‍♂️
+; ENVELOPE 
+:::envelope::✉️
+; RAISED HAND 
+:::raised_hand::✋
+:::raised hand::✋
+; HEAVY EXCLAMATION MARK SYMBOL 
+:::heavy_exclamation_mark::❗
+:::heavy exclamation mark::❗
 ; HAND WITH INDEX AND MIDDLE FINGERS CROSSED 
 :::fingers_crossed::🤞
 :::fingers crossed::🤞
-; BLACK RIGHT-POINTING TRIANGLE WITH DOUBLE VERTICAL BAR 
-:::play_pause::⏯
-:::play pause::⏯
+; PLAY OR PAUSE BUTTON 
+:::play_pause::⏯️
+:::play pause::⏯️
 ; WHITE HEAVY CHECK MARK 
 :::check::✅
 ; FACE WITH STUCK-OUT TONGUE 
