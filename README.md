@@ -26,6 +26,11 @@ All the requirements for this tool are detailed in `requirements.txt` so go ahea
 ```
 pip install -r requirements.txt
 ```
+If you get the error: `'pip' is not recognized as an internal or external command, operable program or batch file.`.
+Run this command instead:
+```
+py -m pip install -r requirements.txt
+```
 
 ### 🔧 Customising
 
